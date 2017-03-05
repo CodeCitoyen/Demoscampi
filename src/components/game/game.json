@@ -67,31 +67,31 @@
   },
   "characters": {
     "chef_touristes": {
-      "name@en": "Touristes",
-      "name@fr": "Touristes",
-      "title@en": "Touristes",
-      "title@fr": "Touristes",
+      "name@en": "Katerine",
+      "name@fr": "Katerine",
+      "title@en": "Katerine",
+      "title@fr": "Katerine",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "chef_robinsons": {
-      "name@en": "Pouca",
-      "name@fr": "Pouca",
-      "title@en": "Pouca",
-      "title@fr": "Pouca",
+      "name@en": "Hannah",
+      "name@fr": "Hannah",
+      "title@en": "Hannah",
+      "title@fr": "Hannah",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "chef_matelots": {
       "name@en": "Martin",
       "name@fr": "Martin",
-      "title@en": "Martin",
-      "title@fr": "Martin",
+      "title@en": "Matelot",
+      "title@fr": "Matelot",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "chef_indiens": {
-      "name@en": "Anna",
-      "name@fr": "Anna",
-      "title@en": "Anna",
-      "title@fr": "Anna",
+      "name@en": "Baltasar",
+      "name@fr": "Baltasar",
+      "title@en": "Baltasar",
+      "title@fr": "Baltasar",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
