@@ -162,11 +162,13 @@
       "texts": [
         {
           "character": "chef_matelots",
-          "text@fr": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
+          "text@fr": "Bonjour capitaine, cette croisière se déroule vraiment à merveille.",
+          "text@en": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
         },
         {
           "character": "chef_matelots",
-          "text@fr": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?",
+          "text@en": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
@@ -180,8 +182,8 @@
           "feedback": [
             {
               "character": "chef_matelots",
-              "text@en": "",
-              "text@fr": "Les passagers ont voté en majorité pour les langoustines"
+              "text@fr": "Les passagers ont voté en majorité pour les langoustines",
+              "text@en": "Les passagers ont voté en majorité pour les langoustines"
             },
             {
               "text@en": "Ils ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
@@ -539,7 +541,8 @@
         {
           "text@en": "Distribuer de la gnole",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": 2,
+            "mecontentementindiens": -2
           },
           "feedback": [
             {
@@ -554,7 +557,8 @@
         {
           "text@en": "Garder gnole au frais",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": -2,
+            "mecontentementindiens": 2
           },
           "feedback": [
             {
@@ -574,10 +578,12 @@
       "year": 2021,
       "texts": [
         {
-          "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+          "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins.",
+          "text@en": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
         },
         {
-          "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?"
+          "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?",
+          "text@en": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?"
         }
       ],
         "choices" : [
@@ -593,7 +599,8 @@
                 "text@fr": "J'aurais pu deviner si j'étais en forme."
               },
               {
-                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté.",
+                "text@en": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
               }
             ]
           },
@@ -627,7 +634,9 @@
         {
           "text@en": "Le laisser libre",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": 1,
+            "mecontentementindiens": -1,
+            "mecontentementtouristes": 2
           },
           "feedback": [
             {
@@ -639,7 +648,9 @@
         {
           "text@en": "Le chasser",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": -1,
+            "mecontentementindiens": 2,
+            "mecontentementtouristes": -2
           },
           "feedback": [
             {
@@ -652,13 +663,15 @@
         {
           "text@en": "Bête de somme",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": 0,
+            "mecontentementindiens": 0,
+            "mecontentementtouristes": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "??",
-              "text@fr": "??"
+              "text@en": "Bête de somme.",
+              "text@fr": "Bête de somme."
             }
           ]
         }
@@ -708,9 +721,11 @@
       ],
       "choices" : [
         {
-          "text@en": "Faut-il attirer le bateau avec un feu, au risque de le faire fuir",
+          "text@en": "Attirer le bateau avec un feu, au risque de le faire fuir",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": -2,
+            "mecontentementindiens": 0,
+            "mecontentementtouristes": -2
           },
           "feedback": [
             {
@@ -721,9 +736,11 @@
           ]
         },
         {
-          "text@en": "Faut-il le prendre d'abordage avec des pirogues.",
+          "text@en": "Le prendre d'abordage avec des pirogues.",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": 0,
+            "mecontentementindiens": -1,
+            "mecontentementtouristes": 0
           },
           "feedback": [
             {
