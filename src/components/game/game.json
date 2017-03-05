@@ -2,7 +2,7 @@
   "vars": {
     "personal_account": {
       "value": 0,
-      "private": false,
+      "private": true,
       "category": "player",
       "chart": true,
       "label@en": "Your cash",
@@ -14,36 +14,36 @@
       "category": "risk",
       "chart": "main-chart",
       "label@en": "mécontentementmatelots",
-      "label@fr": "mécontentementmatelots"
+      "label@fr": "mécontentement matelots"
     },
     "mecontentementindiens": {
       "value": 0,
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentementindiens",
-      "label@fr": "mécontentementindiens"
+      "label@en": "mécontentement indiens",
+      "label@fr": "mécontentement indiens"
     },
     "mecontentementtouristes": {
       "value": 0,
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentementtouristes",
-      "label@fr": "mécontentementtouristes"
+      "label@en": "mécontentement touristes",
+      "label@fr": "mécontentement touristes"
     },
     "mecontentementrobinsons": {
       "value": 0,
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentementtouristes",
-      "label@fr": "mécontentementtouristes"
+      "label@en": "mécontentement touristes",
+      "label@fr": "mécontentement touristes"
     },
     "nourriture": {
       "value": 6,
       "private": false,
-      "category": "risk",
+      "category": "city",
       "chart": "main-chart",
       "label@en": "nourriture",
       "label@fr": "nourriture"
@@ -51,10 +51,10 @@
     "sante": {
       "value": 8,
       "private": false,
-      "category": "risk",
+      "category": "city",
       "chart": "main-chart",
       "label@en": "sante",
-      "label@fr": "sante"
+      "label@fr": "santé de la communauté"
     }
   },
   "charts": {
@@ -162,36 +162,36 @@
       "texts": [
         {
           "character": "chef_matelots",
-          "text@en": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
+          "text@fr": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
         },
         {
           "character": "chef_matelots",
-          "text@en": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
         {
           "text@en": "langoustine",
-          "text@fr": "langoustine",
+          "text@fr": "Laisser les passagers voter",
           "var_changes": {
             "nourriture": -3,
             "sante":  -1
           },
           "feedback": [
             {
-              "character": "you",
-              "text@en": "Langoustine svp",
-              "text@fr": "Langoustine svp"
+              "character": "chef_matelots",
+              "text@en": "",
+              "text@fr": "Les passagers ont voté en majorité pour les langoustines"
             },
             {
-              "text@en": "Les passagers ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
-              "text@fr": "Les passagers ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies."
+              "text@en": "Ils ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
+              "text@fr": "Ils bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies."
             }
           ]
         },
         {
           "text@en": "Salade des pates",
-          "text@fr": "Salade des pates",
+          "text@fr": "Choisir au hasard",
           "var_changes": {
             "nourriture": -1,
             "sante":  1
@@ -200,7 +200,12 @@
             {
               "character": "you",
               "text@en": "Salade des pates SVP",
-              "text@fr": "Salade des pates SVP"
+              "text@fr": "Martin, avez vous une pièce s'il vous plait?"
+            },
+            {
+              "character": "you",
+              "text@en": "Salade des pates SVP",
+              "text@fr": "Martin, avez vous une pièce s'il vous plait?"
             },
             {
             "text@en": "les passagers ont été revigorés par le plantureux plat de pâtes.",
@@ -214,7 +219,7 @@
       "year": 2017,
       "texts": [
         {
-          "text@en": "Le bateau percute inopinément un cachalot et coule. 100 touristes et 50 matelots arrivent à se sauver en chaloupe, et parviennent à une île. Les touristes ont peur et veulent rester sur la plage à attendre les secours. Mais les marins savent, comme vous, qu'il faut au plus vite aller dans la forêt construire des abris, car il n'y a aucun secours rapide à attendre."
+          "text@en": "Le bateau percute inopinément un cachalot et coule."
         },
         {
           "character": "chef_matelots",
