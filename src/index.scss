@@ -15,23 +15,29 @@ $copperfield: #dc8459;
 $french-gray: #bfbec2;
 $friar-gray: #7d7d7a;
 
-$brand-primary: #d8b041;
-$brand-secondary: #F9CF98;
-$brand-warning: $copperfield;
-$brand-inverse: #484846;
+$sunglow: rgba(255, 188, 45, 1);
+$dark-imperial-blue: rgba(22, 79, 103, 1);
+$sea-serpent: rgba(75, 185, 199, 1);
+$middle-blue-green: rgba(144, 212, 211, 1);
+$pastel-red: rgba(255, 106, 86, 1);
+
+$brand-primary: $pastel-red;
+$brand-secondary: $middle-blue-green;
+$brand-warning: $sea-serpent;
+$brand-inverse: $dark-imperial-blue;
 
 $body-bg: darken($brand-inverse, 20);
-$body-color: #484846;
+$body-color: $dark-imperial-blue;
 
 $btn-primary-color: white;
-$link-color: #d8b041;
+$link-color: $pastel-red;
 
 $card-bg: #F7F7F7;
 $card-border-color: white;
 $card-border-width: 0;
 
-$enable-shadows: false;
-$enable-rounded: false;
+$enable-shadows: true;
+$enable-rounded: true;
 $enable-gradients: true;
 $enable-transitions: true;
 $enable-flex: true;
@@ -93,7 +99,7 @@ $panel-width:  map-get($grid-breakpoints, md);
 }
 
 body {
-  background:url("images/blackdenim.png") repeat $body-bg;
+  background: url('./images/main-background.jpg') no-repeat $body-bg;
 
   .emoji {
     height:1em;

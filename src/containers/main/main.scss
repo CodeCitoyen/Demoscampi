@@ -16,7 +16,7 @@
     right:0;
     z-index: 2000;
     overflow: auto;
-    background: darken($brand-inverse, 10);
+    background: url('./images/main-background.jpg') no-repeat;
     @include transition(1500ms);
 
     &.ng-leave.ng-leave-active,
@@ -41,17 +41,6 @@
       color: white;
       @include transition(1500ms);
 
-      &:before {
-        content:"";
-        position: absolute;
-        left: -15px;
-        top:0;
-        bottom:0;
-        width: 5px;
-        background: white;
-        border-radius: 2.5px;
-      }
-
       &__heading {
         font-weight:bolder;
         padding:$spacer;
@@ -67,7 +56,6 @@
           width:90px;
           padding:5px 0;
           transform: translateY(-50%);
-          background: darken($brand-inverse, 10);
           @include media-breakpoint-down(sm) {
             display: none;
           }
@@ -194,11 +182,11 @@
       &__banner {
         z-index: -1;
         position: absolute;
-        top:50%;
-        left:50%;
+        top: 0%;
+        left: 50%;
         min-width: 100%;
         min-height: 100%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -55%);
         opacity: 0.7;
       }
     }
