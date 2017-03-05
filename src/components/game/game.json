@@ -211,32 +211,25 @@
         }
       ],
       "choices": [
-        vous imposez le départ pour la forêt (mécontentement touriste +1) [CAS 2]
-
-
-
-vote majoritaire donc victoire des touristes (mécontentement matelots +1 )
         {
-          "text@en": "vous organisez un débat (les marins, experts, convainquent les touristes)",
-          "text@fr": "vous organisez un débat (les marins, experts, convainquent les touristes)",
+          "text@en": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
+          "text@fr": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
           "var_changes": {
-            "nourriture": -3,
-            "sante":  -1
+            "mecontentementmatelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "Langoustine svp",
-              "text@fr": "Langoustine svp"
+              "text@en": "Débattons la situation.",
+              "text@fr": "Débattons la situation."
             }
           ]
         },
         {
-          "text@en": "Salade des pates",
-          "text@fr": "Salade des pates",
+          "text@en": "Vote majoritaire donc victoire des touristes",
+          "text@fr": "Vote majoritaire donc victoire des touristes",
           "var_changes": {
-            "nourriture": -1,
-            "sante":  1
+            "mecontentementmatelots": 1
           },
           "feedback": [
             {
@@ -253,6 +246,36 @@ vote majoritaire donc victoire des touristes (mécontentement matelots +1 )
       "texts": [
         {
           "text@en": "L'ile est occupée : 70 robinsons habitent déjà sur l'ile Les robinsons proposent de fusionner les deux groupes de survivants pour mieux organiser, gérer et produire les ressources. Les marins sont d'accord, comme vous, car ces robinsons sont très expérimentés, mais les touristes rejettent ces gueux."
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Vous imposez la fusion",
+          "text@fr": "Vous imposez la fusion",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Fusion !",
+              "text@fr": "Fusion !"
+            }
+          ]
+        },
+        {
+          "text@en": "Vous décidez de faire un vote majoritaire à tous",
+          "text@fr": "Vous décidez de faire un vote majoritaire à tous",
+          "var_changes": {
+            "mecontentementmatelots": 1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Salade des pates SVP",
+              "text@fr": "Salade des pates SVP"
+            }
+          ]
         }
       ]
     },
