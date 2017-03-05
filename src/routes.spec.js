@@ -42,7 +42,7 @@ describe('config: translate', () => {
 
   it("should call google analytics only after a transition", () => {
     expect($window.ga).not.toHaveBeenCalled();
-    goTo('foo.bar', {lang: 'en'});
+    goTo('foo.bar', {lang: 'fr'});
     expect($window.ga).toHaveBeenCalled();
   });
 });

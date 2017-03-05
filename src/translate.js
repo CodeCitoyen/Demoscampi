@@ -9,7 +9,6 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
       suffix: '.json'
     })
     .registerAvailableLanguageKeys('fr')
-
     //   ['en', 'fr', 'de'], {
     //   'en_US': 'en',
     //   'en_UK': 'en',
@@ -22,6 +21,7 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
     .determinePreferredLanguage()
     .fallbackLanguage('fr')
     .useLocalStorage()
+    // .errorOnUnhandledRejections(false)
     .useSanitizeValueStrategy(null);
 };
 
