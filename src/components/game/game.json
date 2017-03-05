@@ -94,10 +94,10 @@
       "avatar": "./images/avatars/mayor.jpg"
     },
     "helper": {
-      "name@en": "you",
-      "name@fr": "you",
-      "title@en": "you",
-      "title@fr": "you",
+      "name@en": "Professeur Avote",
+      "name@fr": "Professeur Avote",
+      "title@en": "Professeur Avote",
+      "title@fr": "Professeur Avote",
       "avatar": "./images/avatars/mayor.jpg"
     }
   },
@@ -204,6 +204,10 @@
               "character": "you",
               "text@en": "Langoustine svp",
               "text@fr": "Langoustine svp"
+            },
+            {
+              "text@en": "Les passagers ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
+              "text@fr": "Les passagers ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies."
             }
           ]
         },
@@ -219,6 +223,10 @@
               "character": "you",
               "text@en": "Salade des pates SVP",
               "text@fr": "Salade des pates SVP"
+            },
+            {
+            "text@en": "les passagers ont été revigorés par le plantureux plat de pâtes.",
+            "text@fr": "les passagers ont été revigorés par le plantureux plat de pâtes."
             }
           ]
         }
@@ -228,10 +236,44 @@
       "year": 2017,
       "texts": [
         {
-          "text@en": "Les langoustines ont la vie sauve, car le bateau percute inopinément un cachalot et coule. 100 touristes et 50 matelots arrivent à se sauver en chaloupe, et parviennent à une île. Les touristes ont peur et veulent rester sur la plage à attendre les secours. Mais les marins savent, comme vous, qu'il faut au plus vite aller dans la forêt construire des abris, car il n'y a aucun secours rapide à attendre."
+          "text@en": "Le bateau percute inopinément un cachalot et coule. 100 touristes et 50 matelots arrivent à se sauver en chaloupe, et parviennent à une île. Les touristes ont peur et veulent rester sur la plage à attendre les secours. Mais les marins savent, comme vous, qu'il faut au plus vite aller dans la forêt construire des abris, car il n'y a aucun secours rapide à attendre."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en" : "Juste ciel, capitaine, cette collision nocturne avec un cachalot était pour le moins impromptue."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en" : "Mais vous avez magnifiquement géré la situation, les 100 passagers et les 50 membres de l'équipage sont saufs."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en" : "Maintenant que nous avons réussi à atteindre, en chaloupe, cette île déserte, il nous faut gagner au plus vite la forêt, pour fabriquer des abris avant la nuit."
+        },
+        {
+          "character": "chef_touristes",
+          "text@en" : "Ah non pas question, il y a sans doute plein de sales bêtes et de plantes vénéneuses dans cette jungle ! Restons sur la plage à attendre les secours !"
+        },
+        {
+          "character": "chef_matelots",
+          "text@en" : "Mais il n'arriveront pas avant plusieurs semaines ! Capitaines, quels sont vos ordres !"
         }
       ],
       "choices": [
+        {
+          "text@en": "Vous imposez le départ pour la forêt.",
+          "text@fr": "Vous imposez le départ pour la forêt.",
+          "var_changes": {
+            "mecontentementtouristes": 1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Débattons la situation.",
+              "text@fr": "Débattons la situation."
+            }
+          ]
+        },
         {
           "text@en": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
           "text@fr": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
@@ -267,6 +309,55 @@
       "texts": [
         {
           "text@en": "L'ile est occupée : 70 robinsons habitent déjà sur l'ile Les robinsons proposent de fusionner les deux groupes de survivants pour mieux organiser, gérer et produire les ressources. Les marins sont d'accord, comme vous, car ces robinsons sont très expérimentés, mais les touristes rejettent ces gueux."
+        },
+        {
+          "character" : "chef_robinsons",
+          "text@en" : "Ohla!"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Bonjour",
+          "text@fr": "Bonjour",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Bonjour !",
+              "text@fr": "Bonjour !"
+            }
+          ]
+        },
+        {
+          "text@en": "Ohla! ",
+          "text@fr": "Ohla! ",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Ohle! ",
+              "text@fr": "Ohlaya ! "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "texts": [
+        {
+          "character": "chef_robinsons",
+          "text@en": "Je suis Hannah, la représentante des robinsons. Nous sommes 70 survivants déjà sur cette ïle."
+        },
+        {
+          "character": "chef_robinsons",
+          "text@en": "Je te propose de rapprocher nos deux groupes, pour mieux organiser et gérer les ressources."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en": " Ca me semble une bonne idée. Les robinsons sont très expérimentés."
+        },
+        {
+          "character": "chef_touristes",
+          "text@en": "Ouch, il n'y a pas de douches sur cette île ? Nous n'allons tout de même pas nous coltiner cette bande de gueux !"
         }
       ],
       "choices": [
@@ -295,6 +386,9 @@
               "character": "you",
               "text@en": "Vote majoritaire pour tous !",
               "text@fr": "Vote majoritaire pour tous !"
+            } , {
+              "character": "chef_touristes",
+              "text@en": "Le vote est terminé, en faveur de la fusion."
             }
           ]
         },
