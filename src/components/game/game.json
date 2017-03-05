@@ -67,31 +67,31 @@
   },
   "characters": {
     "chef_touristes": {
-      "name@en": "Katerine",
-      "name@fr": "Katerine",
-      "title@en": "Katerine",
-      "title@fr": "Katerine",
-      "avatar": "./images/avatars/mayor.jpg"
+      "name@en": "Catherine",
+      "name@fr": "Catherine",
+      "title@en": "Catherine",
+      "title@fr": "Catherine",
+      "avatar": "./images/avatars/catherine.jpg"
     },
     "chef_robinsons": {
       "name@en": "Hannah",
       "name@fr": "Hannah",
       "title@en": "Hannah",
       "title@fr": "Hannah",
-      "avatar": "./images/avatars/mayor.jpg"
+      "avatar": "./images/avatars/hannah.jpg"
     },
     "chef_matelots": {
       "name@en": "Martin",
       "name@fr": "Martin",
-      "title@en": "Matelot",
-      "title@fr": "Matelot",
-      "avatar": "./images/avatars/mayor.jpg"
+      "title@en": "Martin",
+      "title@fr": "Martin",
+      "avatar": "./images/avatars/martin.jpg"
     },
     "chef_indiens": {
-      "name@en": "Baltasar",
-      "name@fr": "Baltasar",
-      "title@en": "Baltasar",
-      "title@fr": "Baltasar",
+      "name@en": "Baltazar",
+      "name@fr": "Bartazar",
+      "title@en": "Baltazar",
+      "title@fr": "Anna",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
@@ -99,24 +99,24 @@
       "name@fr": "you",
       "title@en": "you",
       "title@fr": "you",
-      "avatar": "./images/avatars/mayor.jpg"
+      "avatar": "./images/avatars/capitaine.jpg"
     },
     "helper": {
       "name@en": "Professeur Avote",
       "name@fr": "Professeur Avote",
       "title@en": "Professeur Avote",
       "title@fr": "Professeur Avote",
-      "avatar": "./images/avatars/mayor.jpg"
+      "avatar": "./images/avatars/professeur.jpg"
     }
   },
   "years": {
     "2016": {
-      "picture": "images/years/brussels.jpeg",
+      "picture": "images/years/cruise.jpg",
       "title@en": "Croisière",
       "title@fr": "Croisière"
     },
     "2017": {
-      "picture": "images/years/riga.jpeg",
+      "picture": "images/years/echoues.jpg",
       "title@en": "Echoués",
       "title@fr": "Echoués"
     },
@@ -160,36 +160,6 @@
     {
       "year": 2016,
       "texts": [
-        {
-          "text@en": "Vous faites partie d'une croisière qui s'échoue sur une île déserte. Une centaine de personnes y ont survécu.",
-          "text@fr": "Vous faites partie d'une croisière qui s'échoue sur une île déserte. Une centaine de personnes y ont survécu."
-        }
-      ],
-      "choices": [
-        {
-          "text@en": "Commencer",
-          "text@fr": "Commencer",
-          "feedback": [
-            {
-              "text@en": "C'est parti...",
-              "text@fr": "C'est parti..."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "year": 2016,
-      "texts": [
-        {
-          "text@en": "La survie doit s'organiser. De nombreuses discussions ont lieu pour déterminer qu'elles sont les meilleures décisions à prendre. Dans ces discussions, 5 leaders ont commencer à émerger mais le consensus ne se fait pas. Vous vous êtes alors proposé pour organiser des élections afin de les départager. Vous êtes alors garant du bon déroulement de celles-ci et surtout que le résultat soit juste et représente au mieux les naufragés.",
-          "text@fr": "La survie doit s'organiser. De nombreuses discussions ont lieu pour déterminer qu'elles sont les meilleures décisions à prendre. Dans ces discussions, 5 leaders ont commencer à émerger mais le consensus ne se fait pas. Vous vous êtes alors proposé pour organiser des élections afin de les départager. Vous êtes alors garant du bon déroulement de celles-ci et surtout que le résultat soit juste et représente au mieux les naufragés."
-        },
-        {
-          "character": "helper",
-          "text@en": "Bonjour, vous êtes M Rimdan, capitaine d'un bateau de croisière Il faut choisir le menu pour le diner entre des langoustines et de salades de pates. Comment voulez vous prendre la décision? ",
-          "text@fr": "Bonjour, vous êtes M Rimdan, capitaine d'un bateau de croisière Il faut choisir le menu pour le diner entre des langoustines et de salades de pates. Comment voulez vous prendre la décision? "
-        },
         {
           "character": "chef_matelots",
           "text@en": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
@@ -599,15 +569,53 @@
       "year": 2021,
       "texts": [
         {
-          "text@en": "Parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+          "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+        },
+        {
+          "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?"
         }
-      ]
+      ],
+        "choices" : [
+          {
+            "text@en": "Moi",
+            "var_changes": {
+              "mecontentementmatelots": 0
+            },
+            "feedback": [
+              {
+                "character": "you",
+                "text@en": "J'aurais pu deviner si j'étais en forme. ",
+                "text@fr": "J'aurais pu deviner si j'étais en forme."
+              },
+              {
+                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+              }
+            ]
+          },
+          {
+            "text@en": "Personne",
+            "var_changes": {
+              "mecontentementmatelots": 0
+            },
+            "feedback": [
+              {
+                "character": "you",
+                "text@en": "Personne",
+                "text@fr": "Personne"
+              },
+              {
+                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+              }
+
+            ]
+          }
+        ]
     },
     {
       "year": 2022,
       "texts": [
         {
-          "text@en": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
+          "text@fr": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
         }
       ],
       "choices" : [
