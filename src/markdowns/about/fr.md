@@ -1,8 +1,7 @@
 # À propos de ce jeu
 
 _Démocratie et langoustine_ est un jeu pédagogique autour de la démocratie et des modes de scrutins.
-Il a été prototypé pendant la [nuit du code citoyen](https://codecitoyen.github.io/) les 4 et 5 mars 2017.
-
+Il a été prototypé pendant la [nuit du code citoyen](https://codecitoyen.github.io/) les 4 et 5 mars 2017 par les [bricodeurs](https://lesbricodeurs.fr)
 
 # Comment ça marche
 

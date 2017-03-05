@@ -3,6 +3,8 @@
 _Démocratie et langoustine_ est un jeu pédagogique autour de la démocratie et des modes de scrutins.
 Il a été prototypé pendant la [nuit du code citoyen](https://codecitoyen.github.io/) les 4 et 5 mars 2017.
 
+[Plus d'infos](https://github.com/CodeCitoyen/Demoscampi/blob/master/src/markdowns/about/fr.md)
+
 ## Code
 
 Code adapté de : The Good, The Bad and The Accountant par Journalism ++
