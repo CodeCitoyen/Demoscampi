@@ -58,28 +58,42 @@
     }
   },
   "characters": {
-    "touristes": {
+    "chef_touristes": {
       "name@en": "Touristes",
       "name@fr": "Touristes",
       "title@en": "Touristes",
       "title@fr": "Touristes",
       "avatar": "./images/avatars/mayor.jpg"
     },
-    "indiens": {
-      "name@en": "indiens",
-      "name@fr": "indiens",
-      "title@en": "indiens",
-      "title@fr": "indiens",
+    "chef_robinsons": {
+      "name@en": "Pouca",
+      "name@fr": "Pouca",
+      "title@en": "Pouca",
+      "title@fr": "Pouca",
       "avatar": "./images/avatars/mayor.jpg"
     },
-    "matelots": {
-      "name@en": "matelots",
-      "name@fr": "matelots",
-      "title@en": "matelots",
-      "title@fr": "matelots",
+    "chef_matelots": {
+      "name@en": "Martin",
+      "name@fr": "Martin",
+      "title@en": "Martin",
+      "title@fr": "Martin",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "chef_indiens": {
+      "name@en": "Anna",
+      "name@fr": "Anna",
+      "title@en": "Anna",
+      "title@fr": "Anna",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
+      "name@en": "you",
+      "name@fr": "you",
+      "title@en": "you",
+      "title@fr": "you",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "helper": {
       "name@en": "you",
       "name@fr": "you",
       "title@en": "you",
@@ -164,11 +178,18 @@
           "text@fr": "La survie doit s'organiser. De nombreuses discussions ont lieu pour déterminer qu'elles sont les meilleures décisions à prendre. Dans ces discussions, 5 leaders ont commencer à émerger mais le consensus ne se fait pas. Vous vous êtes alors proposé pour organiser des élections afin de les départager. Vous êtes alors garant du bon déroulement de celles-ci et surtout que le résultat soit juste et représente au mieux les naufragés."
         },
         {
-          "character": "touristes",
+          "character": "helper",
           "text@en": "Bonjour, vous êtes M Rimdan, capitaine d'un bateau de croisière Il faut choisir le menu pour le diner entre des langoustines et de salades de pates. Comment voulez vous prendre la décision? ",
           "text@fr": "Bonjour, vous êtes M Rimdan, capitaine d'un bateau de croisière Il faut choisir le menu pour le diner entre des langoustines et de salades de pates. Comment voulez vous prendre la décision? "
+        },
+        {
+          "character": "chef_matelots",
+          "text@en": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
         }
-
       ],
       "choices": [
         {
@@ -267,13 +288,27 @@
           "text@en": "Vous décidez de faire un vote majoritaire à tous",
           "text@fr": "Vous décidez de faire un vote majoritaire à tous",
           "var_changes": {
-            "mecontentementmatelots": 1
+            "mecontentementmatelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "Salade des pates SVP",
-              "text@fr": "Salade des pates SVP"
+              "text@en": "Vote majoritaire pour tous !",
+              "text@fr": "Vote majoritaire pour tous !"
+            }
+          ]
+        },
+        {
+          "text@en": "Vous décidez de faire un vote majoritaire uniquement entre échoués (sans robinsons)",
+          "text@fr": "Vous décidez de faire un vote majoritaire uniquement entre échoués (sans robinsons)",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Vote majoritaire uniquement entre échoués!",
+              "text@fr": "Vote majoritaire uniquement entre échoués!"
             }
           ]
         }
@@ -285,6 +320,36 @@
         {
           "text@en": "Un candidat robinson et un candidat touriste se présentent pour représenter la communauté dans son ensemble. Il y a de fortes dissensions dans leurs programmes : les robinsons veulent construire une belle cité utopique dans la forêt, les touristes parlent de mettre le feu à la forêt pour attirer des bateaux. Le second vous passe à candidater, pour proposer la seule alternative intelligente : bâtir un grand bateau et partir de l'île."
         }
+      ],
+      "choices": [
+        {
+          "text@en": "Vous vous présenter",
+          "text@fr": "Vous vous présenter",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Voter pour moi !",
+              "text@fr": "Voter pour moi !"
+            }
+          ]
+        },
+        {
+          "text@en": "Vous vous abstenez.",
+          "text@fr": "Vous vous abstenez.",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Sans moi pour cette fois.",
+              "text@fr": "Sans moi pour cette fois."
+            }
+          ]
+        }
       ]
     },
     {
@@ -292,6 +357,85 @@
       "texts": [
         {
           "text@en": "Un touriste est allé pêcher des langoustines près d'un îlot très au nord de l'île, malgré les avertissements des robinsons. Il s'est fait blesser par les cannibales qui y vivent."
+        },
+        {
+          "text@en": "Trois opinions se distinguent :"
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "Pacifisme, éviter tout contact et toute escalade avec les cannibales (votre avis de capitaine, de votre second, et des robinsons)",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Peace man.",
+              "text@fr": "Peace man."
+            }
+          ]
+        },
+        {
+          "text@en": "Rétorsion limitée, on en bute un ou deux (les matelots)",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Toi et toi tu crèves !",
+              "text@fr": "Toi et toi tu crèves !"
+            }
+          ]
+        },
+        {
+          "text@en": "on les extermine pour le bien commun (les touristes)",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Meurs !",
+              "text@fr": "Meurs !"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "texts": [
+        {
+          "text@en": " Pour éviter les injustices du vote majoritaire, le peuple a tranché pour un vote en 2 tours. Le second vous conseille de distribuer un tonnelet de gnole aux touristes, pour les apaiser et en rallier davantage à votre cause."
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "Distribuer de la gnole",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "A boire !"
+            }
+          ]
+        },
+        {
+          "text@en": "Garder gnole au frais",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "On garde la gnole pour plus tard.",
+              "text@fr": "On garde la gnole pour plus tard."
+            }
+          ]
         }
       ]
     },
@@ -309,6 +453,81 @@
         {
           "text@en": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
         }
+      ],
+      "choices" : [
+        {
+          "text@en": "Le laisser libre",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Les animaux aussi ont une âme. "
+            }
+          ]
+        },
+        {
+          "text@en": "Le chasser",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Ca peut nous nourrir pour quelques jours.",
+              "text@fr": "Ca peut nous nourrir pour quelques jours."
+            }
+          ]
+        },
+        {
+          "text@en": "Bête de somme",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "??",
+              "text@fr": "??"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "texts": [
+        {
+          "text@en": "Systèmes de vote proposés : "
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "Condorcet",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "condorcet"
+            }
+          ]
+        },
+        {
+          "text@en": "borda",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "borda",
+              "text@fr": "borda"
+            }
+          ]
+        }
       ]
     },
     {
@@ -316,6 +535,70 @@
       "texts": [
         {
           "text@en": "Un voilier est visible au loin, il va manifestement passer non loin de l'île, un choix se pose alors pour ceux qui veulent partir de l'île."
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "Faut-il attirer le bateau avec un feu, au risque de le faire fuir",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "",
+              "text@fr": ""
+            }
+          ]
+        },
+        {
+          "text@en": "Faut-il le prendre d'abordage avec des pirogues.",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "",
+              "text@fr": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "texts": [
+        {
+          "text@en": "Les gens hésitent entre des systèmes de vote :"
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "Par notation",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "",
+              "text@fr": ""
+            }
+          ]
+        },
+        {
+          "text@en": "Par approbation.",
+          "var_changes": {
+            "mecontentementmatelots": 0
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "",
+              "text@fr": ""
+            }
+          ]
         }
       ]
     }
