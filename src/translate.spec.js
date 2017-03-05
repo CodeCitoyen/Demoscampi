@@ -38,7 +38,7 @@ describe('config: translate', () => {
       // Configure languages
       $translateProvider.translations('en', {});
       $translateProvider.translations('fr', {});
-      $translateProvider.preferredLanguage('en');
+      $translateProvider.preferredLanguage('fr');
     });
     // Mock the app
     angular.mock.module('app.translate');

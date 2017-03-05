@@ -8,18 +8,20 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
       prefix: 'locales/',
       suffix: '.json'
     })
-    .registerAvailableLanguageKeys(['en', 'fr', 'de'], {
-      'en_US': 'en',
-      'en_UK': 'en',
-      'en-US': 'en',
-      'en-UK': 'en',
-      'fr_FR': 'fr',
-      'fr_BE': 'fr',
-      'de_DE': 'de'
-    })
+    .registerAvailableLanguageKeys('fr')
+    //   ['en', 'fr', 'de'], {
+    //   'en_US': 'en',
+    //   'en_UK': 'en',
+    //   'en-US': 'en',
+    //   'en-UK': 'en',
+    //   'fr_FR': 'fr',
+    //   'fr_BE': 'fr',
+    //   'de_DE': 'de'
+    // })
     .determinePreferredLanguage()
-    .fallbackLanguage('en')
+    .fallbackLanguage('fr')
     .useLocalStorage()
+    // .errorOnUnhandledRejections(false)
     .useSanitizeValueStrategy(null);
 };
 

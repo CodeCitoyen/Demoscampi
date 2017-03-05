@@ -28,6 +28,6 @@ function other() {
 
 function deploy() {
   return gulp.src('./dist/**/*').pipe(ghPages({
-    remoteUrl: 'git@github.com:jplusplus/temptation-city.git'
+    remoteUrl: 'git@github.com:codecitoyen/Demoscampi.git'
   }));
 }
