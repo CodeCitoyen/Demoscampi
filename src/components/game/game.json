@@ -13,8 +13,8 @@
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentementmatelots",
-      "label@fr": "mécontentement matelots"
+      "label@en": "Mécontentementmatelots",
+      "label@fr": "Mécontentement matelots"
     },
     "mecontentementtouristes": {
       "value": 0,
@@ -24,14 +24,6 @@
       "label@en": "Mécontentement touristes",
       "label@fr": "Mécontentement touristes"
     },
-    // "mecontentementindiens": {
-    //   "value": 0,
-    //   "private": false,
-    //   "category": "risk",
-    //   "chart": "main-chart",
-    //   "label@en": "Mécontentement indiens",
-    //   "label@fr": "Mécontentement indiens"
-    // },
     "mecontentementrobinsons": {
       "value": 0,
       "private": false,
