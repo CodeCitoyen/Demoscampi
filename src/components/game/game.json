@@ -16,29 +16,29 @@
       "label@en": "mécontentementmatelots",
       "label@fr": "mécontentement matelots"
     },
-    "mecontentementindiens": {
-      "value": 0,
-      "private": false,
-      "category": "risk",
-      "chart": "main-chart",
-      "label@en": "mécontentement indiens",
-      "label@fr": "mécontentement indiens"
-    },
     "mecontentementtouristes": {
       "value": 0,
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentement touristes",
-      "label@fr": "mécontentement touristes"
+      "label@en": "Mécontentement touristes",
+      "label@fr": "Mécontentement touristes"
     },
+    // "mecontentementindiens": {
+    //   "value": 0,
+    //   "private": false,
+    //   "category": "risk",
+    //   "chart": "main-chart",
+    //   "label@en": "Mécontentement indiens",
+    //   "label@fr": "Mécontentement indiens"
+    // },
     "mecontentementrobinsons": {
       "value": 0,
       "private": false,
       "category": "risk",
       "chart": "main-chart",
-      "label@en": "mécontentement touristes",
-      "label@fr": "mécontentement touristes"
+      "label@en": "Mécontentement touristes",
+      "label@fr": "Mécontentement robinsons"
     },
     "nourriture": {
       "value": 6,
@@ -186,13 +186,14 @@
               "text@en": "Les passagers ont voté en majorité pour les langoustines"
             },
             {
+              "character": "chef_touristes",
               "text@en": "Ils ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
-              "text@fr": "Ils bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies."
+              "text@fr": "Merci ces délicieuses langoustines, même si certains passagers ont souffert d'allergies."
             }
           ]
         },
         {
-          "text@en": "Salade des pates",
+          "text@en": "",
           "text@fr": "Choisir au hasard",
           "var_changes": {
             "nourriture": -1,
@@ -207,11 +208,12 @@
             {
               "character": "you",
               "text@en": "Salade des pates SVP",
-              "text@fr": "Martin, avez vous une pièce s'il vous plait?"
+              "text@fr": "Face, ce sera salade de pâtes pour tous"
             },
             {
-            "text@en": "les passagers ont été revigorés par le plantureux plat de pâtes.",
-            "text@fr": "les passagers ont été revigorés par le plantureux plat de pâtes."
+              "character": "chef_matelots",
+              "text@en": "les passagers ont été revigorés par le plantureux plat de pâtes.",
+              "text@fr": "les passagers ont été revigorés par le plantureux plat de pâtes."
             }
           ]
         }
