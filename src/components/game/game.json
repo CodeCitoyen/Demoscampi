@@ -574,15 +574,53 @@
       "year": 2021,
       "texts": [
         {
-          "text@en": "Parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+          "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+        },
+        {
+          "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?"
         }
-      ]
+      ],
+        "choices" : [
+          {
+            "text@en": "Moi",
+            "var_changes": {
+              "mecontentementmatelots": 0
+            },
+            "feedback": [
+              {
+                "character": "you",
+                "text@en": "J'aurais pu deviner si j'étais en forme. ",
+                "text@fr": "J'aurais pu deviner si j'étais en forme."
+              },
+              {
+                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+              }
+            ]
+          },
+          {
+            "text@en": "Personne",
+            "var_changes": {
+              "mecontentementmatelots": 0
+            },
+            "feedback": [
+              {
+                "character": "you",
+                "text@en": "Personne",
+                "text@fr": "Personne"
+              },
+              {
+                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+              }
+
+            ]
+          }
+        ]
     },
     {
       "year": 2022,
       "texts": [
         {
-          "text@en": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
+          "text@fr": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
         }
       ],
       "choices" : [
