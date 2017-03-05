@@ -165,7 +165,7 @@
       ],
       "choices": [
         {
-          "text@en": "langoustine",
+          "text@en": "Laisser les passagers voter",
           "text@fr": "Laisser les passagers voter",
           "var_changes": {
             "nourriture": -3,
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "text@en": "",
+          "text@en": "Choisir au hasard",
           "text@fr": "Choisir au hasard",
           "var_changes": {
             "nourriture": -1,
