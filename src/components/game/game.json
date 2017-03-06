@@ -27,7 +27,7 @@
       "category": "city",
       "chart": "ressources",
       "label@en": "nourriture",
-      "label@fr": "nourriture"
+      "label@fr": "Réserves de nourriture"
     },
     "sante": {
       "value": 9,
@@ -35,11 +35,11 @@
       "category": "city",
       "chart": "ressources",
       "label@en": "sante",
-      "label@fr": "santé de la communauté"
+      "label@fr": "Santé de la communauté"
     }
   },
   "charts": {
-    "ressourcest": {
+    "ressources": {
       "title@en": "Ressources",
       "title@fr": "Ressources",
       "description@en": "Health & Food",
@@ -78,7 +78,7 @@
     "you": {
       "name@en": "you",
       "name@fr": "you",
-      "title@en": "Captan",
+      "title@en": "Captain",
       "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
     },
@@ -108,8 +108,8 @@
     },
     "4": {
       "picture": "images/years/ile.jpg",
-      "title@en": "Choix d'un représentant du nouveau groupe",
-      "title@fr": "Choix d'un représentant du nouveau groupe"
+      "title@en": "XXXXXXX",
+      "title@fr": "Election"
     },
     "5": {
       "picture": "images/years/ile.jpg",
@@ -119,17 +119,17 @@
     "6": {
       "picture": "images/years/ile.jpg",
       "title@en": "Maladie qui change les rapports de force",
-      "title@fr": "Maladie qui change les rapports de force"
+      "title@fr": "Maladie"
     },
     "7": {
       "picture": "images/years/ile.jpg",
       "title@en": "l'éléphant albinos",
-      "title@fr": "l'éléphant albinos"
+      "title@fr": "Elephant Albinos"
     },
     "8": {
       "picture": "images/years/ile.jpg",
       "title@en": " to stay or not to stay",
-      "title@fr": " to stay or not to stay"
+      "title@fr": "Le Choix"
     },
     "9": {
       "picture": "images/years/ile.jpg",
