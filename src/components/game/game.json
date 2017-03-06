@@ -51,7 +51,7 @@
       "name@en": "VOID",
       "name@fr": "Catherine",
       "title@en": "VOID",
-      "title@fr": "touriste passionnée",
+      "title@fr": "Touriste passionnée",
       "avatar": "./images/avatars/catherine.jpg"
     },
     "chef_robinsons": {
@@ -72,7 +72,7 @@
       "name@en": "VOID",
       "name@fr": "Bartazar",
       "title@en": "VOID",
-      "title@fr": "Cannibal",
+      "title@fr": "Chef Cannibal",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
@@ -84,9 +84,9 @@
     },
     "helper": {
       "name@en": "VOID",
-      "name@fr": "Professeur Avote",
+      "name@fr": "Pr. Avote",
       "title@en": "VOID",
-      "title@fr": "Professeur Avote",
+      "title@fr": "Professeur de sociologie",
       "avatar": "./images/avatars/professeur.jpg"
     }
   },
@@ -124,7 +124,7 @@
     "7": {
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
-      "title@fr": "Elephant Albinos"
+      "title@fr": "Eléphant Albinos"
     },
     "8": {
       "picture": "images/years/ile.jpg",
@@ -140,16 +140,16 @@
   "steps": [
     {
       "year": 1,
-      "texts": [
+      "texts": [ 
         {
-          "character": "chef_matelots",
-          "text@fr": "Bonjour capitaine, cette croisière se déroule vraiment à merveille.",
+          "character": "chef_touristes",
+          "text@fr": "Bonjour capitaine, cette croisière en voilier se déroule vraiment à merveille ! Et venant d'une figure de la haute société comme moi, c'est un compliment exceptionnel. Fi, voici votre quartier-maître !.",
           "text@en": "VOID"
         },
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Haïhaï capitaine. Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Sinon, on tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
@@ -169,7 +169,7 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "Merci ces délicieuses langoustines, même si certains passagers ont souffert d'allergies."
+              "text@fr": "Merci ces délicieuses langoustines, c'est juste dommage que certains passagers aient souffert d'allergies."
             }
           ]
         },
@@ -217,21 +217,21 @@
         },
         {
           "character": "chef_matelots",
-          "text@en" : "Maintenant que nous avons réussi à atteindre, en chaloupe, cette île déserte, il nous faut gagner au plus vite la forêt, pour fabriquer des abris avant la nuit."
+          "text@fr" : "Maintenant que nous avons réussi à ramer jusqu'à cette île déserte, gagnons la forêt pour nous installer un campement."
         },
         {
           "character": "chef_touristes",
-          "text@en" : "Ah non pas question, il y a sans doute plein de sales bêtes et de plantes vénéneuses dans cette jungle ! Restons sur la plage à attendre les secours !"
+          "text@fr" : "Ah non, nous sommes contre ! Il y a sans doute plein de sales bêtes et de plantes vénéneuses dans cette jungle. Restons sur la plage à attendre les secours."
         },
         {
           "character": "chef_matelots",
-          "text@en" : "Mais il n'arriveront pas avant plusieurs semaines ! Capitaines, quels sont vos ordres !"
+          "text@fr" : "Mais les secours n'arriveront pas avant plusieurs semaines ! Capitaines, quels sont vos ordres ?"
         }
       ],
       "choices": [
         {
           "text@en": "VOID",
-          "text@fr": "Vous imposez le départ pour la forêt.",
+          "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
             "risk_touristes": 2
           },
@@ -244,13 +244,13 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "C'est scandaleux!."
+              "text@fr": "C'est autoritaire!"
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "Vous organisez un débat",
+          "text@fr": "Organiser un débat",
           "var_changes": {
             "risk_matelots": 0,
             "nourriture": 1
@@ -264,23 +264,13 @@
             {
               "character": "chef_matelots",
               "text@en": "VOID",
-              "text@fr": "Voilà, rejoindre la forêt nous permet de construire des abris sûrs et collecter des ressources."
-            },
-            {
-              "character": "chef_touristes",
-              "text@en": "VOID",
-              "text@fr": "Soit, j'y consens si vous me promettez que nous laisserons des signaux sur la plage"
-            },
-            {
-              "character": "chef_matelots",
-              "text@en": "VOID",
-              "text@fr": "D'accord"
+              "text@fr": "Après de longues parlementations, les touristes se laissent convaincre qu'il est plus prudent d'aller chercher abri et nourriture dans la forêt."
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "Soumettre à un vote majoritaire",
+          "text@fr": "Soumettre la décision au vote",
           "var_changes": {
             "risk_matelots": 1
           },
@@ -293,7 +283,7 @@
             {
               "character": "chef_matelots",
               "text@en": "VOID",
-              "text@fr": "Peut on vraiment parler de vote quand la majorité des naufragés sont les touristes?"
+              "text@fr": "Peut-on vraiment parler de vote équilibré, quand nous autres matelots expérimentés sommes en nette inferiorité ?"
             },
             {
               "character": "you",
@@ -607,7 +597,7 @@
               "text@fr": "On garde la gnole pour plus tard."
             },
             {
-              "text@en" : "Les matelots, partisans d'une punition limitée, se font exclure au premier tour. Ils se rallient alors au cas des robinsons, et la paix est préservée.",
+              "text@en" : "VOID",
               "text@fr" : "Les matelots, partisans d'une punition limitée, se font exclure au premier tour. Ils se rallient alors au cas des robinsons, et la paix est préservée."
             }
           ]
@@ -690,7 +680,6 @@
         },
         {
           "text@en": "VOID",
-          "text@fr": "Le chasser",
           "text@fr": "Le chasser",
           "var_changes": {
             "risk_matelots": -1,
