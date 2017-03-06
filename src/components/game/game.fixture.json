@@ -1,5 +1,13 @@
 {
   "vars": {
+        "personal_account": {
+      "value": 0,
+      "private": true,
+      "category": "player",
+      "chart": true,
+      "label@en": "Your reputation",
+      "label@fr": "Votre réputation"
+    },
     "repositories": {
       "value": 10,
       "private": false,

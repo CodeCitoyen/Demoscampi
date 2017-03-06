@@ -1,96 +1,85 @@
 {
   "vars": {
-    "personal_account": {
-      "value": 0,
-      "private": true,
-      "category": "player",
-      "chart": true,
-      "label@en": "Your cash",
-      "label@fr": "Vos gains"
-    },
     "mecontentementmatelots": {
       "value": 0,
       "private": false,
       "category": "risk",
-      "chart": "main-chart",
-      "label@en": "Mécontentementmatelots",
-      "label@fr": "Mécontentement matelots"
+      "label@en": "Mécontentement matelots",
+      "label@fr": "Mécontentement des matelots"
     },
     "mecontentementtouristes": {
       "value": 0,
       "private": false,
       "category": "risk",
-      "chart": "main-chart",
       "label@en": "Mécontentement touristes",
-      "label@fr": "Mécontentement touristes"
+      "label@fr": "Mécontentement des touristes"
     },
     "mecontentementrobinsons": {
       "value": 0,
       "private": false,
       "category": "risk",
-      "chart": "main-chart",
-      "label@en": "Mécontentement touristes",
-      "label@fr": "Mécontentement robinsons"
+      "label@en": "Mécontentement robinsons",
+      "label@fr": "Mécontentement des robinsons"
     },
     "nourriture": {
-      "value": 6,
+      "value": 98,
       "private": false,
       "category": "city",
-      "chart": "main-chart",
+      "chart": "ressources",
       "label@en": "nourriture",
       "label@fr": "nourriture"
     },
     "sante": {
-      "value": 8,
+      "value": 94,
       "private": false,
       "category": "city",
-      "chart": "main-chart",
+      "chart": "ressources",
       "label@en": "sante",
       "label@fr": "santé de la communauté"
     }
   },
   "charts": {
-    "main-chart": {
-      "title@en": "Satisfaction !",
-      "title@fr": "Satisfaction",
-      "description@en": "Satisfaction",
-      "description@fr": "Satisfaction"
+    "ressourcest": {
+      "title@en": "Ressources",
+      "title@fr": "Ressources",
+      "description@en": "Health & Food",
+      "description@fr": "Santé et nourriture"
     }
   },
   "characters": {
     "chef_touristes": {
       "name@en": "Catherine",
       "name@fr": "Catherine",
-      "title@en": "Catherine",
-      "title@fr": "Catherine",
+      "title@en": "Tourist leader",
+      "title@fr": "touriste passionnée",
       "avatar": "./images/avatars/catherine.jpg"
     },
     "chef_robinsons": {
       "name@en": "Hannah",
       "name@fr": "Hannah",
-      "title@en": "Hannah",
-      "title@fr": "Hannah",
+      "title@en": "Leader of robinsons",
+      "title@fr": "Représentante des robinsons",
       "avatar": "./images/avatars/hannah.jpg"
     },
     "chef_matelots": {
       "name@en": "Martin",
       "name@fr": "Martin",
-      "title@en": "Martin",
-      "title@fr": "Martin",
+      "title@en": "Quartier-Maître",
+      "title@fr": "Quartier-Maître",
       "avatar": "./images/avatars/martin.jpg"
     },
     "chef_indiens": {
       "name@en": "Baltazar",
       "name@fr": "Bartazar",
-      "title@en": "Baltazar",
-      "title@fr": "Anna",
+      "title@en": "Cannibal",
+      "title@fr": "Cannibal",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
       "name@en": "you",
       "name@fr": "you",
-      "title@en": "you",
-      "title@fr": "you",
+      "title@en": "Captan",
+      "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
     },
     "helper": {
@@ -102,55 +91,55 @@
     }
   },
   "years": {
-    "2016": {
+    "1": {
       "picture": "images/years/cruise.jpg",
-      "title@en": "Croisière",
+      "title@en": "Cruise",
       "title@fr": "Croisière"
     },
-    "2017": {
+    "2": {
       "picture": "images/years/echoues.jpg",
-      "title@en": "Echoués",
+      "title@en": "Landed",
       "title@fr": "Echoués"
     },
-    "2018": {
-      "picture": "images/years/riga.jpeg",
-      "title@en": "Rencontre",
+    "3": {
+      "picture": "images/years/ile.jpg",
+      "title@en": "Encounter",
       "title@fr": "Rencontre"
     },
-    "2019": {
-      "picture": "images/years/riga.jpeg",
+    "4": {
+      "picture": "images/years/ile.jpg",
       "title@en": "Choix d'un représentant du nouveau groupe",
       "title@fr": "Choix d'un représentant du nouveau groupe"
     },
-    "2020": {
-      "picture": "images/years/riga.jpeg",
+    "5": {
+      "picture": "images/years/ile.jpg",
       "title@en": "Incident",
       "title@fr": "Incident"
     },
-    "2021": {
-      "picture": "images/years/riga.jpeg",
+    "6": {
+      "picture": "images/years/ile.jpg",
       "title@en": "Maladie qui change les rapports de force",
       "title@fr": "Maladie qui change les rapports de force"
     },
-    "2022": {
-      "picture": "images/years/riga.jpeg",
+    "7": {
+      "picture": "images/years/ile.jpg",
       "title@en": "l'éléphant albinos",
       "title@fr": "l'éléphant albinos"
     },
-    "2023": {
-      "picture": "images/years/riga.jpeg",
+    "8": {
+      "picture": "images/years/ile.jpg",
       "title@en": " to stay or not to stay",
       "title@fr": " to stay or not to stay"
     },
-    "2024": {
-      "picture": "images/years/riga.jpeg",
+    "9": {
+      "picture": "images/years/ile.jpg",
       "title@en": "Justice \"pas le groupe de musique\"",
       "title@fr": "Justice \"pas le groupe de musique\""
     }
   },
   "steps": [
     {
-      "year": 2016,
+      "year": 1,
       "texts": [
         {
           "character": "chef_matelots",
@@ -158,7 +147,7 @@
         },
         {
           "character": "chef_matelots",
-          "text@fr": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
@@ -166,8 +155,8 @@
           "text@en": "langoustine",
           "text@fr": "Laisser les passagers voter",
           "var_changes": {
-            "nourriture": -3,
-            "sante":  -1
+            "nourriture": -9,
+            "sante":  -5
           },
           "feedback": [
             {
@@ -186,8 +175,8 @@
           "text@en": "",
           "text@fr": "Choisir au hasard",
           "var_changes": {
-            "nourriture": -1,
-            "sante":  1
+            "nourriture": -2,
+            "sante":  4
           },
           "feedback": [
             {
@@ -210,7 +199,7 @@
       ]
     },
     {
-      "year": 2017,
+      "year": 2,
       "texts": [
         {
           "text@en": "Le bateau percute inopinément un cachalot et coule."
@@ -241,27 +230,43 @@
           "text@en": "Vous imposez le départ pour la forêt.",
           "text@fr": "Vous imposez le départ pour la forêt.",
           "var_changes": {
-            "mecontentementtouristes": 1
+            "mecontentementtouristes": 2
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "Débattons la situation.",
-              "text@fr": "Débattons la situation."
+              "text@en": "It will be the forest.",
+              "text@fr": "Ce sera la forêt."
+            },            
+            {
+              "character": "chef_touristes",
+              "text@en": "Oh, no!",
+              "text@fr": "C'est scandaleux!."
             }
           ]
         },
         {
-          "text@en": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
-          "text@fr": "Vous organisez un débat (les marins, experts, convainquent les touristes)",
+          "text@en": "Vous organisez un débat",
+          "text@fr": "Vous organisez un débat",
           "var_changes": {
-            "mecontentementmatelots": 0
+            "mecontentementmatelots": 0,
+            "nourriture": 1
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "Débattons la situation.",
               "text@fr": "Débattons la situation."
+            },            
+            {
+              "character": "chef_matelots",
+              "text@en": "Forest is better",
+              "text@fr": "Voilà, rejoindre la forêt nous permet de construire des abris sûrs et collecter des ressources."
+            },
+            {
+              "character": "chef_touristes",
+              "text@en": "ok",
+              "text@fr": "Soit, j'y consent si vous me promettez que nous "
             }
           ]
         },
@@ -274,19 +279,21 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Salade des pates SVP",
-              "text@fr": "Salade des pates SVP"
+              "text@en": "vote",
+              "text@fr": "Ce sera le vote"
+            },
+            {
+              "character": "chef_matelots",
+              "text@en": "vote?",
+              "text@fr": "Peut on vraiment parler de vote quand la majorité des naufragés sont les touristes?"
             }
           ]
         }
       ]
     },
     {
-      "year": 2018,
+      "year": 3,
       "texts": [
-        {
-          "text@en": "L'ile est occupée : 70 robinsons habitent déjà sur l'ile Les robinsons proposent de fusionner les deux groupes de survivants pour mieux organiser, gérer et produire les ressources. Les marins sont d'accord, comme vous, car ces robinsons sont très expérimentés, mais les touristes rejettent ces gueux."
-        },
         {
           "character" : "chef_robinsons",
           "text@en" : "Ohla!"
@@ -318,7 +325,7 @@
       ]
     },
     {
-      "year": 2018,
+      "year": 4,
       "texts": [
         {
           "character": "chef_robinsons",
@@ -407,7 +414,7 @@
       ]
     },
     {
-      "year": 2019,
+      "year": 4,
       "texts": [
         {
           "text@en": "Un candidat robinson et un candidat touriste se présentent pour représenter la communauté dans son ensemble. Il y a de fortes dissensions dans leurs programmes : les robinsons veulent construire une belle cité utopique dans la forêt, les touristes parlent de mettre le feu à la forêt pour attirer des bateaux."
@@ -476,7 +483,7 @@
       ]
     },
     {
-      "year": 2020,
+      "year": 5,
       "texts": [
         {
           "character": "chef_matelots",
@@ -565,7 +572,7 @@
       ]
     },
     {
-      "year": 2021,
+      "year": 6,
       "texts": [
         {
           "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
@@ -611,7 +618,7 @@
         ]
     },
     {
-      "year": 2022,
+      "year": 7,
       "texts": [
         {
           "text@fr": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
@@ -659,7 +666,7 @@
       ]
     },
     {
-      "year": 2022,
+      "year": 8,
       "texts": [
         {
           "text@en": "Systèmes de vote proposés : "
@@ -694,7 +701,7 @@
       ]
     },
     {
-      "year": 2023,
+      "year": 8,
       "texts": [
         {
           "text@en": "Un voilier est visible au loin, il va manifestement passer non loin de l'île, un choix se pose alors pour ceux qui veulent partir de l'île."
@@ -730,7 +737,7 @@
       ]
     },
     {
-      "year": 2023,
+      "year": 9,
       "texts": [
         {
           "text@en": "Les gens hésitent entre des systèmes de vote :"
@@ -770,7 +777,7 @@
     {
       "condition": {
         "var": "mecontentementmatelots",
-        "min": 8
+        "min": 6
       },
       "text@en": "<h2>Les matelots ne sont pas contents !</h2><p></p>",
       "text@fr": "<h2>Les matelots ne sont pas contents !</h2><p></p>"
@@ -778,7 +785,7 @@
     {
       "condition": {
         "var": "mecontentementindiens",
-        "min": 8
+        "min": 6
       },
       "text@en": "<h2>Les Indiens ne sont pas content !</h2><p></p>",
       "text@fr": "<h2>Les Indiens ne sont pas content !</h2><p></p>"
@@ -786,7 +793,7 @@
     {
       "condition": {
         "var": "mecontentementtouristes",
-        "min": 8
+        "min": 6
       },
       "text@en": "<h2>Les touristes ne sont pas content !</h2><p></p>",
       "text@fr": "<h2>Les touristes ne sont pas content !</h2><p></p>"
@@ -794,10 +801,18 @@
     {
       "condition": {
         "var": "nourriture",
-        "max": 2
+        "max": 30
       },
       "text@en": "<h2>Plus rien a manger !</h2><p></p>",
       "text@fr": "<h2>Plus rien a manger !</h2><p></p>"
+    },
+    {
+      "condition": {
+        "var": "sante",
+        "max": 30
+      },
+      "text@en": "<h2>Epidemie !</h2><p></p>",
+      "text@fr": "<h2>Epidemie!</h2><p></p>"
     },
     {
       "text@en": "<h2>Bravo !</h2><p></p>",
