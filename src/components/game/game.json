@@ -4,21 +4,21 @@
       "value": 0,
       "private": false,
       "category": "risk",
-      "label@en": "Mécontentement matelots",
+      "label@en": "VOID",
       "label@fr": "Mécontentement des matelots"
     },
     "risk_touristes": {
       "value": 0,
       "private": false,
       "category": "risk",
-      "label@en": "Mécontentement touristes",
+      "label@en": "VOID",
       "label@fr": "Mécontentement des touristes"
     },
     "risk_robinsons": {
       "value": 0,
       "private": false,
       "category": "risk",
-      "label@en": "Mécontentement robinsons",
+      "label@en": "VOID",
       "label@fr": "Mécontentement des robinsons"
     },
     "nourriture": {
@@ -26,7 +26,7 @@
       "private": false,
       "category": "city",
       "chart": "ressources",
-      "label@en": "nourriture",
+      "label@en": "VOID",
       "label@fr": "Réserves de nourriture"
     },
     "sante": {
@@ -34,58 +34,58 @@
       "private": false,
       "category": "city",
       "chart": "ressources",
-      "label@en": "sante",
+      "label@en": "VOID",
       "label@fr": "Santé de la communauté"
     }
   },
   "charts": {
     "ressources": {
-      "title@en": "Ressources",
+      "title@en": "VOID",
       "title@fr": "Ressources",
-      "description@en": "Health & Food",
+      "description@en": "VOID",
       "description@fr": "Santé et nourriture"
     }
   },
   "characters": {
     "chef_touristes": {
-      "name@en": "Catherine",
+      "name@en": "VOID",
       "name@fr": "Catherine",
-      "title@en": "Tourist leader",
+      "title@en": "VOID",
       "title@fr": "touriste passionnée",
       "avatar": "./images/avatars/catherine.jpg"
     },
     "chef_robinsons": {
-      "name@en": "Hannah",
+      "name@en": "VOID",
       "name@fr": "Hannah",
-      "title@en": "Leader of robinsons",
+      "title@en": "VOID",
       "title@fr": "Représentante des robinsons",
       "avatar": "./images/avatars/hannah.jpg"
     },
     "chef_matelots": {
-      "name@en": "Martin",
+      "name@en": "VOID",
       "name@fr": "Martin",
-      "title@en": "Quartier-Maître",
+      "title@en": "VOID",
       "title@fr": "Quartier-Maître",
       "avatar": "./images/avatars/martin.jpg"
     },
     "chef_indiens": {
-      "name@en": "Baltazar",
+      "name@en": "VOID",
       "name@fr": "Bartazar",
-      "title@en": "Cannibal",
+      "title@en": "VOID",
       "title@fr": "Cannibal",
       "avatar": "./images/avatars/mayor.jpg"
     },
     "you": {
-      "name@en": "you",
+      "name@en": "VOID",
       "name@fr": "you",
-      "title@en": "Captain",
+      "title@en": "VOID",
       "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
     },
     "helper": {
-      "name@en": "Professeur Avote",
+      "name@en": "VOID",
       "name@fr": "Professeur Avote",
-      "title@en": "Professeur Avote",
+      "title@en": "VOID",
       "title@fr": "Professeur Avote",
       "avatar": "./images/avatars/professeur.jpg"
     }
@@ -93,47 +93,47 @@
   "years": {
     "1": {
       "picture": "images/years/cruise.jpg",
-      "title@en": "Cruise",
+      "title@en": "VOID",
       "title@fr": "Croisière"
     },
     "2": {
       "picture": "images/years/echoues.jpg",
-      "title@en": "Landed",
+      "title@en": "VOID",
       "title@fr": "Echoués"
     },
     "3": {
       "picture": "images/years/ile.jpg",
-      "title@en": "Encounter",
+      "title@en": "VOID",
       "title@fr": "Rencontre"
     },
     "4": {
       "picture": "images/years/ile.jpg",
-      "title@en": "XXXXXXX",
+      "title@en": "VOID",
       "title@fr": "Election"
     },
     "5": {
       "picture": "images/years/ile.jpg",
-      "title@en": "Incident",
+      "title@en": "VOID",
       "title@fr": "Incident"
     },
     "6": {
       "picture": "images/years/ile.jpg",
-      "title@en": "Maladie qui change les rapports de force",
+      "title@en": "VOID",
       "title@fr": "Maladie"
     },
     "7": {
       "picture": "images/years/ile.jpg",
-      "title@en": "l'éléphant albinos",
+      "title@en": "VOID",
       "title@fr": "Elephant Albinos"
     },
     "8": {
       "picture": "images/years/ile.jpg",
-      "title@en": " to stay or not to stay",
+      "title@en": "VOID",
       "title@fr": "Le Choix"
     },
     "9": {
       "picture": "images/years/ile.jpg",
-      "title@en": "Justice \"pas le groupe de musique\"",
+      "title@en": "VOID",
       "title@fr": "Justice \"pas le groupe de musique\""
     }
   },
@@ -144,17 +144,17 @@
         {
           "character": "chef_matelots",
           "text@fr": "Bonjour capitaine, cette croisière se déroule vraiment à merveille.",
-          "text@en": "Bonjour capitaine, cette croisière se déroule vraiment à merveille."
+          "text@en": "VOID"
         },
         {
           "character": "chef_matelots",
-          "text@en": "Je viens de croiser le maître-cuistot, se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?",
+          "text@en": "VOID",
           "text@fr": "Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Ou bien on tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
         {
-          "text@en": "Laisser les passagers voter",
+          "text@en": "VOID",
           "text@fr": "Laisser les passagers voter",
           "var_changes": {
             "nourriture": -2,
@@ -164,17 +164,17 @@
             {
               "character": "chef_matelots",
               "text@fr": "Les passagers ont voté en majorité pour les langoustines",
-              "text@en": "Les passagers ont voté en majorité pour les langoustines"
+              "text@en": "VOID"
             },
             {
               "character": "chef_touristes",
-              "text@en": "Ils ont bien apprécié le raffinement des langoustines, même si certains ont souffert d'allergies.",
+              "text@en": "VOID",
               "text@fr": "Merci ces délicieuses langoustines, même si certains passagers ont souffert d'allergies."
             }
           ]
         },
         {
-          "text@en": "Choisir au hasard",
+          "text@en": "VOID",
           "text@fr": "Choisir au hasard",
           "var_changes": {
             "nourriture": -1,
@@ -183,17 +183,17 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Salade des pates SVP",
+              "text@en": "VOID",
               "text@fr": "Martin, avez vous une pièce s'il vous plait?"
             },
             {
               "character": "you",
-              "text@en": "Salade des pates SVP",
+              "text@en": "VOID",
               "text@fr": "Face, ce sera salade de pâtes pour tous"
             },
             {
               "character": "chef_matelots",
-              "text@en": "les passagers ont été revigorés par le plantureux plat de pâtes.",
+              "text@en": "VOID",
               "text@fr": "les passagers ont été revigorés par le plantureux plat de pâtes."
             }
           ]
@@ -204,7 +204,8 @@
       "year": 2,
       "texts": [
         {
-          "text@en": "Le bateau percute inopinément un cachalot et coule."
+          "text@en": "VOID",
+          "text@fr": "A REMPLIR"
         },
         {
           "character": "chef_matelots",
@@ -229,7 +230,7 @@
       ],
       "choices": [
         {
-          "text@en": "Vous imposez le départ pour la forêt.",
+          "text@en": "VOID",
           "text@fr": "Vous imposez le départ pour la forêt.",
           "var_changes": {
             "risk_touristes": 2
@@ -237,18 +238,18 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "It will be the forest.",
+              "text@en": "VOID",
               "text@fr": "Ce sera la forêt."
             },            
             {
               "character": "chef_touristes",
-              "text@en": "Oh, no!",
+              "text@en": "VOID",
               "text@fr": "C'est scandaleux!."
             }
           ]
         },
         {
-          "text@en": "Vous organisez un débat",
+          "text@en": "VOID",
           "text@fr": "Vous organisez un débat",
           "var_changes": {
             "risk_matelots": 0,
@@ -257,28 +258,28 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Débattons la situation.",
+              "text@en": "VOID",
               "text@fr": "Débattons la situation."
             },            
             {
               "character": "chef_matelots",
-              "text@en": "Forest is better",
+              "text@en": "VOID",
               "text@fr": "Voilà, rejoindre la forêt nous permet de construire des abris sûrs et collecter des ressources."
             },
             {
               "character": "chef_touristes",
-              "text@en": "ok, if we leave signals",
+              "text@en": "VOID",
               "text@fr": "Soit, j'y consens si vous me promettez que nous laisserons des signaux sur la plage"
             },
             {
               "character": "chef_matelots",
-              "text@en": "ok",
+              "text@en": "VOID",
               "text@fr": "D'accord"
             }
           ]
         },
         {
-          "text@en": "Soumettre à un vote majoritaire",
+          "text@en": "VOID",
           "text@fr": "Soumettre à un vote majoritaire",
           "var_changes": {
             "risk_matelots": 1
@@ -286,17 +287,17 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "vote",
+              "text@en": "VOID",
               "text@fr": "Ce sera le vote"
             },
             {
               "character": "chef_matelots",
-              "text@en": "vote?",
+              "text@en": "VOID",
               "text@fr": "Peut on vraiment parler de vote quand la majorité des naufragés sont les touristes?"
             },
             {
               "character": "you",
-              "text@en": "vote?",
+              "text@en": "VOID",
               "text@fr": "Le vote a tranché, nous resterons donc sur la plage"
             }
           ]
@@ -313,23 +314,23 @@
       ],
       "choices": [
         {
-          "text@en": "Bonjour",
+          "text@en": "VOID",
           "text@fr": "Bonjour",
           "feedback": [
             {
               "character": "you",
-              "text@en": "Bonjour !",
+              "text@en": "VOID",
               "text@fr": "Bonjour !"
             }
           ]
         },
         {
-          "text@en": "Ohla! ",
+          "text@en": "VOID",
           "text@fr": "Ohla! ",
           "feedback": [
             {
               "character": "you",
-              "text@en": "Ohle! ",
+              "text@en": "VOID",
               "text@fr": "Ohlaya ! "
             }
           ]
@@ -342,24 +343,28 @@
 
         {
           "character": "chef_robinsons",
-          "text@en": "Je suis Hannah, la représentante des robinsons. Nous sommes 70 survivants déjà sur cette ïle."
+          "text@en": "VOID",
+          "text@fr": "Je suis Hannah, la représentante des robinsons. Nous sommes 70 survivants déjà sur cette ïle."
         },
         {
           "character": "chef_robinsons",
-          "text@en": "Je te propose de rapprocher nos deux groupes, pour mieux organiser et gérer les ressources."
+          "text@en": "VOID",
+          "text@fr": "Je te propose de rapprocher nos deux groupes, pour mieux organiser et gérer les ressources."
         },
         {
           "character": "chef_matelots",
-          "text@en": " Ça me semble une bonne idée. Les robinsons semblent expérimentés à la survie sur cette île."
+          "text@en": "VOID",
+          "text@fr": " Ça me semble une bonne idée. Les robinsons semblent expérimentés à la survie sur cette île."
         },
         {
           "character": "chef_touristes",
-          "text@en": "Ouch, il n'y a pas de douches sur cette île ? Nous n'allons tout de même pas nous coltiner cette bande de gueux !"
+          "text@en": "VOID",
+          "text@fr": "Ouch, il n'y a pas de douches sur cette île ? Nous n'allons tout de même pas nous coltiner cette bande de gueux !"
         }
       ],
       "choices": [
         {
-          "text@en": "Vous imposez la fusion",
+          "text@en": "VOID",
           "text@fr": "Vous imposez la fusion",
           "var_changes": {
             "risk_matelots": 0,
@@ -368,13 +373,13 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Fusion !",
+              "text@en": "VOID",
               "text@fr": "Fusion !"
             }
           ]
         },
         {
-          "text@en": "Vous décidez de faire un vote majoritaire à tous",
+          "text@en": "VOID",
           "text@fr": "Vous décidez de faire un vote majoritaire à tous",
           "var_changes": {
             "risk_touristes": 1,
@@ -383,16 +388,17 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Vote majoritaire pour tous !",
+              "text@en": "VOID",
               "text@fr": "Vote majoritaire pour tous !"
             } , {
               "character": "chef_touristes",
-              "text@en": "Le vote est terminé, en faveur de la fusion."
+              "text@en": "VOID",
+              "text@fr": "Le vote est terminé, en faveur de la fusion."
             }
           ]
         },
         {
-          "text@en": "Vous décidez de faire un vote majoritaire uniquement entre échoués (sans robinsons)",
+          "text@en": "VOID",
           "text@fr": "Vous décidez de faire un vote majoritaire uniquement entre échoués (sans robinsons)",
           "var_changes": {
             "mecontentementrobinsons": -1,
@@ -401,21 +407,21 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Vote majoritaire uniquement entre échoués!",
+              "text@en": "VOID",
               "text@fr": "Vote majoritaire uniquement entre échoués!"
             },
             {
               "character": "chef_touristes",
-              "text@en": "Ouf, le vote est terminé, et il n'y a pas fusion.",
+              "text@en": "VOID",
               "text@fr": "Ouf, le vote est terminé, et il n'y a pas fusion."
             },
             {
               "character": "chef_robinsons",
-              "text@en": "Puisque c'est ça, nous allons récupérer toute notre île",
+              "text@en": "VOID",
               "text@fr": "Puisque c'est ça, nous allons récupérer toute notre île"
             },
             {
-              "text@en": "Finalement les deux groupes décident de négocier une paix.",
+              "text@en": "VOID",
               "text@fr": "Après quelques jours de conflit les deux groupes décident de négocier une paix."
             }
           ]
@@ -427,48 +433,54 @@
       "texts": [
         {
           "character" : "chef_matelots",
-          "text@en": "Les petits conflits pullulent, il serait temps de procéder à une élection pour choisir le dirigeant de notre île.",
+          "text@en": "VOID",
           "text@fr": "Les petits conflits se multiplient, il serait temps de procéder à une élection pour choisir le dirigeant de notre île."
 
         },
         {
           "character" : "chef_robinsons",
-          "text@en": "Je suis candidate ! ",
+          "text@en": "VOID",
           "text@fr": "Je suis candidate ! "
-
         },
         {
           "character" : "chef_touristes",
-          "text@en": "Moi aussi je suis candidate !  Hors de question de laisser ces sauvages décider de nos vies."
+          "text@en": "VOID",
+          "text@fr": "Moi aussi je suis candidate !  Hors de question de laisser ces sauvages décider de nos vies."
         },
         {
           "character" : "chef_robinsons",
-          "text@en": "Je propose qu'avec vos matériaux et les ressources de la forêt, nous construisions des sources d'approvisionnement stables."
+          "text@en": "VOID",
+          "text@fr": "Je propose qu'avec vos matériaux et les ressources de la forêt, nous construisions des sources d'approvisionnement stables."
         },
         {
           "character" : "chef_touristes",
-          "text@en": "Mais vous êtes fous! Il faut utiliser le bois de la forêt pour faire un gigantesque feu et attirer les bateaux que l'on vienne nous sauver."
+          "text@en": "VOID",
+          "text@fr": "Mais vous êtes fous! Il faut utiliser le bois de la forêt pour faire un gigantesque feu et attirer les bateaux que l'on vienne nous sauver."
         },
         {
           "character" : "chef_robinsons",
-          "text@en": "Nous pourrons le faire après, mais la priorité est de stabiliser les ressources de la communauté"
+          "text@en": "VOID",
+          "text@fr": "Nous pourrons le faire après, mais la priorité est de stabiliser les ressources de la communauté"
         },
         {
           "character" : "chef_matelots",
-          "text@en": "Il me semble que commencer par les ressources est plus judicieux."
+          "text@en": "VOID",
+          "text@fr": "Il me semble que commencer par les ressources est plus judicieux."
         },
         {
           "character" : "chef_matelots",
-          "text@en": "Vous pourriez vous présenter, et proposer la seule alternative intelligente : bâtir un grand bateau et partir de l'île."
+          "text@en": "VOID",
+          "text@fr": "Vous pourriez vous présenter, et proposer la seule alternative intelligente : bâtir un grand bateau et partir de l'île."
         },
         {
           "character" : "helper",
-          "text@en": "Attention, en vous présentant allez départager les voix et faire gagner les touristes"
+          "text@en": "VOID",
+          "text@fr": "Attention, en vous présentant allez départager les voix et faire gagner les touristes"
         }
       ],
       "choices": [
         {
-          "text@en": "Vous vous présentez",
+          "text@en": "VOID",
           "text@fr": "Vous vous présentez",
           "var_changes": {
             "risk_matelots": 0,
@@ -477,17 +489,17 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Voter pour moi !",
+              "text@en": "VOID",
               "text@fr": "Votez pour moi !"
             },
             {
-              "text@en": "Victoire de Catherine",
+              "text@en": "VOID",
               "text@fr": "Victoire de Catherine"
             }
           ]
         },
         {
-          "text@en": "Vous vous abstenez.",
+          "text@en": "VOID",
           "text@fr": "Vous vous abstenez.",
           "var_changes": {
             "risk_matelots": 0,
@@ -496,11 +508,11 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Sans moi pour cette fois.",
+              "text@en": "VOID",
               "text@fr": "Sans moi pour cette fois."
             },
             {
-              "text@en": "Victoire d'Hannah",
+              "text@en": "VOID",
               "text@fr": "Victoire d'Hannah"
             }
           ]
@@ -512,58 +524,59 @@
       "texts": [
         {
           "character": "chef_matelots",
-          "text@en": "Capitaine, capitaine, c'est la crise ! ",
+          "text@en": "VOID",
           "text@fr": "Capitaine, capitaine, c'est la crise ! "
         },
         {
           "character": "chef_matelots",
-          "text@en": "Un touriste était allé pêcher près d'un îlot très au nord de l'île, malgré les avertissements de nos amis robinsons. ",
+          "text@en": "VOID",
           "text@fr": "Un touriste était allé pêcher près d'un îlot très au nord de l'île, malgré les avertissements de nos amis robinsons. "
         },
         {
           "character": "chef_matelots",
-          "text@en": "Résultat, ils s'est fait blesser par les cannibales qui vivent là-bas.",
+          "text@en": "VOID",
           "text@fr": "Résultat, ils s'est fait blesser par les cannibales qui vivent là-bas."
         },
         {
           "character": "chef_touristes",
-          "text@en": "C'est une scandale agression ! Allons exterminer ces barbares jusqu'au dernier !",
+          "text@en": "VOID",
           "text@fr": "C'est une scandale agression ! Allons exterminer ces barbares jusqu'au dernier !"
         },
         {
           "character": "chef_matelots",
-          "text@en": "Ça me semble exagéré. Les matelots pensent qu'il faut plutôt aller brûler quelques-unes de leurs huttes, œil pour œil, afin qu'ils cessent de nous importuner.",
+          "text@en": "VOID",
           "text@fr": "Ça me semble exagéré. Les matelots pensent qu'il faut plutôt aller brûler quelques-unes de leurs huttes, œil pour œil, afin qu'ils cessent de nous importuner."
         },
         {
           "character": "chef_touristes",
-          "text@en": "C'est une scandale agression ! Allons exterminer ces barbares jusqu'au dernier !",
+          "text@en": "VOID",
           "text@fr": "C'est une scandale agression ! Allons exterminer ces barbares jusqu'au dernier !"
         },
         {
           "character": "chef_matelots",
-          "text@en": "Ça me semble exagéré. Les matelots pensent qu'il faut plutôt aller brûler quelques-unes de leurs huttes, œil pour œil, afin qu'ils cessent de nous importuner.",
+          "text@en": "VOID",
           "text@fr": "Ça me semble exagéré. Les matelots pensent qu'il faut plutôt aller brûler quelques-unes de leurs huttes, œil pour œil, afin qu'ils cessent de nous importuner."
         },
         {
           "character": "chef_robinsons",
-          "text@en": "Surtout pas ! Ces cannibales sont plus dangereux que vous ne le pensez. Le mieux est d'éviter toute interaction avec eux.",
+          "text@en": "VOID",
           "text@fr": "Surtout pas ! Ces cannibales sont plus dangereux que vous ne le pensez. Le mieux est d'éviter toute interaction avec eux."
         },
         {
           "character": "chef_matelots",
-          "text@en": "De toute façon nous allons voter ; un vote en deux tours, afin de ne plus avoir les aberrations de la dernière fois.",
+          "text@en": "VOID",
           "text@fr": "De toute façon nous allons voter ; un vote en deux tours, afin de ne plus avoir les aberrations de la dernière fois."
         },
         {
           "character": "chef_robinsons",
-          "text@en": "Capitaine, pouvez-vous me donner le tonnelet de gnole que vous avez sauvé du navire ? Cela adoucira les moeurs du peuple, et évitera l'embrasement.",
+          "text@en": "VOID",
           "text@fr": "Capitaine, pouvez-vous me donner le tonnelet de gnole que vous avez sauvé du navire ? Cela adoucira les moeurs du peuple, et évitera l'embrasement."
         }
       ],
       "choices" : [
         {
-          "text@en": "Distribuer de la gnole",
+          "text@en": "VOID",
+          "text@fr": "Distribuer de la gnole",
           "var_changes": {
             "risk_matelots": 2,
             "risk_indiens": -2
@@ -571,15 +584,18 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "A boire !"
+              "text@en": "VOID",
+              "text@fr": "A boire"
             },
             {
-              "text@en": "20 touristes abandonnent leurs envies  guerrières et se rallient aux robinsons, et 20 autres se rallient aux   marins. Résultat, l'option \"extermination\" est abandonnée au premier  tour, puis au moment de voter le second tour, les 60 touristes mécontents se rabattent sur l'option des matelots, qui gagne. "
+              "text@en": "VOID",
+              "text@fr": "20 touristes abandonnent leurs envies  guerrières et se rallient aux robinsons, et 20 autres se rallient aux   marins. Résultat, l'option \"extermination\" est abandonnée au premier  tour, puis au moment de voter le second tour, les 60 touristes mécontents se rabattent sur l'option des matelots, qui gagne. "
             }
           ]
         },
         {
-          "text@en": "Garder gnole au frais",
+          "text@en": "VOID",
+          "text@fr": "Garder gnole au frais",
           "var_changes": {
             "risk_matelots": -2,
             "risk_indiens": 2
@@ -587,7 +603,7 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "On garde la gnole pour plus tard.",
+              "text@en": "VOID",
               "text@fr": "On garde la gnole pour plus tard."
             },
             {
@@ -603,40 +619,41 @@
       "texts": [
         {
           "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins.",
-          "text@en": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins."
+          "text@en": "VOID"
         },
         {
           "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?",
-          "text@en": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?"
+          "text@en": "VOID"
         }
       ],
         "choices" : [
           {
-            "text@en": "Moi",
+            "text@en": "VOID",
             "var_changes": {
               "risk_matelots": 0
             },
             "feedback": [
               {
                 "character": "you",
-                "text@en": "J'aurais pu deviner si j'étais en forme. ",
+                "text@en": "VOID",
                 "text@fr": "J'aurais pu deviner si j'étais en forme."
               },
               {
                 "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté.",
-                "text@en": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
+                "text@en": "VOID"
               }
             ]
           },
           {
-            "text@en": "Personne",
+            "text@en": "VOID",
+            "text@fr": "A REMPLIR!",
             "var_changes": {
               "risk_matelots": 0
             },
             "feedback": [
               {
                 "character": "you",
-                "text@en": "Personne",
+                "text@en": "VOID",
                 "text@fr": "Personne"
               },
               {
@@ -656,7 +673,8 @@
       ],
       "choices" : [
         {
-          "text@en": "Le laisser libre",
+          "text@en": "VOID",
+          "text@fr": "Le laisser libre",
           "var_changes": {
             "risk_matelots": 1,
             "risk_indiens": -1,
@@ -665,12 +683,15 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Les animaux aussi ont une âme. "
+              "text@en": "VOID",
+              "text@fr": "Les animaux aussi ont une âme. "
             }
           ]
         },
         {
-          "text@en": "Le chasser",
+          "text@en": "VOID",
+          "text@fr": "Le chasser",
+          "text@fr": "Le chasser",
           "var_changes": {
             "risk_matelots": -1,
             "risk_indiens": 2,
@@ -679,13 +700,14 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Ca peut nous nourrir pour quelques jours.",
+              "text@en": "VOID",
               "text@fr": "Ca peut nous nourrir pour quelques jours."
             }
           ]
         },
         {
-          "text@en": "Bête de somme",
+          "text@en": "VOID",
+          "text@fr": "Bête de somme",
           "var_changes": {
             "risk_matelots": 0,
             "risk_indiens": 0,
@@ -694,7 +716,7 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "Bête de somme.",
+              "text@en": "VOID",
               "text@fr": "Bête de somme."
             }
           ]
@@ -705,31 +727,35 @@
       "year": 8,
       "texts": [
         {
-          "text@en": "Systèmes de vote proposés : "
+          "text@en": "VOID",
+          "text@fr": "Systèmes de vote proposés : "
         }
       ],
       "choices" : [
         {
-          "text@en": "Condorcet",
+          "text@en": "VOID",
+          "text@fr": "Condorcet",
           "var_changes": {
             "risk_matelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "condorcet"
+              "text@en": "VOID",
+              "text@fr": "condorcet"
             }
           ]
         },
         {
-          "text@en": "borda",
+          "text@en": "VOID",
+          "text@fr": "borda",
           "var_changes": {
             "risk_matelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "borda",
+              "text@en": "VOID",
               "text@fr": "borda"
             }
           ]
@@ -740,12 +766,14 @@
       "year": 8,
       "texts": [
         {
-          "text@en": "Un voilier est visible au loin, il va manifestement passer non loin de l'île, un choix se pose alors pour ceux qui veulent partir de l'île."
+          "text@en": "VOID",
+          "text@fr": "Un voilier est visible au loin, il va manifestement passer non loin de l'île, un choix se pose alors pour ceux qui veulent partir de l'île."
         }
       ],
       "choices" : [
         {
-          "text@en": "Attirer le bateau avec un feu, au risque de le faire fuir",
+          "text@en": "VOID",
+          "text@fr": "Attirer le bateau avec un feu, au risque de le faire fuir",
           "var_changes": {
             "risk_matelots": -2,
             "risk_indiens": 0,
@@ -754,13 +782,14 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "",
-              "text@fr": ""
+              "text@en": "VOID",
+              "text@fr": "A REMPLIR"
             }
           ]
         },
         {
-          "text@en": "Le prendre d'abordage avec des pirogues.",
+          "text@en": "VOID",
+          "text@fr": "Le prendre d'abordage avec des pirogues.",
           "var_changes": {
             "risk_matelots": 0,
             "risk_indiens": -1,
@@ -769,8 +798,8 @@
           "feedback": [
             {
               "character": "you",
-              "text@en": "",
-              "text@fr": ""
+              "text@en": "VOID",
+              "text@fr": "A REMPLIR"
             }
           ]
         }
@@ -780,33 +809,36 @@
       "year": 9,
       "texts": [
         {
-          "text@en": "Les gens hésitent entre des systèmes de vote :"
+          "text@en": "VOID",
+          "text@fr": "Les gens hésitent entre des systèmes de vote :"
         }
       ],
       "choices" : [
         {
-          "text@en": "Par notation",
+          "text@en": "VOID",
+          "text@fr": "Par notation",
           "var_changes": {
             "risk_matelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "",
-              "text@fr": ""
+              "text@en": "VOID",
+              "text@fr": "A REMPLIR"
             }
           ]
         },
         {
-          "text@en": "Par approbation.",
+          "text@en": "VOID",
+          "text@fr": "Par approbation.",
           "var_changes": {
             "risk_matelots": 0
           },
           "feedback": [
             {
               "character": "you",
-              "text@en": "",
-              "text@fr": ""
+              "text@en": "VOID",
+              "text@fr": "A REMPLIR"
             }
           ]
         }
@@ -818,7 +850,7 @@
         "var": "risk_matelots",
         "min": 4
       },
-      "text@en": "<h2>Les matelots ne sont pas contents !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Les matelots ne sont pas contents !</h2><p></p>"
     },
     {
@@ -826,7 +858,7 @@
         "var": "risk_touristes",
         "min": 4
       },
-      "text@en": "<h2>Les touristes ne sont pas content !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Les touristes ne sont pas content !</h2><p></p>"
     },
     {
@@ -834,7 +866,7 @@
         "var": "risk_robinsons",
         "min": 4
       },
-      "text@en": "<h2>Les touristes ne sont pas content !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Les touristes ne sont pas content !</h2><p></p>"
     },
     {
@@ -842,7 +874,7 @@
         "var": "nourriture",
         "max": 2
       },
-      "text@en": "<h2>Plus rien a manger !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Plus rien a manger !</h2><p></p>"
     },
     {
@@ -850,20 +882,20 @@
         "var": "sante",
         "max": 3
       },
-      "text@en": "<h2>Epidemie !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Epidemie!</h2><p></p>"
     },
 
     {
-      "text@en": "<h2>Bravo !</h2><p></p>",
+      "text@en": "VOID",
       "text@fr": "<h2>Félicitations ! Vous avez survécu</h2><p></p>"
     }
   ],
   "explainers": {
     "systemedevoteun": {
-      "title@en": "systemedevoteun",
+      "title@en": "VOID",
       "title@fr": "systemedevoteun",
-      "body@en": "blabla",
+      "body@en": "VOID",
       "body@fr": "blabla"
     }
   }
