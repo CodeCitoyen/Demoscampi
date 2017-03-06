@@ -252,19 +252,18 @@
           "text@en": "VOID",
           "text@fr": "Organiser un débat",
           "var_changes": {
-            "risk_matelots": 0,
             "nourriture": 1
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Débattons la situation."
+              "text@fr": "Débattons de la situation."
             },            
             {
               "character": "chef_matelots",
               "text@en": "VOID",
-              "text@fr": "Après de longues parlementations, les touristes se laissent convaincre qu'il est plus prudent d'aller chercher abri et nourriture dans la forêt."
+              "text@fr": "Après de longues parlementations, les touristes se laissent convaincre qu'il est plus sûr d'aller chercher abri et nourriture dans la forêt, car le temps se couvre."
             }
           ]
         },
@@ -278,17 +277,17 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Ce sera le vote"
+              "text@fr": "Votons"
             },
             {
               "character": "chef_matelots",
               "text@en": "VOID",
-              "text@fr": "Peut-on vraiment parler de vote équilibré, quand nous autres matelots expérimentés sommes en nette inferiorité ?"
+              "text@fr": "Ça ne me semble pas une bonne stratégie, quand nous autres matelots sommes en nette inferiorité."
             },
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Le vote a tranché, nous resterons donc sur la plage"
+              "text@fr": "Le vote a tranché, nous resterons donc sur la plage."
             }
           ]
         }
@@ -334,7 +333,7 @@
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Je suis Hannah, la représentante des robinsons. Nous sommes 70 survivants déjà sur cette ïle."
+          "text@fr": "Je suis Hannah, la représentante des robinsons. Nous sommes déjà 70 survivants qui vivotons sur cette ïle paradisiaque."
         },
         {
           "character": "chef_robinsons",
@@ -344,44 +343,45 @@
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": " Ça me semble une bonne idée. Les robinsons semblent expérimentés à la survie sur cette île."
+          "text@fr": "Ça me semble une bonne idée. Les robinsons semblent bien habitués à la vie sur cette île."
         },
         {
           "character": "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "Ouch, il n'y a pas de douches sur cette île ? Nous n'allons tout de même pas nous coltiner cette bande de gueux !"
+          "text@fr": "Qu'est-ce que c'est que cette histoire ? Nous n'allons tout de même pas nous coltiner cette bande de gueux ?"
         }
       ],
       "choices": [
         {
           "text@en": "VOID",
-          "text@fr": "Vous imposez la fusion",
+          "text@fr": "Imposer la fusion des deux groupes",
           "var_changes": {
             "risk_matelots": 0,
+            "risk_tourists": 1,
             "nourriture": 1
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Fusion !"
+              "text@fr": "Faisons communauté commune."
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "Vous décidez de faire un vote majoritaire à tous",
+          "text@fr": "Voter avec tous les habitants de l'île",
           "var_changes": {
-            "risk_touristes": 1,
+            "risk_tourists": 1,
             "nourriture": 1
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Vote majoritaire pour tous !"
+              "text@fr": "Votons tous ensemble"
             } , {
-              "character": "chef_touristes",
+              "character": "chef_matelots",
               "text@en": "VOID",
               "text@fr": "Le vote est terminé, en faveur de la fusion."
             }
@@ -389,30 +389,30 @@
         },
         {
           "text@en": "VOID",
-          "text@fr": "Vous décidez de faire un vote majoritaire uniquement entre échoués (sans robinsons)",
+          "text@fr": "Voter uniquement entre nouveaux échoués (sans les robinsons)",
           "var_changes": {
-            "mecontentementrobinsons": -1,
+            "mecontentement_robinsons": -1,
             "nourriture": -2
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Vote majoritaire uniquement entre échoués!"
+              "text@fr": "Nous allons décider entre anciens membres de la croisière"
             },
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "Ouf, le vote est terminé, et il n'y a pas fusion."
+              "text@fr": "Ouf, le vote est terminé, et la fusion des communautés a été rejetée."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "Puisque c'est ça, nous allons récupérer toute notre île"
+              "text@fr": "Puisque c'est cea, nous allons récupérer toute notre île !"
             },
             {
               "text@en": "VOID",
-              "text@fr": "Après quelques jours de conflit les deux groupes décident de négocier une paix."
+              "text@fr": "Après quelques jours de conflit, les deux groupes décident de négocier une paix, et de mettre leurs moyens en commun."
             }
           ]
         }
@@ -425,7 +425,6 @@
           "character" : "chef_matelots",
           "text@en": "VOID",
           "text@fr": "Les petits conflits se multiplient, il serait temps de procéder à une élection pour choisir le dirigeant de notre île."
-
         },
         {
           "character" : "chef_robinsons",
