@@ -1,13 +1,5 @@
 {
   "vars": {
-        "personal_account": {
-      "value": 0,
-      "private": true,
-      "category": "player",
-      "chart": true,
-      "label@en": "Your reputation",
-      "label@fr": "Votre réputation"
-    },
     "repositories": {
       "value": 10,
       "private": false,
@@ -15,7 +7,7 @@
       "label@en": "Repositories on github"
     },
     "risk_unpopularity": {
-      "value": 0,
+      "value": 1,
       "private": false,
       "category": "risk",
       "label@en": "Unpopularity"
@@ -39,13 +31,12 @@
   },
   "years": {
     "2011": {
-      "title@en": "lorem"
+      "title@en": "lorem",
+      "picture": "images/years/brussels.jpeg"
     },
     "2012": {
-      "title@en": "dolor"
-    },
-    "2013": {
-      "title@en": "sit"
+      "title@en": "dolor",
+      "picture": "images/years/brussels.jpeg"
     }
   },
   "explainers": {
@@ -65,17 +56,6 @@
         {
           "character": "coo",
           "text@en": "Hi there, welcome to J++"
-        },
-        {
-          "character": "coo",
-          "text@en": "This is a great company that open sourced thousand of projects."
-        },
-        {
-          "text@en": "You put a sombrero on your head."
-        },
-        {
-          "character": "coo",
-          "text@en": "Have fun."
         }
       ],
       "choices": [
@@ -109,7 +89,7 @@
       ],
       "choices": [
         {
-          "name@en": "Do not open Temptation City",
+          "text@en": "Do not open Temptation City",
           "feedback": [
             {
               "character": "coo",
@@ -118,7 +98,7 @@
           ]
         },
         {
-          "name@en": "Open Temptation City",
+          "text@en": "Open Temptation City",
           "var_changes": {
             "repositories": 1
           },
@@ -141,7 +121,7 @@
       ],
       "choices": [
         {
-          "name@en": "No",
+          "text@en": "No",
           "feedback": [
             {
               "character": "you",
@@ -150,7 +130,7 @@
           ]
         },
         {
-          "name@en": "Yes",
+          "text@en": "Yes 20",
           "feedback": [
             {
               "character": "you",
@@ -158,7 +138,7 @@
             }
           ],
           "var_changes": {
-            "risk_unpopularity": 20
+            "risk_unpopularity": 5
           }
         }
       ]
@@ -168,51 +148,69 @@
       "texts": [
         {
           "character": "coo",
-          "text@en": "Do you think we should open every projects?"
+          "text@en": "blabla with condition 2"
         }
       ],
       "choices": [
         {
-          "name@en": "No",
+          "text@en": "No",
           "feedback": [
             {
               "character": "you",
-              "text@en": "This is stupid! Free softwares are for punks."
+              "text@en": "This is stupid!"
             }
           ]
         },
         {
-          "name@en": "Yes",
+          "text@en": "Yes",
           "feedback": [
             {
               "character": "you",
-              "text@en": "Great idea! So everyone will lone me!"
+              "text@en": "Great idea! So everyone will hate me!"
             }
-          ],
-          "var_changes": {
-            "risk_unpopularity": -100
-          }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "texts": [
+        {
+          "character": "coo",
+          "text@en": "blabla with condition 3"
         }
       ],
-      "condition": {
-        "var": "repositories",
-        "min": 11
-      }
+      "choices": [
+        {
+          "text@en": "No",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "This is stupid!"
+            }
+          ]
+        },
+        {
+          "text@en": "Yes",
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "Great idea! So everyone will hate me!"
+            }
+          ]
+        }
+      ]
     }
   ],
   "endings": [
     {
       "condition": {
         "var": "risk_unpopularity",
-        "min": 5
+        "min": 1
       },
       "text@en": "<h2>You're fired</h2><p>Nobody likes you!</p>"
     },
     {
-      "condition": {
-        "var": "risk_unpopularity",
-        "max": -50
-      },
       "text@en": "<h2>You're so famous</h2><p>Even Richard Stallman want to mary you!</p>"
     }
   ]
