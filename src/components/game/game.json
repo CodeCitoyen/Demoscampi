@@ -610,53 +610,22 @@
     },
     {
       "year": 6,
-      "texts": [
+      "texts": [ 
         {
-          "text@fr": "Le parasite de la Langoustine se propage et tue surtout chez les touristes et quelques marins.",
+          "text@fr": "Un parasite de la Langoustine se propage aux humains, et fait des ravages : surtout chez les touristes, un peu chez les marins.",
           "text@en": "VOID"
         },
         {
-          "text@fr": "Qui aurait pensé que ce parasite de la langoustine se propagerait un jour aux humains ?",
+          "character": "chef_matelots",
+          "text@fr": "Damned, nous sommes enfin venus à bout de cette épidémie.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_matelots",
+          "text@fr": "Mais le bilan a été sanglant, il ne reste plus que 40 personnes dans chacune de nos 3 communautés.",
           "text@en": "VOID"
         }
-      ],
-        "choices" : [
-          {
-            "text@en": "VOID",
-            "var_changes": {
-              "risk_matelots": 0
-            },
-            "feedback": [
-              {
-                "character": "you",
-                "text@en": "VOID",
-                "text@fr": "J'aurais pu deviner si j'étais en forme."
-              },
-              {
-                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté.",
-                "text@en": "VOID"
-              }
-            ]
-          },
-          {
-            "text@en": "VOID",
-            "text@fr": "A REMPLIR!",
-            "var_changes": {
-              "risk_matelots": 0
-            },
-            "feedback": [
-              {
-                "character": "you",
-                "text@en": "VOID",
-                "text@fr": "Personne"
-              },
-              {
-                "text@fr": "Le bilan a été sanglant, il ne reste que 40 personnes dans chaque communauté."
-              }
-
-            ]
-          }
-        ]
+      ]
     },
     {
       "year": 7,
