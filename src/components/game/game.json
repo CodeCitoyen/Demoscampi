@@ -408,7 +408,7 @@
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "Puisque c'est cea, nous allons récupérer toute notre île !"
+              "text@fr": "Puisque c'est ainsi, nous allons récupérer toute notre forêt ! Vous resterez sur la plage."
             },
             {
               "text@en": "VOID",
@@ -424,7 +424,7 @@
         {
           "character" : "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Les petits conflits se multiplient, il serait temps de procéder à une élection pour choisir le dirigeant de notre île."
+          "text@fr": "Les petits litiges se multiplient, il serait temps de procéder à une élection pour choisir le dirigeant de notre île."
         },
         {
           "character" : "chef_robinsons",
@@ -529,12 +529,12 @@
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Un touriste était allé pêcher près d'un îlot très au nord de l'île, malgré les avertissements de nos amis robinsons. "
+          "text@fr": "Un touriste était allé pêcher près d'un îlot très au nord, malgré les avertissements de nos amis robinsons. "
         },
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Résultat, ils s'est fait salement blesser par les cannibales qui vivent là-bas."
+          "text@fr": "Résultat, il s'est fait salement blesser par les cannibales qui vivent là-bas."
         },
         {
           "character": "chef_touristes",
@@ -584,6 +584,10 @@
               "character": "Pr. Avote",
               "text@en": "VOID",
               "text@fr": "Ca c'est intéressant... il semblerait que votre discours ait finalement été contre-productif, en poussant la majorité des touristes et des matelots à se réunir."
+            },
+            {
+              "text@en": "VOID",
+              "text@fr": "L'expédition punitive se heurte à une farouche résistance des cannibales, et tourne en débâcle, avec de nombreux blessés."
             }
           ]
         },
@@ -602,7 +606,7 @@
             },
             {
               "text@en" : "VOID",
-              "text@fr" : "Les matelots, partisans d'une punition limitée, se font exclure au premier tour. Ils se rallient alors à la proposition des robinsons, et la paix est préservée."
+              "text@fr" : "Les matelots, partisans d'une punition limitée, se font exclure au premier tour. Ils se rallient alors à la proposition des robinsons, et la paix est préservée par l'isolationnisme."
             }
           ]
         }
@@ -622,7 +626,7 @@
         },
         {
           "character": "chef_matelots",
-          "text@fr": "Mais le bilan a été sanglant, il ne reste plus que 40 personnes dans chacune de nos 3 communautés.",
+          "text@fr": "Mais le bilan a été lourd, il ne reste plus que 40 personnes dans chacune de nos 3 communautés.",
           "text@en": "VOID"
         }
       ]
@@ -631,72 +635,52 @@
       "year": 7,
       "texts": [
         {
-          "text@fr": "Elephant TRES DANGEREUX détecté dans la forêt, les gens se tâtent :"
+          "character": "chef_matelots",
+          "text@fr": "Nous avons croisé un éléphant albinos dans la forêt. Voilà qui nous ferait de la nourriture pour plusieurs semaines, et nous changerait des langoustines !",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_touristes",
+          "text@fr": "Mieux vaudrait le capturer et le faire travailler à notre place. Il pourrait porter à lui seul 10 troncs d’arbres !",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_robinsons",
+          "text@fr": "Je vous conseille de ne pas l'approcher, il est trop fort pour nous. Nous le savons d'expérience.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "Pr. Avote",
+          "text@fr": "Une fois encore il faut voter. Mais cette fois, je propose que chacun classe par ordre de préférence les options possibles, cela nous permettra d'être plus pertinents dans la décision.",
+          "text@en": "VOID"
+        },
+
+        {
+          "character": "chef_matelots",
+          "text@fr": "Nous, on veut le bouffer, ou àla rigueur en faire une bête de somme, mais certainement pas le laisser errer.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_touristes",
+          "text@fr": "Nous, on en ferait bien une bête de somme. Par contre hors de question de manger cela, ça doit être plein de parasites aussi ; on préfèrerait encore le laisser partir.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_robinsons",
+          "text@fr": "L'agresser serait s'exposer à de graves dégats. Il est peut-être possible de le tuer en lui tendant un traquenard, mais espérer le dompter, c'est du non-sens complet !",
+          "text@en": "VOID"
+        },
+        
+        {
+          "character": "Pr. Avote",
+          "text@fr": "Par contre je ne sais pas quel algorithme de décision appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous capitaine ?",
+          "text@en": "VOID"
         }
       ],
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Le laisser libre",
-          "var_changes": {
-            "risk_matelots": 1,
-            "risk_indiens": -1,
-            "risk_touristes": 2
-          },
-          "feedback": [
-            {
-              "character": "you",
-              "text@en": "VOID",
-              "text@fr": "Les animaux aussi ont une âme. "
-            }
-          ]
-        },
-        {
-          "text@en": "VOID",
-          "text@fr": "Le chasser",
-          "var_changes": {
-            "risk_matelots": -1,
-            "risk_indiens": 2,
-            "risk_touristes": -2
-          },
-          "feedback": [
-            {
-              "character": "you",
-              "text@en": "VOID",
-              "text@fr": "Ca peut nous nourrir pour quelques jours."
-            }
-          ]
-        },
-        {
-          "text@en": "VOID",
-          "text@fr": "Bête de somme",
-          "var_changes": {
-            "risk_matelots": 0,
-            "risk_indiens": 0,
-            "risk_touristes": 0
-          },
-          "feedback": [
-            {
-              "character": "you",
-              "text@en": "VOID",
-              "text@fr": "Bête de somme."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "year": 8,
-      "texts": [
-        {
-          "text@en": "VOID",
-          "text@fr": "Systèmes de vote proposés : "
-        }
-      ],
-      "choices" : [
-        {
-          "text@en": "VOID",
-          "text@fr": "Condorcet",
+          "text@fr": "Choisir la somme numérique",
           "var_changes": {
             "risk_matelots": 0
           },
@@ -704,13 +688,23 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "condorcet"
+              "text@fr": "Faisons simple, sommons les chiffres"
+            },
+            {
+              "character": "Pr. Avote",
+              "text@en": "VOID",
+              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, chaque option a eu exactement le même score... C'est rarissime, mais ça peut arriver."
+            },
+            {
+              "character": "chef_robinsons",
+              "text@en": "VOID",
+              "text@fr": "De toute façon, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Voici qui tranche le problème - hors de question de commettre un si dangereux sacrilège."
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "borda",
+          "text@fr": "Utiliser l'algorithme par pairs",
           "var_changes": {
             "risk_matelots": 0
           },
@@ -718,50 +712,84 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "borda"
+              "text@fr": "Je te laisse comparer toutes les options deux à deux"
+            },            
+            {
+              "character": "Pr. Avote",
+              "text@en": "VOID",
+              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, et ont des préférences circulaires, chaque option a eu la même force lors de l'application de l'algoithme... C'est rarissime, mais ça peut arriver. Sans cela, on aurait vraiment eu un résultat très fiable."
+            },
+            {
+              "character": "chef_robinsons",
+              "text@en": "VOID",
+              "text@fr": "De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
             }
           ]
         }
       ]
+      
     },
+
     {
       "year": 8,
       "texts": [
         {
           "text@en": "VOID",
-          "text@fr": "Un voilier est visible au loin, il va manifestement passer non loin de l'île, un choix se pose alors pour ceux qui veulent partir de l'île."
+          "text@fr": "Un grand voilier est visible au loin, il va manifestement passer non loin de l'île. Un choix se pose alors pour les habitants de l'île."
+        },
+        {
+          "character": "chef_touristes",
+          "text@en": "VOID",
+          "text@fr": "Vite, faisons un immense feu pour l'attirer, avec notre réserve de bois."
+        },
+        {
+          "character": "chef_matelots",
+          "text@en": "VOID",
+          "text@fr": "Pas sûr qu'ils comprennent, ni qu'ils veuillent recueillir des dizaines de naufragés. Faisons un radeau avec le bois, et prenons les d'assaut à la nuit tombée, ça évitera de grosses déceptions."
+        },
+        {
+          "character": "chef_robinsons",
+          "text@en": "VOID",
+          "text@fr": "Ca ne va pas non ? Et d'abord, pourquoi partir de ce paradis insulaire ? Je rappelle que ce bois que nous rassemblons depuis des semainesdoit servir à la construction d'un pont sur le fleuve au sud"
+        },
+        {
+          "character": "chef_matelots",
+          "text@en": "VOID",
+          "text@fr": "Il faut se décider vite. Que chacun dise simplement la ou les propositions auxquelles il adhère, et rallions-nous tous à la proposition majoritaire"
+        },
+        {
+          "character": "Pr. Avote",
+          "text@en": "VOID",
+          "text@fr": "C'est quand même une question sensible. Je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, ce sera plus précis. Qu'en pensez-vous capitaine ?"
         }
       ],
+      
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Attirer le bateau avec un feu, au risque de le faire fuir",
+          "text@fr": "Voter par simple(s) adhésion(s)",
           "var_changes": {
-            "risk_matelots": -2,
-            "risk_indiens": 0,
-            "risk_touristes": -2
+            "risk_matelots": 0
           },
           "feedback": [
             {
-              "character": "you",
+              "character": "Pr. Avote",
               "text@en": "VOID",
-              "text@fr": "A REMPLIR"
+              "text@fr": "Finalement chacun n'a choisi qu'un seul bulletin, donc ça revient à un simple vote majoritaire... mais c'est le feu qui a été choisi !"
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "Le prendre d'abordage avec des pirogues.",
+          "text@fr": "Donnons une note à ces propositions",
           "var_changes": {
-            "risk_matelots": 0,
-            "risk_indiens": -1,
-            "risk_touristes": 0
+            "risk_matelots": 0
           },
           "feedback": [
             {
-              "character": "you",
+              "character": "Pr. Avote",
               "text@en": "VOID",
-              "text@fr": "A REMPLIR"
+              "text@fr": "Finalement les gens ont tous mis 10/10 à leur favori, et 0/10 aux autres choix, quel manque de fait-play. Donc ça revient à un simple vote majoritaire... mais c'est le feu qui a été choisi !"
             }
           ]
         }
@@ -772,13 +800,27 @@
       "texts": [
         {
           "text@en": "VOID",
-          "text@fr": "Les gens hésitent entre des systèmes de vote :"
-        }
+          "text@fr": "Alerté par la fumée, le voilier s'est dérouté, et a mouillé l'ancre dans une crique au plus près de la plage. Chance, c'était le navire d'une ONG de secours en mer."
+        },
+        {
+          "text@en": "VOID",
+          "text@fr": "Un grand banquet est organisé sur la plage, pour fêter le départ. Le voilier laisse le choix du menu : confit d'aubergines, tripes au saintdoux, raclette, ou langoustines grillées."
+        },
+        {
+          "character": "Pr. Avote",
+          "text@en": "VOID",
+          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre "très bien" et "très mauvais", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
+        },
+        {
+          "character": "Pr. Avote",
+          "text@en": "VOID",
+          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet "spoiler" entre les différentes possibilités de vote. Qu'en pensez-vous capitaine ?"
+        },
       ],
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Par notation",
+          "text@fr": "Essayer ce nouveau type de vote",
           "var_changes": {
             "risk_matelots": 0
           },
@@ -786,13 +828,13 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "A REMPLIR"
+              "text@fr": "Tentons cela, j'aime innover"
             }
           ]
         },
         {
           "text@en": "VOID",
-          "text@fr": "Par approbation.",
+          "text@fr": "   ",
           "var_changes": {
             "risk_matelots": 0
           },
