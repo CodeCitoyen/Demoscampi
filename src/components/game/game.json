@@ -51,7 +51,7 @@
       "name@en": "VOID",
       "name@fr": "Catherine",
       "title@en": "VOID",
-      "title@fr": "Touriste passionnée",
+      "title@fr": "Porte-parole des touristes",
       "avatar": "./images/avatars/catherine.jpg"
     },
     "chef_robinsons": {
@@ -65,7 +65,7 @@
       "name@en": "VOID",
       "name@fr": "Martin",
       "title@en": "VOID",
-      "title@fr": "Quartier-Maître",
+      "title@fr": "Quartier-Maître du navire",
       "avatar": "./images/avatars/martin.jpg"
     },
     "chef_indiens": {
@@ -809,13 +809,13 @@
         {
           "character": "Pr. Avote",
           "text@en": "VOID",
-          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre "très bien" et "très mauvais", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
+          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
         },
         {
           "character": "Pr. Avote",
           "text@en": "VOID",
-          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet "spoiler" entre les différentes possibilités de vote. Qu'en pensez-vous capitaine ?"
-        },
+          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet \"spoiler\" entre les différentes possibilités de vote. Qu'en pensez-vous capitaine ?"
+        }
       ],
       "choices" : [
         {
