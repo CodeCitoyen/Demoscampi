@@ -24,12 +24,15 @@ Après chaque étape, il existe une probabilité d'un dixième de la valeur du r
 
 ### Images
 
-Photos : https://unsplash.com/
-Logo: adapté de Prawn By Chanut is Industries
+* Photos : https://unsplash.com/
+* Logo: adapté de Prawn By Chanut is Industries
 
 ### Code
 
-Le code est tiré du jeu [Le bon, la brute et la comptable](https://jplusplus.github.io/the-accountant/fr.html#/) développé par [Journalisme++](http://www.jplusplus.org/fr/) et publié sous [GNU général public license 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[Dépôt Github du projet](https://github.com/CodeCitoyen/Demoscampi)
+
+Ce code est principalement tiré du jeu [Le bon, la brute et la comptable](https://jplusplus.github.io/the-accountant/fr.html#/) développé par [Journalisme++](http://www.jplusplus.org/fr/) et publié sous [GNU général public license 3](https://www.gnu.org/licenses/gpl-3.0.en.html) sur leur [dépôt Github](https://github.com/jplusplus/the-accountant/).
+
 
 <table>
 <tr>
