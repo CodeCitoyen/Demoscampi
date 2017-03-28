@@ -482,12 +482,12 @@
         {
           "character" : "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Mais Capitaine, vous pourriez vous présenter, et proposer la seule alternative intelligente, celle que l'équipe demande : bâtir rapidement un grand bateau et partir de l'île."
+          "text@fr": "Mais Capitaine, vous pourriez vous présenter, et proposer la seule alternative intelligente, celle que l'équipage demande : bâtir rapidement un grand bateau et partir de l'île."
         },
         {
           "character" : "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Partir de l'île ? Pourquoi faire ? Nous somme si bien ici."
+          "text@fr": "Partir de l'île ? Pour quoi faire ? Nous somme si bien ici."
         },
         {
           "character" : "chef_touristes",
@@ -501,7 +501,8 @@
           "text@fr": "Se présenter à l'élection, pour construire un bateau",
           "var_changes": {
             "risk_matelots": 1,
-            "risk_robinsons": 1
+            "risk_robinsons": 1,
+            "nourriture": -1
           },
           "feedback": [
             {
@@ -514,9 +515,9 @@
               "text@fr": "Le vote se termine par la victoire de Catherine."
             },
             {
-              "character" : "Pr. Avote",
+              "character" : "helper",
               "text@en": "VOID",
-              "text@fr": "Whoups, il semble qu'en vous présentant, vous ayez pris des voix aux robinsons et fait gagner les touristes. C'est le problème de ce type de vote."
+              "text@fr": "Whoups, il semble qu'en vous présentant, vous ayez pris des voix aux robinsons, et ainsi fait gagner les touristes. C'est le problème de ce type de vote majoritaire à un seul tour."
             }
           ]
         },
@@ -524,7 +525,7 @@
           "text@en": "VOID",
           "text@fr": "Ne pas se présenter à l'élection",
           "var_changes": {
-            "risk_matelots": 0,
+            "risk_touristes": 1,
             "nourriture": 1
           },
           "feedback": [
@@ -535,7 +536,7 @@
             },
             {
               "text@en": "VOID",
-              "text@fr": "Le vote se termine par la victoire de Hannah, grâce au soutien des matelots. La communauté se met à construire des abris sûrs."
+              "text@fr": "Le vote se termine par la victoire de Hannah et des robinsons, grâce au soutien des matelots. La communauté se met à construire des abris sûrs en forêt."
             }
           ]
         }
@@ -552,7 +553,7 @@
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Un touriste était allé pêcher près d'un îlot très au nord, malgré les avertissements de nos amis robinsons. "
+          "text@fr": "Un touriste était allé pêcher près d'un îlot très au nord, malgré les avertissements de nos amis robinsons."
         },
         {
           "character": "chef_matelots",
@@ -562,7 +563,7 @@
         {
           "character": "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "C'est une scandaleuse agression ! Allons exterminer ces barbares jusqu'au dernier !"
+          "text@fr": "C'est un crime infâme ! Nous devons exterminer ces monstres !"
         },
         {
           "character": "chef_matelots",
@@ -575,7 +576,7 @@
           "text@fr": "Ces cannibales sont plus dangereux que vous ne le pensez. Le mieux est d'éviter toute interaction avec eux, sinon ils nous détruiront avec leurs sarbacanes empoisonnées."
         },
         {
-          "character": "Pr. Avote",
+          "character": "helper",
           "text@en": "VOID",
           "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin de ne pas risquer d'effets négatifs entre ces trois propositions."
         },
@@ -591,7 +592,7 @@
           "text@fr": "Faire un discours pacifiste",
           "var_changes": {
             "risk_matelots": 2,
-            "risk_indiens": -2
+            "risk_touristes": -2
           },
           "feedback": [
             {
