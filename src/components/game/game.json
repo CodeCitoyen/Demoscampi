@@ -140,16 +140,16 @@
   "steps": [
     {
       "year": 1,
-      "texts": [ 
+      "texts": [
         {
           "character": "chef_touristes",
-          "text@fr": "Bonjour capitaine, cette croisière en voilier se déroule vraiment à merveille ! Et venant d'une figure de la haute société comme moi, c'est un compliment exceptionnel. Fi, voici votre quartier-maître !.",
+          "text@fr": "Bonjour capitaine, cette croisière en voilier est un véritable enchantement. Tiens, voici votre quartier-maître !.",
           "text@en": "VOID"
         },
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Haïhaï capitaine. Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salades de pâtes. Sinon, on tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Haïhaï capitaine. Je viens de croiser le maître-cuistot. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salade de pâtes. A moins qu'on ne tire au sort. Qu'en pensez-vous ?"
         }
       ],
       "choices": [
@@ -240,7 +240,7 @@
               "character": "you",
               "text@en": "VOID",
               "text@fr": "Ce sera la forêt."
-            },            
+            },
             {
               "character": "chef_touristes",
               "text@en": "VOID",
@@ -259,9 +259,8 @@
               "character": "you",
               "text@en": "VOID",
               "text@fr": "Débattons de la situation."
-            },            
+            },
             {
-              "character": "chef_matelots",
               "text@en": "VOID",
               "text@fr": "Après de longues parlementations, les touristes se laissent convaincre qu'il est plus sûr d'aller chercher abri et nourriture dans la forêt, car le temps se couvre."
             }
@@ -504,7 +503,7 @@
             "risk_matelots": 0,
             "nourriture": 1
           },
-          "feedback": [ 
+          "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
@@ -614,7 +613,7 @@
     },
     {
       "year": 6,
-      "texts": [ 
+      "texts": [
         {
           "text@fr": "Un parasite de la Langoustine se propage aux humains, et fait des ravages : surtout chez les touristes, un peu chez les marins.",
           "text@en": "VOID"
@@ -628,6 +627,16 @@
           "character": "chef_matelots",
           "text@fr": "Mais le bilan a été lourd, il ne reste plus que 40 personnes dans chacune de nos 3 communautés.",
           "text@en": "VOID"
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "VOID",
+          "text@fr": "Ouch ! J'en prends note...",
+          "var_changes": {
+          },
+          "feedback": [
+          ]
         }
       ]
     },
@@ -670,7 +679,7 @@
           "text@fr": "L'agresser serait s'exposer à de graves dégats. Il est peut-être possible de le tuer en lui tendant un traquenard, mais espérer le dompter, c'est du non-sens complet !",
           "text@en": "VOID"
         },
-        
+
         {
           "character": "Pr. Avote",
           "text@fr": "Par contre je ne sais pas quel algorithme de décision appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous capitaine ?",
@@ -713,7 +722,7 @@
               "character": "you",
               "text@en": "VOID",
               "text@fr": "Je te laisse comparer toutes les options deux à deux"
-            },            
+            },
             {
               "character": "Pr. Avote",
               "text@en": "VOID",
@@ -727,7 +736,7 @@
           ]
         }
       ]
-      
+
     },
 
     {
@@ -763,7 +772,7 @@
           "text@fr": "C'est quand même une question sensible. Je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, ce sera plus précis. Qu'en pensez-vous capitaine ?"
         }
       ],
-      
+
       "choices" : [
         {
           "text@en": "VOID",
