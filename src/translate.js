@@ -24,7 +24,7 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
     //   'fr_BE': 'fr',
     //   'de_DE': 'de'
     // })
-    //   .determinePreferredLanguage()
+    .determinePreferredLanguage()
     .fallbackLanguage('fr')
     .useLocalStorage()
     // .errorOnUnhandledRejections(false)
