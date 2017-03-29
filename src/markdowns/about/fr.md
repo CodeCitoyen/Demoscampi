@@ -7,9 +7,8 @@ Il a été prototypé pendant la [nuit du code citoyen](https://codecitoyen.gith
 
 Les utilisateurs doivent prendre des décisions suite à des questions. Les ressources de la communauté reflètent les choix du joueur.
 
-Le **mécontentement** augmente en cas de décision impopulaire auprès de chaque population.
+Le **mécontentement** augmente en cas de décision impopulaire auprès d'une des populations. Un mécontentement trop élevé entraîne un risque proportionnel d'avoir une révolte au tour suivant, et donc un Game Over.
 
-Après chaque étape, il existe une probabilité d'un dixième de la valeur du risque de déclencher un _game over_. Par exemple, si le **mécontentement des matelots** est de 9, alors l'utilisateur a 9 chances sur 10 de se retrouver déboulonné au tour suivant.
 
 # Crédits
 

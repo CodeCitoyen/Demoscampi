@@ -1,7 +1,7 @@
 {
   "vars": {
     "risk_matelots": {
-      "value": 8,
+      "value": 0,
       "private": false,
       "category": "risk",
       "label@en": "VOID",
@@ -84,7 +84,7 @@
     },
     "helper": {
       "name@en": "VOID",
-      "name@fr": "Pr. Avote",
+      "name@fr": "M. Avotais",
       "title@en": "VOID",
       "title@fr": "Professeur de sociologie",
       "avatar": "./images/avatars/professeur.jpg"
@@ -245,7 +245,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
-            "risk_touristes": 2
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -281,7 +281,7 @@
           "text@en": "VOID",
           "text@fr": "Soumettre la décision au vote",
           "var_changes": {
-            "risk_matelots": 2
+            "risk_matelots": 1
           },
           "feedback": [
             {
@@ -412,7 +412,7 @@
           "text@en": "VOID",
           "text@fr": "Voter uniquement entre nouveaux échoués",
           "var_changes": {
-            "risk_robinsons": 2,
+            "risk_robinsons": 1,
             "risk_matelots": 1
           },
           "feedback": [
@@ -508,13 +508,14 @@
               "text@fr": "Votez pour moi, nous construirons un magnifique bateau à rames !"
             },
             {
+              "character" : "helper",
               "text@en": "VOID",
-              "text@fr": "Le vote se termine par la victoire de Catherine."
+              "text@fr": "Le vote s'est terminé par la victoire de la candidate des touristes."
             },
             {
               "character" : "helper",
               "text@en": "VOID",
-              "text@fr": "Whoups, il semble qu'en vous présentant, vous ayez pris des voix aux robinsons, et ainsi fait gagner les touristes. C'est le problème de ce type de vote majoritaire à un seul tour."
+              "text@fr": "Hum, il semble qu'en vous présentant, vous ayez pris des voix aux robinsons, et ainsi fait gagner les touristes. C'est le problème de ce type de vote majoritaire à un seul tour."
             }
           ]
         },
@@ -587,7 +588,7 @@
           "text@en": "VOID",
           "text@fr": "Faire un discours pacifiste",
           "var_changes": {
-            "risk_robinsons": 2,
+            "risk_robinsons": 1,
             "risk_touristes": 1
           },
           "feedback": [
@@ -615,7 +616,7 @@
           "text@en": "VOID",
           "text@fr": "Ne rien faire",
           "var_changes": {
-            "risk_touristes": 2,
+            "risk_touristes": 1,
             "risk_matelots": 1
           },
           "feedback": [
@@ -738,7 +739,7 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Je te laisse comparer toutes les options deux à deux"
+              "text@fr": "Je te laisse comparer toutes les options choisies deux à deux"
             },
             {
               "character": "helper",
@@ -776,12 +777,12 @@
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Ca ne va pas non ? Et d'abord, pourquoi partir de ce paradis insulaire ? Je rappelle que ce bois que nous rassemblons depuis des semaines doit servir à la construction d'un pont sur le fleuve au sud"
+          "text@fr": "Ca ne va pas non ? Et d'abord, pourquoi partir de ce paradis insulaire ? Je rappelle que ce bois que nous rassemblons depuis des semaines doit servir à la construction d'un pont sur le fleuve au sud."
         },
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Il faut se décider vite. Que chacun dise simplement la ou les propositions auxquelles il adhère, et rallions-nous tous à la proposition majoritaire"
+          "text@fr": "Il faut se décider vite. Que chacun dise simplement la ou les propositions auxquelles il adhère, et rallions-nous tous à la proposition majoritaire."
         },
         {
           "character": "helper",
@@ -927,7 +928,7 @@
     },
     {
       "text@en": "VOID",
-      "text@fr": "<h2>Félicitations !</h2><p></p>"
+      "text@fr": "<h2>Félicitations ! Les passagers ont été ramenés à bon port !</h2><p></p>"
     }
   ],
   "explainers": {
