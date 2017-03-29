@@ -1,3 +1,4 @@
+/* eslint-disable quote-props */
 /** @ngInject */
 module.exports.translateConfig = function translateConfig($translateProvider, tmhDynamicLocaleProvider) {
   // Load current locale
@@ -8,7 +9,12 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
       prefix: 'locales/',
       suffix: '.json'
     })
-    .registerAvailableLanguageKeys('fr')
+    .registerAvailableLanguageKeys(['fr'],
+    {
+      'fr_FR': 'fr',
+      'fr_BE': 'fr'
+    }
+    )
     //   ['en', 'fr', 'de'], {
     //   'en_US': 'en',
     //   'en_UK': 'en',
@@ -18,7 +24,7 @@ module.exports.translateConfig = function translateConfig($translateProvider, tm
     //   'fr_BE': 'fr',
     //   'de_DE': 'de'
     // })
-    .determinePreferredLanguage()
+    //   .determinePreferredLanguage()
     .fallbackLanguage('fr')
     .useLocalStorage()
     // .errorOnUnhandledRejections(false)
