@@ -16,7 +16,7 @@
     "intro": {
       "heading": "Démocratie et Langoustines",
       "meta": "— par <a href='http://codecitoyen.github.io' target='_blank'>Les bricodeurs</a>",
-      "description": "<p>Vous êtes le capitaine d'un bateau de croisière. Saurez vous mener votre équipage et passagers à bon port? </p>",
+      "description": "<p>Vous êtes le capitaine d'un bateau de croisière. Saurez vous mener votre équipage et vos passagers à bon port&nbsp;?</p>",
       "new-game": "Nouvelle croisière",
       "continue": "Continuer"
     },
@@ -25,7 +25,7 @@
       "over": {
         "undo": "Annuler la dernière action",
         "again": "Recommencer",
-        "share": "Vous avez survécu <a ui-sref='main.vars'>{{mois}} mois</a>. Partagez votre score!"
+        "share": "Partagez cette aventure sur les réseaux sociaux!"
       }
     },
     "toolbar": {

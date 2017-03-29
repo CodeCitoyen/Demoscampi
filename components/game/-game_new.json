@@ -1,0 +1,220 @@
+{
+  "vars": {
+    "personal_account": {
+      "value": 0,
+      "private": false,
+      "category": "player",
+      "chart": true,
+      "label@en": "Your cash",
+      "label@fr": "Vos gains"
+    },
+    "mécontentementmatelots": {
+      "value": 0,
+      "private": false,
+      "category": "risk",
+      "chart": "main-chart",
+      "label@en": "mécontentementmatelots",
+      "label@fr": "mécontentementmatelots"
+    },
+    "satisfactionrobinsons": {
+      "value": 2,
+      "private": false,
+      "category": "risk",
+      "chart": "main-chart",
+      "label@en": "Expenditures",
+      "label@fr": "Dépenses"
+    },
+    "satisfactionindiens": {
+      "value": 2,
+      "private": false,
+      "category": "risk",
+      "chart": "main-chart",
+      "label@en": "Expenditures",
+      "label@fr": "Dépenses"
+    },
+    "satisfactionmatelots": {
+      "value": 2,
+      "private": false,
+      "category": "risk",
+      "chart": "main-chart",
+      "label@en": "Expenditures",
+      "label@fr": "Dépenses"
+    }
+  },
+  "charts": {
+    "main-chart": {
+      "title@en": "Satisfaction !",
+      "title@fr": "Satisfaction",
+      "description@en": "Satisfaction",
+      "description@fr": "Satisfaction"
+    }
+  },
+  "characters": {
+    "touristes": {
+      "name@en": "Touristes",
+      "name@fr": "Touristes",
+      "title@en": "Touristes",
+      "title@fr": "Touristes",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "robinsoncrusoe": {
+      "name@en": "robinsoncrusoe",
+      "name@fr": "robinsoncrusoe",
+      "title@en": "robinsoncrusoe",
+      "title@fr": "robinsoncrusoe",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "indiens": {
+      "name@en": "indiens",
+      "name@fr": "indiens",
+      "title@en": "indiens",
+      "title@fr": "indiens",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "matelots": {
+      "name@en": "matelots",
+      "name@fr": "matelots",
+      "title@en": "matelots",
+      "title@fr": "matelots",
+      "avatar": "./images/avatars/mayor.jpg"
+    },
+    "you": {
+      "name@en": "you",
+      "name@fr": "you",
+      "title@en": "you",
+      "title@fr": "you",
+      "avatar": "./images/avatars/mayor.jpg"
+    }
+  },
+  "years": {
+    "2016": {
+      "picture": "images/years/brussels.jpeg",
+      "title@en": "The Beginning",
+      "title@fr": "Rideau"
+    },
+    "2017": {
+      "picture": "images/years/riga.jpeg",
+      "title@en": "First Steps",
+      "title@fr": "Premiers pas"
+    },
+    "2018": {
+      "picture": "images/years/riga.jpeg",
+      "title@en": "First Steps",
+      "title@fr": "Premiers pas"
+    }
+  },
+  "steps": [
+    {
+      "year": 2016,
+      "texts": [
+        {
+          "character": "touristes",
+          "text@en": "Salut !",
+          "text@fr": "Salut !"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "Go",
+          "text@fr": "Commencer",
+          "feedback": [
+            {
+              "character": "go",
+              "text@en": "go",
+              "text@fr": "go"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "texts": [
+        {
+          "character": "touristes",
+          "text@en": "blabla ?",
+          "text@fr": "blabla ?"
+        }
+      ],
+      "choices": [
+        {
+          "text@en": "1",
+          "text@fr": "1",
+          "var_changes": {
+            "risk_satisfactiontourist": 1
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "1",
+              "text@fr": "1"
+            }
+          ]
+        },
+        {
+          "text@en": "2",
+          "text@fr": "2",
+          "var_changes": {
+            "risk_satisfactiontourist": 2
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "2",
+              "text@fr": "2"
+            }
+          ]
+        },
+        {
+          "text@en": "3",
+          "text@fr": "3",
+          "var_changes": {
+            "risk_satisfactiontourist": 3
+          },
+          "feedback": [
+            {
+              "character": "you",
+              "text@en": "3",
+              "text@fr": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "condition": {
+        "var": "risk_satisfactiontourist",
+        "min": 2
+      },
+      "text@en": "<h2>3 !</h2><p></p>",
+      "text@fr": "<h2>3 !</h2><p></p>"
+    },
+    {
+      "condition": {
+        "var": "satisfactionrobinsons",
+        "min": 2
+      },
+      "text@en": "<h2>2 !</h2><p></p>",
+      "text@fr": "<h2>2 !</h2><p></p>"
+    },
+    {
+      "condition": {
+        "var": "risk_satisfactiontourist",
+        "min": -2,
+        "max": 0
+      },
+      "text@en": "<h2>1 !</h2><p></p>",
+      "text@fr": "<h2>1 !</h2><p></p>"
+    }
+  ],
+  "explainers": {
+    "systemedevoteun": {
+      "title@en": "systemedevoteun",
+      "title@fr": "systemedevoteun",
+      "body@en": "blabla",
+      "body@fr": "blabla"
+    }
+  }
+}
