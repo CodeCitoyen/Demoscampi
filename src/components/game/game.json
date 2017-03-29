@@ -1,7 +1,7 @@
 {
   "vars": {
     "risk_matelots": {
-      "value": 0,
+      "value": 8,
       "private": false,
       "category": "risk",
       "label@en": "VOID",
@@ -77,7 +77,7 @@
     },
     "you": {
       "name@en": "VOID",
-      "name@fr": "you",
+      "name@fr": "Fairchoice",
       "title@en": "VOID",
       "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
@@ -167,9 +167,13 @@
           "text@en": "VOID",
           "text@fr": "Laisser les passagers voter",
           "var_changes": {
-            "nourriture": -2
           },
           "feedback": [
+            {
+              "character": "you",
+              "text@en": "VOID",
+              "text@fr": "Que les passagers choisissent ce qui leur sied."
+            },
             {
               "character": "chef_matelots",
               "text@fr": "Les passagers ont voté en majorité pour les langoustines",
@@ -186,14 +190,13 @@
           "text@en": "VOID",
           "text@fr": "Choisir au hasard",
           "var_changes": {
-            "nourriture": -1,
             "risk_touristes": 1
           },
           "feedback": [
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Martin, avez vous une pièce s'il vous plait?"
+              "text@fr": "Martin, avez vous une pièce s'il vous plait ?"
             },
             {
               "character": "you",
@@ -242,8 +245,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
-            "risk_touristes": 2,
-            "nourriture": -3
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -262,7 +264,6 @@
           "text@en": "VOID",
           "text@fr": "Organiser un débat",
           "var_changes": {
-            "nourriture": -1
           },
           "feedback": [
             {
@@ -369,8 +370,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer la fusion des deux groupes",
           "var_changes": {
-            "risk_tourists": 1,
-            "nourriture": 2
+            "risk_tourists": 1
           },
           "feedback": [
             {
@@ -389,8 +389,7 @@
           "text@en": "VOID",
           "text@fr": "Voter avec tous les habitants de l'île",
           "var_changes": {
-            "risk_tourists": 1,
-            "nourriture": 2
+            "risk_tourists": 1
           },
           "feedback": [
             {
@@ -414,8 +413,7 @@
           "text@fr": "Voter uniquement entre nouveaux échoués",
           "var_changes": {
             "risk_robinsons": 2,
-            "risk_matelots": 1,
-            "nourriture": -2
+            "risk_matelots": 1
           },
           "feedback": [
             {
@@ -501,8 +499,7 @@
           "text@fr": "Se présenter à l'élection, pour construire un bateau",
           "var_changes": {
             "risk_matelots": 1,
-            "risk_robinsons": 1,
-            "nourriture": -1
+            "risk_robinsons": 1
           },
           "feedback": [
             {
@@ -525,8 +522,7 @@
           "text@en": "VOID",
           "text@fr": "Ne pas se présenter à l'élection",
           "var_changes": {
-            "risk_touristes": 1,
-            "nourriture": 1
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -892,26 +888,26 @@
   "endings": [    {
       "condition": {
         "var": "risk_matelots",
-        "min": 4
+        "min": 5
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les matelots ne sont pas contents !</h2><p></p>"
+      "text@fr": "<h2>Les matelots ne sont pas contents et se révoltent !</h2><p></p>"
     },
     {
       "condition": {
         "var": "risk_touristes",
-        "min": 4
+        "min": 5
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les touristes ne sont pas content !</h2><p></p>"
+      "text@fr": "<h2>Les touristes ne sont pas contents et se révoltent !</h2><p></p>"
     },
     {
       "condition": {
         "var": "risk_robinsons",
-        "min": 4
+        "min": 5
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les touristes ne sont pas content !</h2><p></p>"
+      "text@fr": "<h2>Les robinsons ne sont pas contents et se révoltent !</h2><p></p>"
     },
     {
       "condition": {
@@ -924,7 +920,7 @@
     {
       "condition": {
         "var": "sante",
-        "max": 3
+        "max": 2
       },
       "text@en": "VOID",
       "text@fr": "<h2>Epidemie!</h2><p></p>"
