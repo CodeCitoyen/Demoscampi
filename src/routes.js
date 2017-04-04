@@ -42,7 +42,7 @@ module.exports.routesConfig = function routesConfig($stateProvider, $urlRouterPr
         /** @ngInject */
         markdown: ($stateParams, $http, $translate) => {
           // Find the current language
-          const language = $stateParams.language || $translate.proposedLanguage() || $translate.use() || 'en';
+          const language = $stateParams.language || $translate.proposedLanguage() || $translate.use() || 'fr';
           // Build the markdown path
           const path = `markdowns/${$stateParams.slug}/${language}.md`;
           // Return a promise

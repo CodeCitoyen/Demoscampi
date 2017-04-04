@@ -41,7 +41,7 @@ function I18nService($translate, memoizeMixin) {
       return this[_meta];
     }
     get use() {
-      return $translate.use() || 'en';
+      return $translate.use() || 'fr';
     }
     // Some shortcut for common field names
     get title() {
