@@ -362,7 +362,7 @@
         {
           "character": "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "Un instant, c'est peut-être un piège, méfions-nous de ces inconnus, restons à part..."
+          "text@fr": "Un instant, c'est peut-être un piège, méfions-nous de ces inconnus. Autant rester à part."
         }
       ],
       "choices": [
@@ -932,11 +932,53 @@
     }
   ],
   "explainers": {
-    "systemedevoteun": {
+    "vote_uninominal_majoritaire": {
       "title@en": "VOID",
-      "title@fr": "systemedevoteun",
+      "title@fr": "Vote Uninominal Majoritaire",
       "body@en": "VOID",
-      "body@fr": "blabla"
+      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat, puis à élire celui ayant reçu le plus de voix. Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>L'introduction de plusieurs tours d'élection permet d'atténuer un peu ces problèmes; dans la version la plus poussée, un seul candidat est éliminé à chaque tour. Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
+    },
+
+    "vote_par_approbation": {
+      "title@en": "VOID",
+      "title@fr": "Vote par Approbation",
+      "body@en": "VOID",
+      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote -celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple."
+    },
+
+    "vote_par_notation": {
+      "title@en": "VOID",
+      "title@fr": "Vote par Notation",
+      "body@en": "VOID",
+      "body@fr": "Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
+    },
+
+    "vote_borda": {
+      "title@en": "VOID",
+      "title@fr": "Vote Borda",
+      "body@en": "VOID",
+      "body@fr": "Le système de vote dit \"borda\" consiste, pour chaque électeur, à classer les candidats par ordre de préférence ; puis une valeur est affectée a chaque candidat classé (1 pour le choix préfère, 2 pour le deuxième...). Trouver le meilleur candidat revient alors simplement à compter les points obtenus par chaque candidat.<br/><br/>Détail intriguant, cette méthode est vulnérable à un effet de \"reverse spoiler\" : le fait d'accumuler plusieurs candidats ayant un positionnement proche, peut \"couler\" un candidat isolé, qui sans cela aurait gagné."
+    },
+
+    "vote_condorcet": {
+      "title@en": "VOID",
+      "title@fr": "Vote Condorcet",
+      "body@en": "VOID",
+      "body@fr": "La méthode de Condorcet revient à comparer tous les candidats deux à deux, et à sélectionner celui étant systématiquement le candidat préféré. Il peut arriver qu'un tel vainqueur n'existe pas (voir <a href=\"https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet\">Paradoxe de Condorcet</a>), auquel cas une méthode alternative, prévue à l'avance, doit être utilisée pour départager les candidats."
+    },
+
+    "vote_jugement_majoritaire": {
+      "title@en": "VOID",
+      "title@fr": "Vote par Jugement Majoritaire",
+      "body@en": "VOID",
+      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat. On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
+    },
+
+    "vote_conclusion": {
+      "title@en": "VOID",
+      "title@fr": "Le meilleur système de vote ?",
+      "body@en": "VOID",
+      "body@fr": "Le \"meilleur système de vote\" est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>Mais on peut noter quelques faits:<ul></li>le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation.</li><li>A ces égards, le système du vote uninominal majoritaire, si largement utilisé en France, est l'un des plus biaisés qui soient</li><li>Il n'y a peut-être pas de système de vote parfait, mais cela n'empêche pas de rechercher le moins bancal, surtout pour prendre des décisions qui vont impacter directement la vie de millions de citoyens</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le véritable pouvoir, c'est choisir la question, non choisir la réponse ; d'où le côté douteux de nombre de référendums, posés de telle sorte que les électeurs n'aient pas le choix ; d'où le scandale du fait que les électeurs ne puissent pas dénoncer une élection malvenue, via un vote blanc correctement comptabilisé."
     }
   }
 }
