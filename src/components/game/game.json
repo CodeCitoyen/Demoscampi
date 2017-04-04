@@ -159,7 +159,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Bien le bonjour à tous. Pour ma part, je plussoie l'idée d'introduire davantage de codécision dans tous les aspects de la vie sociale."
+          "text@fr": "Bien le bonjour à tous. Pour ma part, je soutien l'idée d'introduire davantage de codécision dans tous les aspects de la vie sociale."
         }
       ],
       "choices": [
@@ -190,7 +190,7 @@
           "text@en": "VOID",
           "text@fr": "Choisir au hasard",
           "var_changes": {
-            "risk_touristes": 1
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -237,7 +237,7 @@
         },
         {
           "character": "chef_matelots",
-          "text@fr" : "Mais les secours n'arriveront pas avant plusieurs semaines ! Capitaines, quels sont vos ordres ?"
+          "text@fr" : "Mais les secours n'arriveront pas avant plusieurs semaines ! Capitaine, quels sont vos ordres ?"
         }
       ],
       "choices": [
@@ -245,7 +245,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
-            "risk_touristes": 1
+            "risk_touristes": 3
           },
           "feedback": [
             {
@@ -281,7 +281,7 @@
           "text@en": "VOID",
           "text@fr": "Soumettre la décision au vote",
           "var_changes": {
-            "risk_matelots": 1
+            "risk_matelots": 3
           },
           "feedback": [
             {
@@ -370,7 +370,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer la fusion des deux groupes",
           "var_changes": {
-            "risk_tourists": 1
+            "risk_tourists": 3
           },
           "feedback": [
             {
@@ -389,7 +389,7 @@
           "text@en": "VOID",
           "text@fr": "Voter avec tous les habitants de l'île",
           "var_changes": {
-            "risk_tourists": 1
+            "risk_tourists": 3
           },
           "feedback": [
             {
@@ -412,8 +412,8 @@
           "text@en": "VOID",
           "text@fr": "Voter uniquement entre nouveaux échoués",
           "var_changes": {
-            "risk_robinsons": 1,
-            "risk_matelots": 1
+            "risk_robinsons": 3,
+            "risk_matelots": 2
           },
           "feedback": [
             {
@@ -498,8 +498,8 @@
           "text@en": "VOID",
           "text@fr": "Se présenter à l'élection, pour construire un bateau",
           "var_changes": {
-            "risk_matelots": 1,
-            "risk_robinsons": 1
+            "risk_matelots": 3,
+            "risk_robinsons": 2
           },
           "feedback": [
             {
@@ -642,7 +642,7 @@
         },
         {
           "character": "chef_matelots",
-          "text@fr": "Damned, nous sommes enfin venus à bout de cette épidémie.",
+          "text@fr": "Diantre, nous sommes enfin venus à bout de cette épidémie.",
           "text@en": "VOID"
         },
         {
@@ -654,7 +654,7 @@
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Ouch ! J'en prends note...",
+          "text@fr": "Ouch ! Nous allons organiser une céromonie",
           "var_changes": {
           },
           "feedback": [
@@ -889,7 +889,7 @@
   "endings": [    {
       "condition": {
         "var": "risk_matelots",
-        "min": 5
+        "min": 6
       },
       "text@en": "VOID",
       "text@fr": "<h2>Les matelots ne sont pas contents et se révoltent !</h2><p></p>"
@@ -897,7 +897,7 @@
     {
       "condition": {
         "var": "risk_touristes",
-        "min": 5
+        "min": 6
       },
       "text@en": "VOID",
       "text@fr": "<h2>Les touristes ne sont pas contents et se révoltent !</h2><p></p>"
@@ -905,7 +905,7 @@
     {
       "condition": {
         "var": "risk_robinsons",
-        "min": 5
+        "min": 6
       },
       "text@en": "VOID",
       "text@fr": "<h2>Les robinsons ne sont pas contents et se révoltent !</h2><p></p>"
