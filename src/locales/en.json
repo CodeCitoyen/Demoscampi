@@ -1,13 +1,13 @@
 {
   "app": {
-    "title": "The Good, The Bad and The Accountant",
-    "url": "https://codecitoyen.github.io/the-accountant/fr.html",
-    "description": "Can you run a city without falling prey to the sirens of corruption? Test yourself by playing The Good, The Bad and The Accountant!",
-    "image": "https://jplusplus.github.io/the-accountant/images/share-en.png",
+    "title": "Demoscampi",
+    "url": "https://codecitoyen.github.io/Demoscampi/#/",
+    "description": "You are leading a cruise. Can you lead them to safety?",
+    "image": "https://codecitoyen.github.io/Demoscampi/images/share-fr.png",
     "share": {
       "tweet": {
-        "via": "jplusplus_",
-        "text": "How long can you survive in a corrupt city hall? Take your chance!"
+        "via": "lesbricodeurs",
+        "text": "Can you take collectively the right decisions ?"
       }
     }
   },

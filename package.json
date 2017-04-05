@@ -70,7 +70,7 @@
     "sass-loader": "^5.0.0",
     "style-loader": "^0.13.0",
     "twemoji": "^2.2.3",
-    "webpack": "2.2.1",
+    "webpack": "^2.2.1",
     "webpack-dashboard": "^0.2.1",
     "webpack-fail-plugin": "^1.0.5",
     "webpack-notifier": "^1.5.0"
