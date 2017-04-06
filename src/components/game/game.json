@@ -135,6 +135,11 @@
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
       "title@fr": "Dernier Banquet"
+    },
+    "10": {
+      "picture": "images/years/ile.jpg",
+      "title@en": "VOID",
+      "title@fr": "Un dernier choix"
     }
   },
   "steps": [
@@ -575,7 +580,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions."
+          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions. J'ai rassemblé quelques notes sur ce fameux [vote majoritaire|vote_uninominal_majoritaire] que nous utilisons tant."
         },
         {
           "character": "chef_robinsons",
@@ -702,7 +707,7 @@
         },
         {
           "character": "helper",
-          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous, capitaine ?",
+          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée ; c'est le [vote Borda|vote_borda]. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres ; c'est le [vote Condorcet|vote_condorcet]. Qu'en pensez-vous, capitaine ?",
           "text@en": "VOID"
         }
       ],
@@ -787,7 +792,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "C'est quand même une question sensible. Je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, ce sera plus précis. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce que vous proposez, c'est un [vote par approbation|vote_par_approbation]. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du [vote par notation|vote_par_notation]. Qu'en pensez-vous capitaine ?"
         }
       ],
 
@@ -796,7 +801,9 @@
           "text@en": "VOID",
           "text@fr": "Voter par simple(s) adhésion(s)",
           "var_changes": {
-            "risk_matelots": 0
+            "risk_matelots": -10,
+            "risk_touristes": -10,
+            "risk_robinsons": -10
           },
           "feedback": [
             {
@@ -810,7 +817,9 @@
           "text@en": "VOID",
           "text@fr": "Donnons une note à ces propositions",
           "var_changes": {
-            "risk_matelots": 0
+            "risk_matelots": -10,
+            "risk_touristes": -10,
+            "risk_robinsons": -10
           },
           "feedback": [
             {
@@ -836,12 +845,12 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
+          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent. Appelons cela un vote par [jugement majoritaire|vote_jugement_majoritaire]."
         },
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différentes possibilités de vote. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différents candidats. Qu'en pensez-vous capitaine ?"
         }
       ],
       "choices" : [
@@ -880,6 +889,49 @@
               "character": "chef_matelots",
               "text@en": "VOID",
               "text@fr": "Et la raclette vegan l'emporte, suite au dépouillage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 10,
+      "texts": [
+        {
+          "character": "helper",
+          "text@fr": "Cette croisière aura décidément était éprouvant, mais ma foi fort instructive.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "helper",
+          "text@fr": "J'ai noté quelques unes de mes impertinentes réflexions dans ce [mémo|vote_conclusion].",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_matelots",
+          "text@fr": "Les touristes et l'équipage ont rejoint le voilier, vous venez capitaine ?",
+          "text@en": "VOID"
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "VOID",
+          "text@fr": "Je salue les robinsons une dernière fois, et j'arrive.",
+          "var_changes": {
+          },
+          "feedback": [
+          ]
+        },
+        {
+          "text@en": "VOID",
+          "text@fr": "Je préfère rester sur l'île, je suis trop bien ici.",
+          "var_changes": {
+          },
+          "feedback": [
+            {
+              "character": "helper",
+              "text@en": "VOID",
+              "text@fr": "Je vous comprends. Je ferais de même, si je n'étais pas devenu allergique aux langoustines, à force d'en manger."
             }
           ]
         }
@@ -943,7 +995,7 @@
       "title@en": "VOID",
       "title@fr": "Vote par Approbation",
       "body@en": "VOID",
-      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote -celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple."
+      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple."
     },
 
     "vote_par_notation": {
