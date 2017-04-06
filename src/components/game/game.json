@@ -190,7 +190,7 @@
           "text@en": "VOID",
           "text@fr": "Choisir au hasard",
           "var_changes": {
-            "risk_touristes": 2
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -245,7 +245,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -281,7 +281,7 @@
           "text@en": "VOID",
           "text@fr": "Soumettre la décision au vote",
           "var_changes": {
-            "risk_matelots": 3
+            "risk_matelots": 2
           },
           "feedback": [
             {
@@ -370,7 +370,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer la fusion des deux groupes",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -389,7 +389,7 @@
           "text@en": "VOID",
           "text@fr": "Voter avec tous les habitants de l'île",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -498,7 +498,7 @@
           "text@en": "VOID",
           "text@fr": "Se présenter à l'élection, pour construire un bateau",
           "var_changes": {
-            "risk_matelots": 3,
+            "risk_matelots": 2,
             "risk_robinsons": 2
           },
           "feedback": [
