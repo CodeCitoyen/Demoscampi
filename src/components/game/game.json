@@ -187,7 +187,7 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "Merci pour ces mets de choix."
+              "text@fr": "Merci pour ces mets de choix, qui découlent de notre choix de mets."
             }
           ]
         },
@@ -747,12 +747,12 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, chaque option a eu exactement le même score... C'est rarissime, mais ça peut arriver."
+              "text@fr": "Vu que nos communautés sont de même taille, chaque option avait exactement le même nombre de \"1er choix\" ; cependant, des nuances individuelles dans les 2e et 3e choix ont fait que les robinsons ont gagné de justesse."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "De toute façon, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Voici qui tranche la question - hors de question de commettre un si dangereux sacrilège."
+              "text@fr": "Bien ! Qui plus est, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Imaginez si l'on s'était risqué à un tel sacrilège..."
             }
           ]
         },
@@ -770,12 +770,12 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, et ont des préférences circulaires, chaque option a eu la même force lors de l'application de l'algorithme... C'est rarissime, mais ça arrive. Sans cela, on aurait vraiment eu le résultat le plus satifsaisant pour toutes les parties."
+              "text@fr": "Vu que nos communautés sont de même taille, une préférence circulaire est apparue, aucun choix ne gagnait sur tous les autres en duel. Mais des nuances individuelles dans le classement des options, ont permis de désigner l'option ayant gagné le plus de duels : celle des robinsons."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
+              "text@fr": "Bien ! De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
             }
           ]
         }
@@ -892,7 +892,6 @@
           "text@en": "VOID",
           "text@fr": "Essayer ce nouveau type de vote",
           "var_changes": {
-            "risk_matelots": 0
           },
           "feedback": [
             {
@@ -911,7 +910,6 @@
           "text@en": "VOID",
           "text@fr": "Utiliser le vote par ordre de préférence",
           "var_changes": {
-            "risk_matelots": 0
           },
           "feedback": [
             {
@@ -1030,7 +1028,7 @@
       "title@en": "VOID",
       "title@fr": "Vote en Plusieurs Tours",
       "body@en": "VOID",
-      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire) ; dans la version la plus sophistiquée, un seul candidat est éliminé à chaque tour.<br/><br/>Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
+      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire). Dans la version la plus sophistiquée, un seul candidat est éliminé à chaque tour. Pour éviter de retourner au bureau de vote N fois de suite, on peut demander aux électeurs de classer directement les candidats par ordre de préférence (c'est le \"vote alternatif\").<br/><br/>Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
     },
 
     "vote_par_approbation_ou_notation": {
@@ -1058,7 +1056,7 @@
       "title@en": "VOID",
       "title@fr": "Le meilleur système de vote ?",
       "body@en": "VOID",
-      "body@fr": "Le \"meilleur système de vote\" est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>Mais on peut noter quelques faits:<ul><li>Le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation</li><li>Le système du vote uninominal majoritaire, si largement utilisé en France, est particulièrement défectueux</li><li>Il n'y a peut-être pas de système de vote parfait, mais certains restent meilleurs que d'autres</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le <b>choix de la question</b> conditionne tout le reste.<br/><br/>Pour aller plus loin, voir <a target=\"_blank\" href=\"http://ncase.me/ballot/\">cet article (anglais)</a> comparant les différents systèmes de vote."
+      "body@fr": "Le choix d'un système de vote est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>Mais on peut noter quelques faits:<ul><li>Le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation</li><li>Le système du vote uninominal majoritaire, si largement utilisé en France, est particulièrement défectueux</li><li>Il n'y a peut-être pas de système de vote parfait, mais certains restent meilleurs que d'autres</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le <b>choix de la question</b> conditionne tout le reste.<br/><br/>Pour aller plus loin, voir <a target=\"_blank\" href=\"http://ncase.me/ballot/\">cet article (anglais)</a> comparant les différents systèmes de vote."
     }
   }
 }
