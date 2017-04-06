@@ -498,6 +498,13 @@
           "text@fr": "Nous ne sommes pas des charpentiers. Nous ferons un grand feu."
         }
       ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "J'ai rassemblé quelques notes sur ce fameux [vote majoritaire|vote_uninominal_majoritaire] que nous utilisons tant."
+        }
+      ],
       "choices": [
         {
           "text@en": "VOID",
@@ -580,12 +587,19 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions. J'ai rassemblé quelques notes sur ce fameux [vote majoritaire|vote_uninominal_majoritaire] que nous utilisons tant."
+          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions.."
         },
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
           "text@fr": "Capitaine, pouvez-vous faire un discours auprès des touristes, et leur expliquer la nécessité de préserver la paix ? Cela adoucira leurs moeurs, et évitera l'embrasement. Car nous ne sommes toujours que 70 robinsons, contre 100 touristes et 50 matelots."
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Voici quelques compléments de notes, concernant le [vote à plusieurs tours|vote_en_plusieurs_tours]."
         }
       ],
       "choices" : [
@@ -659,7 +673,7 @@
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Ouch ! Nous allons organiser une céromonie",
+          "text@fr": "Ouch ! Nous allons organiser une cérémonie pour honorer les morts.",
           "var_changes": {
           },
           "feedback": [
@@ -707,8 +721,15 @@
         },
         {
           "character": "helper",
-          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée ; c'est le [vote Borda|vote_borda]. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres ; c'est le [vote Condorcet|vote_condorcet]. Qu'en pensez-vous, capitaine ?",
+          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres Qu'en pensez-vous, capitaine ?",
           "text@en": "VOID"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Je vous ai préparé des mémos plus détaillés sur ces deux systèmes de vote : [Borda|vote_borda] et [Condorcet|vote_condorcet]."
         }
       ],
       "choices" : [
@@ -792,10 +813,16 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Ce que vous proposez, c'est un [vote par approbation|vote_par_approbation]. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du [vote par notation|vote_par_notation]. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce que vous proposez, c'est un vote par approbation. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du vote par notation. Qu'en pensez-vous capitaine ?"
         }
       ],
-
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes : [vote par approbation|vote_par_approbation] et [vote par notation|vote_par_notation]."
+        }
+      ],
       "choices" : [
         {
           "text@en": "VOID",
@@ -845,12 +872,19 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent. Appelons cela un vote par [jugement majoritaire|vote_jugement_majoritaire]."
+          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmis 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
         },
         {
           "character": "helper",
           "text@en": "VOID",
           "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différents candidats. Qu'en pensez-vous capitaine ?"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Voici un mémo sur ce nouveau système, que je nomme [vote par jugement majoritaire|vote_jugement_majoritaire]."
         }
       ],
       "choices" : [
@@ -903,13 +937,15 @@
           "text@en": "VOID"
         },
         {
-          "character": "helper",
-          "text@fr": "J'ai noté quelques unes de mes impertinentes réflexions dans ce [mémo|vote_conclusion].",
-          "text@en": "VOID"
-        },
-        {
           "character": "chef_matelots",
           "text@fr": "Les touristes et l'équipage ont rejoint le voilier, vous venez capitaine ?",
+          "text@en": "VOID"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@fr": "Quoi que vous choisissez, je vous offre quelques unes de mes impertinentes réflexions dans ce [dernier mémo|vote_conclusion].",
           "text@en": "VOID"
         }
       ],
@@ -988,7 +1024,13 @@
       "title@en": "VOID",
       "title@fr": "Vote Uninominal Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat, puis à élire celui ayant reçu le plus de voix. Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>L'introduction de plusieurs tours d'élection permet d'atténuer un peu ces problèmes; dans la version la plus poussée, un seul candidat est éliminé à chaque tour. Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
+      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat, puis à élire celui ayant reçu le plus de voix. Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>"
+    },
+    "vote_en_plusieurs_tours": {
+      "title@en": "VOID",
+      "title@fr": "Vote Uninominal Majoritaire",
+      "body@en": "VOID",
+      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire) ; dans la version la plus poussée, un seul candidat est éliminé à chaque tour. Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
     },
 
     "vote_par_approbation": {
