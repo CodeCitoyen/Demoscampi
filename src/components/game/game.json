@@ -77,7 +77,7 @@
     },
     "you": {
       "name@en": "VOID",
-      "name@fr": "Fairchoice",
+      "name@fr": "vous",
       "title@en": "VOID",
       "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
@@ -599,7 +599,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Voici quelques compléments de notes, concernant le [vote à plusieurs tours|vote_en_plusieurs_tours]."
+          "text@fr": "Voici quelques compléments de notes, concernant le [vote en plusieurs tours|vote_plusieurs_tours]."
         }
       ],
       "choices" : [
@@ -673,7 +673,7 @@
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Ouch ! Nous allons organiser une cérémonie pour honorer les morts.",
+          "text@fr": "Ouch ! Nous allons organiser une cérémonie pour honorer les défunts.",
           "var_changes": {
           },
           "feedback": [
@@ -729,7 +729,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Je vous ai préparé des mémos plus détaillés sur ces deux systèmes de vote : [Borda|vote_borda] et [Condorcet|vote_condorcet]."
+          "text@fr": "Je vous ai préparé un mémo plus détaillé sur ces deux systèmes de vote : [Borda et Condorcet|vote_borda_condorcet]."
         }
       ],
       "choices" : [
@@ -820,7 +820,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes : [vote par approbation|vote_par_approbation] et [vote par notation|vote_par_notation]."
+          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes : [vote par approbation ou par notation|vote_par_approbation_ou_notation]."
         }
       ],
       "choices" : [
@@ -1024,48 +1024,34 @@
       "title@en": "VOID",
       "title@fr": "Vote Uninominal Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat, puis à élire celui ayant reçu le plus de voix. Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>"
+      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat. Celui ayant reçu le plus de voix est élu.<br/><br/>Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>"
     },
-    "vote_en_plusieurs_tours": {
+    "vote_plusieurs_tours": {
       "title@en": "VOID",
-      "title@fr": "Vote Uninominal Majoritaire",
+      "title@fr": "Vote en Plusieurs Tours",
       "body@en": "VOID",
-      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire) ; dans la version la plus poussée, un seul candidat est éliminé à chaque tour. Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
-    },
-
-    "vote_par_approbation": {
-      "title@en": "VOID",
-      "title@fr": "Vote par Approbation",
-      "body@en": "VOID",
-      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple."
+      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire) ; dans la version la plus sophistiquée, un seul candidat est éliminé à chaque tour.<br/><br/>Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
     },
 
-    "vote_par_notation": {
+    "vote_par_approbation_ou_notation": {
       "title@en": "VOID",
-      "title@fr": "Vote par Notation",
+      "title@fr": "Vote par Approbation ou par Notation",
       "body@en": "VOID",
-      "body@fr": "Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
+      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple.<br/><br/>Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
     },
 
-    "vote_borda": {
+    "vote_borda_condorcet": {
       "title@en": "VOID",
-      "title@fr": "Vote Borda",
+      "title@fr": "Vote Borda et vote Condorcet",
       "body@en": "VOID",
-      "body@fr": "Le système de vote dit \"borda\" consiste, pour chaque électeur, à classer les candidats par ordre de préférence ; puis une valeur est affectée a chaque candidat classé (1 pour le choix préfère, 2 pour le deuxième...). Trouver le meilleur candidat revient alors simplement à compter les points obtenus par chaque candidat.<br/><br/>Détail intriguant, cette méthode est vulnérable à un effet de \"reverse spoiler\" : le fait d'accumuler plusieurs candidats ayant un positionnement proche, peut \"couler\" un candidat isolé, qui sans cela aurait gagné."
-    },
-
-    "vote_condorcet": {
-      "title@en": "VOID",
-      "title@fr": "Vote Condorcet",
-      "body@en": "VOID",
-      "body@fr": "La méthode de Condorcet revient à comparer tous les candidats deux à deux, et à sélectionner celui étant systématiquement le candidat préféré. Il peut arriver qu'un tel vainqueur n'existe pas (voir <a href=\"https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet\">Paradoxe de Condorcet</a>), auquel cas une méthode alternative, prévue à l'avance, doit être utilisée pour départager les candidats."
+      "body@fr": "Le système de vote dit \"borda\" consiste, pour chaque électeur, à classer les candidats par ordre de préférence ; puis une valeur est affectée a chaque candidat classé (1 pour le choix préfère, 2 pour le deuxième...). Trouver le meilleur candidat revient alors simplement à compter les points obtenus par chaque candidat. Détail intriguant, cette méthode est vulnérable à un effet de \"reverse spoiler\" : le fait d'accumuler plusieurs candidats ayant un positionnement proche, peut \"couler\" un candidat isolé, qui sans cela aurait gagné.<br/><br/>La méthode de Condorcet revient à comparer tous les candidats deux à deux, et à sélectionner celui étant systématiquement le candidat préféré. Il peut arriver qu'un tel vainqueur n'existe pas (voir <a href=\"https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet\">Paradoxe de Condorcet</a>), auquel cas une méthode alternative, prévue à l'avance, doit être utilisée pour départager les candidats."
     },
 
     "vote_jugement_majoritaire": {
       "title@en": "VOID",
       "title@fr": "Vote par Jugement Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat. On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
+      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat.<br/><br/> On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
     },
 
     "vote_conclusion": {
