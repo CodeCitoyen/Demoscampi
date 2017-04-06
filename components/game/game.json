@@ -77,7 +77,7 @@
     },
     "you": {
       "name@en": "VOID",
-      "name@fr": "Fairchoice",
+      "name@fr": "vous",
       "title@en": "VOID",
       "title@fr": "Capitaine",
       "avatar": "./images/avatars/capitaine.jpg"
@@ -135,6 +135,11 @@
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
       "title@fr": "Dernier Banquet"
+    },
+    "10": {
+      "picture": "images/years/ile.jpg",
+      "title@en": "VOID",
+      "title@fr": "Un dernier choix"
     }
   },
   "steps": [
@@ -182,7 +187,7 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "Merci pour ces mets de choix."
+              "text@fr": "Merci pour ces mets de choix, qui découlent de notre choix de mets."
             }
           ]
         },
@@ -190,7 +195,7 @@
           "text@en": "VOID",
           "text@fr": "Choisir au hasard",
           "var_changes": {
-            "risk_touristes": 2
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -245,7 +250,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer le départ pour la forêt",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -281,7 +286,7 @@
           "text@en": "VOID",
           "text@fr": "Soumettre la décision au vote",
           "var_changes": {
-            "risk_matelots": 3
+            "risk_matelots": 2
           },
           "feedback": [
             {
@@ -370,7 +375,7 @@
           "text@en": "VOID",
           "text@fr": "Imposer la fusion des deux groupes",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 2
           },
           "feedback": [
             {
@@ -389,7 +394,7 @@
           "text@en": "VOID",
           "text@fr": "Voter avec tous les habitants de l'île",
           "var_changes": {
-            "risk_touristes": 3
+            "risk_touristes": 1
           },
           "feedback": [
             {
@@ -493,12 +498,19 @@
           "text@fr": "Nous ne sommes pas des charpentiers. Nous ferons un grand feu."
         }
       ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "J'ai rassemblé quelques notes sur ce fameux [vote majoritaire|vote_uninominal_majoritaire] que nous utilisons tant."
+        }
+      ],
       "choices": [
         {
           "text@en": "VOID",
           "text@fr": "Se présenter à l'élection, pour construire un bateau",
           "var_changes": {
-            "risk_matelots": 3,
+            "risk_matelots": 2,
             "risk_robinsons": 2
           },
           "feedback": [
@@ -575,12 +587,19 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions."
+          "text@fr": "Le mieux est de toute façon que nous votions ; mais un vote en deux tours, afin d'éviter les sabordages mutuels entre ces trois propositions.."
         },
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
           "text@fr": "Capitaine, pouvez-vous faire un discours auprès des touristes, et leur expliquer la nécessité de préserver la paix ? Cela adoucira leurs moeurs, et évitera l'embrasement. Car nous ne sommes toujours que 70 robinsons, contre 100 touristes et 50 matelots."
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Voici quelques compléments de notes, concernant le [vote en plusieurs tours|vote_plusieurs_tours]."
         }
       ],
       "choices" : [
@@ -654,7 +673,7 @@
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Ouch ! Nous allons organiser une céromonie",
+          "text@fr": "Ouch ! Nous allons organiser une cérémonie pour honorer les défunts.",
           "var_changes": {
           },
           "feedback": [
@@ -702,8 +721,15 @@
         },
         {
           "character": "helper",
-          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous, capitaine ?",
+          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres Qu'en pensez-vous, capitaine ?",
           "text@en": "VOID"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Je vous ai préparé un mémo plus détaillé sur ces deux systèmes de vote : [Borda et Condorcet|vote_borda_condorcet]."
         }
       ],
       "choices" : [
@@ -721,12 +747,12 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, chaque option a eu exactement le même score... C'est rarissime, mais ça peut arriver."
+              "text@fr": "Vu que nos communautés sont de même taille, chaque option avait exactement le même nombre de \"1er choix\" ; cependant, des nuances individuelles dans les 2e et 3e choix ont fait que les robinsons ont gagné de justesse."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "De toute façon, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Voici qui tranche la question - hors de question de commettre un si dangereux sacrilège."
+              "text@fr": "Bien ! Qui plus est, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Imaginez si l'on s'était risqué à un tel sacrilège..."
             }
           ]
         },
@@ -744,12 +770,12 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Ca c'est vraiment pas de chance, vu que nos communautés sont de même taille, et ont des préférences circulaires, chaque option a eu la même force lors de l'application de l'algorithme... C'est rarissime, mais ça arrive. Sans cela, on aurait vraiment eu le résultat le plus satifsaisant pour toutes les parties."
+              "text@fr": "Vu que nos communautés sont de même taille, une préférence circulaire est apparue, aucun choix ne gagnait sur tous les autres en duel. Mais des nuances individuelles dans le classement des options, ont permis de désigner l'option ayant gagné le plus de duels : celle des robinsons."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
+              "text@fr": "Bien ! De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
             }
           ]
         }
@@ -787,16 +813,24 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "C'est quand même une question sensible. Je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, ce sera plus précis. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce que vous proposez, c'est un vote par approbation. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du vote par notation. Qu'en pensez-vous capitaine ?"
         }
       ],
-
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes : [vote par approbation ou par notation|vote_par_approbation_ou_notation]."
+        }
+      ],
       "choices" : [
         {
           "text@en": "VOID",
           "text@fr": "Voter par simple(s) adhésion(s)",
           "var_changes": {
-            "risk_matelots": 0
+            "risk_matelots": -10,
+            "risk_touristes": -10,
+            "risk_robinsons": -10
           },
           "feedback": [
             {
@@ -810,7 +844,9 @@
           "text@en": "VOID",
           "text@fr": "Donnons une note à ces propositions",
           "var_changes": {
-            "risk_matelots": 0
+            "risk_matelots": -10,
+            "risk_touristes": -10,
+            "risk_robinsons": -10
           },
           "feedback": [
             {
@@ -841,7 +877,14 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différentes possibilités de vote. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différents candidats. Qu'en pensez-vous capitaine ?"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@en": "VOID",
+          "text@fr": "Voici un mémo sur ce nouveau système, que je nomme [vote par jugement majoritaire|vote_jugement_majoritaire]."
         }
       ],
       "choices" : [
@@ -849,7 +892,6 @@
           "text@en": "VOID",
           "text@fr": "Essayer ce nouveau type de vote",
           "var_changes": {
-            "risk_matelots": 0
           },
           "feedback": [
             {
@@ -868,7 +910,6 @@
           "text@en": "VOID",
           "text@fr": "Utiliser le vote par ordre de préférence",
           "var_changes": {
-            "risk_matelots": 0
           },
           "feedback": [
             {
@@ -880,6 +921,51 @@
               "character": "chef_matelots",
               "text@en": "VOID",
               "text@fr": "Et la raclette vegan l'emporte, suite au dépouillage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 10,
+      "texts": [
+        {
+          "character": "helper",
+          "text@fr": "Cette croisière aura décidément était éprouvant, mais ma foi fort instructive.",
+          "text@en": "VOID"
+        },
+        {
+          "character": "chef_matelots",
+          "text@fr": "Les touristes et l'équipage ont rejoint le voilier, vous venez capitaine ?",
+          "text@en": "VOID"
+        }
+      ],
+      "helper": [
+        {
+          "character": "helper",
+          "text@fr": "Quoi que vous choisissez, je vous offre quelques unes de mes impertinentes réflexions dans ce [dernier mémo|vote_conclusion].",
+          "text@en": "VOID"
+        }
+      ],
+      "choices" : [
+        {
+          "text@en": "VOID",
+          "text@fr": "Je salue les robinsons une dernière fois, et j'arrive.",
+          "var_changes": {
+          },
+          "feedback": [
+          ]
+        },
+        {
+          "text@en": "VOID",
+          "text@fr": "Je préfère rester sur l'île, je suis trop bien ici.",
+          "var_changes": {
+          },
+          "feedback": [
+            {
+              "character": "helper",
+              "text@en": "VOID",
+              "text@fr": "Je vous comprends. Je ferais de même, si je n'étais pas devenu allergique aux langoustines, à force d'en manger."
             }
           ]
         }
@@ -936,49 +1022,41 @@
       "title@en": "VOID",
       "title@fr": "Vote Uninominal Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat, puis à élire celui ayant reçu le plus de voix. Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>L'introduction de plusieurs tours d'élection permet d'atténuer un peu ces problèmes; dans la version la plus poussée, un seul candidat est éliminé à chaque tour. Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
+      "body@fr": "Le système de vote dit \"uninominal majoritaire\" est très répandu. Il consiste, pour chaque électeur, à choisir un seul candidat. Celui ayant reçu le plus de voix est élu.<br/><br/>Ce système est très vulnérable à l'effet \"spoiler\" : si plusieurs candidats partagent des idées proches, ils vont se voler des voix mutuellement. Cela encourage donc le vote non sincère (appelé \"vote utile\"), et les marchandages entre candidats.<br/><br/>"
+    },
+    "vote_plusieurs_tours": {
+      "title@en": "VOID",
+      "title@fr": "Vote en Plusieurs Tours",
+      "body@en": "VOID",
+      "body@fr": "L'introduction de plusieurs tours d'élection permet d'atténuer un peu les problèmes du vote habituel (vote uninominal majoritaire). Dans la version la plus sophistiquée, un seul candidat est éliminé à chaque tour. Pour éviter de retourner au bureau de vote N fois de suite, on peut demander aux électeurs de classer directement les candidats par ordre de préférence (c'est le \"vote alternatif\").<br/><br/>Mais cela n'enlève pas des phénomènes étranges de \"report des voix\", qui font qu'un candidat peut perdre pour avoir, dans un premier temps, rallié davantage d'électeurs à sa cause."
     },
 
-    "vote_par_approbation": {
+    "vote_par_approbation_ou_notation": {
       "title@en": "VOID",
-      "title@fr": "Vote par Approbation",
+      "title@fr": "Vote par Approbation ou par Notation",
       "body@en": "VOID",
-      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote -celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple."
+      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple.<br/><br/>Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
     },
 
-    "vote_par_notation": {
+    "vote_borda_condorcet": {
       "title@en": "VOID",
-      "title@fr": "Vote par Notation",
+      "title@fr": "Vote Borda et vote Condorcet",
       "body@en": "VOID",
-      "body@fr": "Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
-    },
-
-    "vote_borda": {
-      "title@en": "VOID",
-      "title@fr": "Vote Borda",
-      "body@en": "VOID",
-      "body@fr": "Le système de vote dit \"borda\" consiste, pour chaque électeur, à classer les candidats par ordre de préférence ; puis une valeur est affectée a chaque candidat classé (1 pour le choix préfère, 2 pour le deuxième...). Trouver le meilleur candidat revient alors simplement à compter les points obtenus par chaque candidat.<br/><br/>Détail intriguant, cette méthode est vulnérable à un effet de \"reverse spoiler\" : le fait d'accumuler plusieurs candidats ayant un positionnement proche, peut \"couler\" un candidat isolé, qui sans cela aurait gagné."
-    },
-
-    "vote_condorcet": {
-      "title@en": "VOID",
-      "title@fr": "Vote Condorcet",
-      "body@en": "VOID",
-      "body@fr": "La méthode de Condorcet revient à comparer tous les candidats deux à deux, et à sélectionner celui étant systématiquement le candidat préféré. Il peut arriver qu'un tel vainqueur n'existe pas (voir <a href=\"https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet\">Paradoxe de Condorcet</a>), auquel cas une méthode alternative, prévue à l'avance, doit être utilisée pour départager les candidats."
+      "body@fr": "Le système de vote dit \"borda\" consiste, pour chaque électeur, à classer les candidats par ordre de préférence ; puis une valeur est affectée a chaque candidat classé (1 pour le choix préfère, 2 pour le deuxième...). Trouver le meilleur candidat revient alors simplement à compter les points obtenus par chaque candidat. Détail intriguant, cette méthode est vulnérable à un effet de \"reverse spoiler\" : le fait d'accumuler plusieurs candidats ayant un positionnement proche, peut \"couler\" un candidat isolé, qui sans cela aurait gagné.<br/><br/>La méthode de Condorcet revient à comparer tous les candidats deux à deux, et à sélectionner celui étant systématiquement le candidat préféré. Il peut arriver qu'un tel vainqueur n'existe pas (voir <a target=\"_blank\" href=\"https://fr.wikipedia.org/wiki/Paradoxe_de_Condorcet\">Paradoxe de Condorcet</a>), auquel cas une méthode alternative, prévue à l'avance, est utilisée pour départager les candidats."
     },
 
     "vote_jugement_majoritaire": {
       "title@en": "VOID",
       "title@fr": "Vote par Jugement Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat. On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
+      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat.<br/><br/> On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
     },
 
     "vote_conclusion": {
       "title@en": "VOID",
       "title@fr": "Le meilleur système de vote ?",
       "body@en": "VOID",
-      "body@fr": "Le \"meilleur système de vote\" est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>Mais on peut noter quelques faits:<ul></li>le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation.</li><li>A ces égards, le système du vote uninominal majoritaire, si largement utilisé en France, est l'un des plus biaisés qui soient</li><li>Il n'y a peut-être pas de système de vote parfait, mais cela n'empêche pas de rechercher le moins bancal, surtout pour prendre des décisions qui vont impacter directement la vie de millions de citoyens</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le véritable pouvoir, c'est choisir la question, non choisir la réponse ; d'où le côté douteux de nombre de référendums, posés de telle sorte que les électeurs n'aient pas le choix ; d'où le scandale du fait que les électeurs ne puissent pas dénoncer une élection malvenue, via un vote blanc correctement comptabilisé."
+      "body@fr": "Le choix d'un système de vote est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>Mais on peut noter quelques faits:<ul><li>Le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation</li><li>Le système du vote uninominal majoritaire, si largement utilisé en France, est particulièrement défectueux</li><li>Il n'y a peut-être pas de système de vote parfait, mais certains restent meilleurs que d'autres</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le <b>choix de la question</b> conditionne tout le reste.<br/><br/>Pour aller plus loin, voir <a target=\"_blank\" href=\"http://ncase.me/ballot/\">cet article (anglais)</a> comparant les différents systèmes de vote."
     }
   }
 }
