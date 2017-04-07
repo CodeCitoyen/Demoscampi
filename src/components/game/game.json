@@ -148,7 +148,7 @@
       "texts": [
         {
           "character": "chef_touristes",
-          "text@fr": "Bonjour capitaine, cette croisière en voilier est un véritable enchantement. J'aimerais tant qu'elle se prolonge indéfiniment !",
+          "text@fr": "Bonjour capitaine, cette croisière en voilier est un véritable enchantement. J'aimerais tant qu'elle se prolonge indéfiniment\u00A0!",
           "text@en": "VOID"
         },
         {
@@ -159,7 +159,7 @@
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Haïhaï capitaine. Je viens de croiser le maître-coq. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir : langoustines ou salade de pâtes. À moins qu'on ne tire au sort. Qu'en pensez-vous ?"
+          "text@fr": "Haïhaï capitaine. Je viens de croiser le maître-coq. Il se demandait si ce ne serait pas amusant de laisser nos passagers décider du menu de ce soir\u00A0: langoustines ou salade de pâtes. À moins qu'on ne tire au sort. Qu'en pensez-vous\u00A0?"
         },
         {
           "character": "helper",
@@ -201,7 +201,7 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Martin, avez-vous une pièce s'il vous plait ?"
+              "text@fr": "Martin, avez-vous une pièce s'il vous plait\u00A0?"
             },
             {
               "character": "you",
@@ -238,11 +238,11 @@
         },
         {
           "character": "chef_touristes",
-          "text@fr" : "Ah non, c'est trop dangereux ! Il y a sans doute plein de sales bêtes et de plantes vénéneuses dans cette jungle. Restons sur la plage à attendre les secours."
+          "text@fr" : "Ah non, c'est trop dangereux\u00A0! Il y a sans doute plein de sales bêtes et de plantes vénéneuses dans cette jungle. Restons sur la plage à attendre les secours."
         },
         {
           "character": "chef_matelots",
-          "text@fr" : "Mais les secours n'arriveront pas avant plusieurs semaines ! Capitaine, quels sont vos ordres ?"
+          "text@fr" : "Mais les secours n'arriveront pas avant plusieurs semaines\u00A0! Capitaine, quels sont vos ordres\u00A0?"
         }
       ],
       "choices": [
@@ -324,7 +324,7 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Bonjour !"
+              "text@fr": "Bonjour\u00A0!"
             }
           ]
         },
@@ -335,7 +335,7 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Ohla ! "
+              "text@fr": "Ohla\u00A0! "
             }
           ]
         }
@@ -386,7 +386,7 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "S'ils sont anthropophages, vous aurez notre mort sur la conscience !"
+              "text@fr": "S'ils sont anthropophages, vous aurez notre mort sur la conscience\u00A0!"
             }
           ]
         },
@@ -409,7 +409,7 @@
             {
               "character": "chef_touristes",
               "text@en": "VOID",
-              "text@fr": "C'est une décision qui aurait dû être prise entre anciens membres de la croisière uniquement !"
+              "text@fr": "C'est une décision qui aurait dû être prise entre anciens membres de la croisière uniquement\u00A0!"
             }
           ]
         },
@@ -434,7 +434,7 @@
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "Puisque c'est ainsi, nous allons récupérer toute notre forêt ! Vous resterez sur la plage."
+              "text@fr": "Puisque c'est ainsi, nous allons récupérer toute notre forêt\u00A0! Vous resterez sur la plage."
             },
             {
               "text@en": "VOID",
@@ -455,22 +455,22 @@
         {
           "character" : "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Je suis candidate ! "
+          "text@fr": "Je suis candidate\u00A0! "
         },
         {
           "character" : "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "Moi aussi je suis candidate !"
+          "text@fr": "Moi aussi je suis candidate\u00A0!"
         },
         {
           "character" : "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Mon programme : avec les ressources de la forêt, nous allons construire des habitats durables semi-enterrés, car la saison des ouragans arrive."
+          "text@fr": "Mon programme\u00A0: avec les ressources de la forêt, nous allons construire des habitats durables semi-enterrés, car la saison des ouragans arrive."
         },
         {
           "character" : "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "Ca ne sert à rien ! Nous autres touristes voulons faire un gigantesque feu, qui attirera les bateaux pour que l'on vienne nous sauver."
+          "text@fr": "Ca ne sert à rien\u00A0! Nous autres touristes voulons faire un gigantesque feu, qui attirera les bateaux pour que l'on vienne nous sauver."
         },
         {
           "character" : "chef_robinsons",
@@ -485,12 +485,12 @@
         {
           "character" : "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Mais Capitaine, vous pourriez vous présenter, et proposer la seule alternative intelligente, celle que l'équipage demande : bâtir rapidement un grand bateau et partir de l'île."
+          "text@fr": "Mais Capitaine, vous pourriez vous présenter, et proposer la seule alternative intelligente, celle que l'équipage demande\u00A0: bâtir rapidement un grand bateau et partir de l'île."
         },
         {
           "character" : "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Partir de l'île ? Pour quoi faire ? Nous sommes si bien ici."
+          "text@fr": "Partir de l'île\u00A0? Pour quoi faire\u00A0? Nous sommes si bien ici."
         },
         {
           "character" : "chef_touristes",
@@ -517,7 +517,7 @@
             {
               "character": "you",
               "text@en": "VOID",
-              "text@fr": "Votez pour moi, nous construirons un magnifique bateau à rames !"
+              "text@fr": "Votez pour moi, nous construirons un magnifique bateau à rames\u00A0!"
             },
             {
               "character" : "helper",
@@ -557,7 +557,7 @@
         {
           "character": "chef_matelots",
           "text@en": "VOID",
-          "text@fr": "Capitaine, capitaine, c'est la crise !"
+          "text@fr": "Capitaine, capitaine, c'est la crise\u00A0!"
         },
         {
           "character": "chef_matelots",
@@ -572,7 +572,7 @@
         {
           "character": "chef_touristes",
           "text@en": "VOID",
-          "text@fr": "C'est un crime infâme ! Nous devons exterminer ces monstres !"
+          "text@fr": "C'est un crime infâme\u00A0! Nous devons exterminer ces monstres\u00A0!"
         },
         {
           "character": "chef_matelots",
@@ -592,7 +592,7 @@
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Capitaine, pouvez-vous faire un discours auprès des touristes, et leur expliquer la nécessité de préserver la paix ? Cela adoucira leurs moeurs, et évitera l'embrasement. Car nous ne sommes toujours que 70 robinsons, contre 100 touristes et 50 matelots."
+          "text@fr": "Capitaine, pouvez-vous faire un discours auprès des touristes, et leur expliquer la nécessité de préserver la paix\u00A0? Cela adoucira leurs moeurs, et évitera l'embrasement. Car nous ne sommes toujours que 70 robinsons, contre 100 touristes et 50 matelots."
         }
       ],
       "helper": [
@@ -673,7 +673,7 @@
       "choices" : [
         {
           "text@en": "VOID",
-          "text@fr": "Ouch ! Nous allons organiser une cérémonie pour honorer les défunts.",
+          "text@fr": "Ouch\u00A0! Nous allons organiser une cérémonie pour honorer les défunts.",
           "var_changes": {
           },
           "feedback": [
@@ -686,12 +686,12 @@
       "texts": [
         {
           "character": "chef_matelots",
-          "text@fr": "Nous avons croisé un éléphant albinos dans la forêt. Voilà qui nous ferait de la nourriture pour plusieurs semaines, et nous changerait des langoustines !",
+          "text@fr": "Nous avons croisé un éléphant albinos dans la forêt. Voilà qui nous ferait de la nourriture pour plusieurs semaines, et nous changerait des langoustines\u00A0!",
           "text@en": "VOID"
         },
         {
           "character": "chef_touristes",
-          "text@fr": "Mieux vaudrait le capturer et le faire travailler à notre place. Il pourrait porter à lui seul 10 troncs d’arbres !",
+          "text@fr": "Mieux vaudrait le capturer et le faire travailler à notre place. Il pourrait porter à lui seul 10 troncs d’arbres\u00A0!",
           "text@en": "VOID"
         },
         {
@@ -716,12 +716,12 @@
         },
         {
           "character": "chef_robinsons",
-          "text@fr": "L'agresser serait s'exposer à de graves dégâts. Il est peut-être possible de le tuer en lui tendant un traquenard, mais espérer le dompter, c'est du non-sens complet !",
+          "text@fr": "L'agresser serait s'exposer à de graves dégâts. Il est peut-être possible de le tuer en lui tendant un traquenard, mais espérer le dompter, c'est du non-sens complet\u00A0!",
           "text@en": "VOID"
         },
         {
           "character": "helper",
-          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous, capitaine ?",
+          "text@fr": "Hum, je ne sais plus quel algorithme de vote appliquer. Soit on affecte un chiffre (1, 2, et 3), à chaque option dans son ordre de préférence, puis on somme cela pour voir laquelle est préférée. Soit on applique un algorithme complexe, en comparant les options deux par deux, pour voir celle qui bat toutes les autres. Qu'en pensez-vous, capitaine\u00A0?",
           "text@en": "VOID"
         }
       ],
@@ -729,7 +729,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Je vous ai préparé un mémo plus détaillé sur ces deux systèmes de vote : [Borda et Condorcet|vote_borda_condorcet]."
+          "text@fr": "Je vous ai préparé un mémo plus détaillé sur ces deux systèmes de vote\u00A0: [Borda et Condorcet|vote_borda_condorcet]."
         }
       ],
       "choices" : [
@@ -752,7 +752,7 @@
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "Bien ! Qui plus est, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Imaginez si l'on s'était risqué à un tel sacrilège..."
+              "text@fr": "Bien\u00A0! Qui plus est, je viens d'apprendre que l'éléphant albinos était considéré comme une divinité par les cannibales. Imaginez si l'on s'était risqué à un tel sacrilège..."
             }
           ]
         },
@@ -770,12 +770,12 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Vu que nos communautés sont de même taille, une préférence circulaire est apparue, aucun choix ne gagnait sur tous les autres en duel. Mais des nuances individuelles dans le classement des options, ont permis de désigner l'option ayant gagné le plus de duels : celle des robinsons."
+              "text@fr": "Vu que nos communautés sont de même taille, une préférence circulaire est apparue, aucun choix ne gagnait sur tous les autres en duel. Mais des nuances individuelles dans le classement des options, ont permis de désigner l'option ayant gagné le plus de duels\u00A0: celle des robinsons."
             },
             {
               "character": "chef_robinsons",
               "text@en": "VOID",
-              "text@fr": "Bien ! De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
+              "text@fr": "Bien\u00A0! De toute façon, nous avons perdu la trace de l'éléphant albinos, il a dû s'enfoncer dans les zones dangereuses de la forêt."
             }
           ]
         }
@@ -803,7 +803,7 @@
         {
           "character": "chef_robinsons",
           "text@en": "VOID",
-          "text@fr": "Ca ne va pas non ? Et d'abord, pourquoi partir de ce paradis insulaire ? Je rappelle que ce bois que nous rassemblons depuis des semaines doit servir à la construction d'un pont sur le fleuve au sud."
+          "text@fr": "Ca ne va pas non\u00A0? Et d'abord, pourquoi partir de ce paradis insulaire\u00A0? Je rappelle que ce bois que nous rassemblons depuis des semaines doit servir à la construction d'un pont sur le fleuve au sud."
         },
         {
           "character": "chef_matelots",
@@ -813,14 +813,14 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Ce que vous proposez, c'est un vote par approbation. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du vote par notation. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce que vous proposez, c'est un vote par approbation. Mais puisque c'est une question très sensible, je propose que chacun donne une note sur 10 à chacune de ces trois propositions, ainsi on aura des moyennes, et ce sera plus précis ; c'est le principe du vote par notation. Qu'en pensez-vous capitaine\u00A0?"
         }
       ],
       "helper": [
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes : [vote par approbation ou par notation|vote_par_approbation_ou_notation]."
+          "text@fr": "J'ai rassemblé quelques notes sur ces deux nouveaux systèmes\u00A0: [vote par approbation ou par notation|vote_par_approbation_ou_notation]."
         }
       ],
       "choices" : [
@@ -836,7 +836,7 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Finalement chacun n'a choisi qu'un seul bulletin, donc ça revient à un simple vote majoritaire... et c'est le feu qui a été choisi !"
+              "text@fr": "Finalement chacun n'a choisi qu'un seul bulletin, donc ça revient à un simple vote majoritaire... et c'est le feu qui a été choisi\u00A0!"
             }
           ]
         },
@@ -852,7 +852,7 @@
             {
               "character": "helper",
               "text@en": "VOID",
-              "text@fr": "Finalement les gens ont tous mis 10/10 à leur favori, et 0/10 aux autres choix, quel manque de fair-play. Donc ça revient à un simple vote majoritaire... et c'est le feu qui a été choisi !"
+              "text@fr": "Finalement les gens ont tous mis 10/10 à leur favori, et 0/10 aux autres choix, quel manque de fair-play. Donc ça revient à un simple vote majoritaire... et c'est le feu qui a été choisi\u00A0!"
             }
           ]
         }
@@ -867,17 +867,17 @@
         },
         {
           "text@en": "VOID",
-          "text@fr": "Un grand banquet est organisé sur la plage, pour fêter le départ. Le voilier laisse le choix du menu : confit d'aubergines, tripes au saindoux, raclette vegan, ou langoustines grillées."
+          "text@fr": "Un grand banquet est organisé sur la plage, pour fêter le départ. Le voilier laisse le choix du menu\u00A0: confit d'aubergines, tripes au saindoux, raclette vegan, ou langoustines grillées."
         },
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Je viens d'avoir une idée : chacun va attribuer une mention parmi 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
+          "text@fr": "Je viens d'avoir une idée\u00A0: chacun va attribuer une mention parmi 7, entre \"très bien\" et \"très mauvais\", à chacun de ces plats, et on va regarder la mention minimale à laquelle les 50% les plus favorables de la population le cotent."
         },
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différents candidats. Qu'en pensez-vous capitaine ?"
+          "text@fr": "Ce n'est sans doute pas un système parfait, mais il poussera les gens à voter en conscience au lieu de se lancer dans des manipulations électorales. Et il n'y aura pas d'effet de vols de votes entre les différents candidats. Qu'en pensez-vous capitaine\u00A0?"
         }
       ],
       "helper": [
@@ -936,7 +936,7 @@
         },
         {
           "character": "chef_matelots",
-          "text@fr": "Les touristes et l'équipage ont rejoint le voilier, vous venez capitaine ?",
+          "text@fr": "Les touristes et l'équipage ont rejoint le voilier, vous venez capitaine\u00A0?",
           "text@en": "VOID"
         }
       ],
@@ -978,7 +978,7 @@
         "min": 6
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les matelots ne sont pas contents et se révoltent !</h2><p></p>"
+      "text@fr": "<h2>Les matelots ne sont pas contents et se révoltent\u00A0!</h2><p></p>"
     },
     {
       "condition": {
@@ -986,7 +986,7 @@
         "min": 6
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les touristes ne sont pas contents et se révoltent !</h2><p></p>"
+      "text@fr": "<h2>Les touristes ne sont pas contents et se révoltent\u00A0!</h2><p></p>"
     },
     {
       "condition": {
@@ -994,7 +994,7 @@
         "min": 6
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Les robinsons ne sont pas contents et se révoltent !</h2><p></p>"
+      "text@fr": "<h2>Les robinsons ne sont pas contents et se révoltent\u00A0!</h2><p></p>"
     },
     {
       "condition": {
@@ -1002,7 +1002,7 @@
         "max": 2
       },
       "text@en": "VOID",
-      "text@fr": "<h2>Plus rien a manger !</h2><p></p>"
+      "text@fr": "<h2>Plus rien a manger\u00A0!</h2><p></p>"
     },
     {
       "condition": {
@@ -1014,7 +1014,7 @@
     },
     {
       "text@en": "VOID",
-      "text@fr": "<h2>Félicitations ! Les passagers ont été ramenés à bon port !</h2><p></p>"
+      "text@fr": "<h2>Félicitations\u00A0! Les passagers ont été ramenés à bon port\u00A0!</h2><p></p>"
     }
   ],
   "explainers": {
@@ -1035,7 +1035,7 @@
       "title@en": "VOID",
       "title@fr": "Vote par Approbation ou par Notation",
       "body@en": "VOID",
-      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu : si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple.<br/><br/>Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques : les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
+      "body@fr": "Le vote par approbation consiste à désigner plusieurs candidats que l'on accepte de voir élus, et à sélectionner celui ayant le plus d'approbations. Ce vote implique que les électeurs jouent le jeu\u00A0: si chacun ne glisse qu'un seul bulletin de vote - celui de son candidat favori - de peur d'aider à en élire un autre, on retombe sur le cas d'un vote majoritaire simple.<br/><br/>Le vote par notation permet de donner une note à chaque candidate, afin de choisir celui ayant la meilleure moyenne. Ce système donne théoriquement un aperçu précis de ce que pensent les électeurs, mais il se heurte à des limitations psychologiques\u00A0: les électeurs n'ont pas la même sévérité dans leur notation, ils vont souvent surnoter leur favori et couler les autres..."
     },
 
     "vote_borda_condorcet": {
@@ -1049,14 +1049,14 @@
       "title@en": "VOID",
       "title@fr": "Vote par Jugement Majoritaire",
       "body@en": "VOID",
-      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat.<br/><br/> On peut facilement imaginer des scénarios où ce système montre ces limites : par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
+      "body@fr": "Le vote par jugement majoritaire revient à attribuer à chaque candidat une mention entre 7 mentions, de \"très bien\" à \"très mauvais\", un peu à la façon du système par notation. La grande différence, c'est qu'au lieu de faire des moyennes, on va regarder quelle mention minimale est donnée à chaque candidat par les 50% de population les plus favorables. Ainsi, on atténue les effets des votes \"manipulateurs\", car ils ont moins de chance de faire basculer la mention majoritaire obtenue par un candidat.<br/><br/> On peut facilement imaginer des scénarios où ce système montre ces limites\u00A0: par exemple, un candidat ayant 51% de votes \"bien\" et 49% de votes \"mauvais\" sera préféré à un candidat ayant 49% de votes \"très bien\" et 51% de votes \"moyens\". Mais dans la réalité, les candidats ont plutôt un dégradé des 7 mentions possibles."
     },
 
     "vote_conclusion": {
       "title@en": "VOID",
-      "title@fr": "Le meilleur système de vote ?",
+      "title@fr": "Le meilleur système de vote\u00A0?",
       "body@en": "VOID",
-      "body@fr": "Le choix d'un système de vote est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>,Mais on peut noter quelques faits:<ul><li>Le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation</li><li>Le système du vote uninominal majoritaire, si largement utilisé en France, est particulièrement défectueux</li><li>Il n'y a peut-être pas de système de vote parfait, mais certains restent meilleurs que d'autres</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote : le <b>choix de la question</b> conditionne tout le reste.<br/><br/>Pour aller plus loin, voir <a target=\"_blank\" href=\"http://ncase.me/ballot/\">cet article (anglais)</a> comparant les différents systèmes de vote."
+      "body@fr": "Le choix d'un système de vote est un vaste sujet de débat, d'autant plus sensible que, dans certains scénarios, chaque système va désigner un gagnant différent.<br/><br/>,Mais on peut noter quelques faits:<ul><li>Le choix du système de vote est tout aussi important que le vote lui-même</li><li>Beaucoup de systèmes encouragent des votes non sincères ou autres intrigues électorales, et ne permettent pas de différencier un vote d'adhésion d'un vote de contestation</li><li>Le système du vote uninominal majoritaire, si largement utilisé en France, est particulièrement défectueux</li><li>Il n'y a peut-être pas de système de vote parfait, mais certains restent meilleurs que d'autres</li></ul><br/>Enfin, il faut être conscient d'un autre enjeu du vote\u00A0: le <b>choix de la question</b> conditionne tout le reste.<br/><br/>Pour aller plus loin, voir <a target=\"_blank\" href=\"http://ncase.me/ballot/\">cet article (anglais)</a> comparant les différents systèmes de vote."
     }
   }
 }
