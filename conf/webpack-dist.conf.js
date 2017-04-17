@@ -74,6 +74,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: conf.path.src('index.html')
     }),
+    /* NOTE : comment-out this optimizer, to easily debug in Dev' */
     new webpack.optimize.UglifyJsPlugin({
       compress: {unused: true, dead_code: true, warnings: false} // eslint-disable-line camelcase
     }),
