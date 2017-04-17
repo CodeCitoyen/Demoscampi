@@ -342,7 +342,7 @@
          ]
     },
     {
-      "year": 3,
+      "year": 4,
       "texts": [
         {
           "character": "chef_robinsons",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "year": 4,
+      "year": 5,
       "texts": [
         {
           "character" : "chef_matelots",
@@ -552,7 +552,7 @@
       ]
     },
     {
-      "year": 5,
+      "year": 6,
       "texts": [
         {
           "character": "chef_matelots",
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "year": 6,
+      "year": 7,
       "texts": [
         {
           "text@fr": "Un parasite de la Langoustine se propage aux humains, et fait des ravages, principalement chez les touristes, mais aussi chez les marins.",
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "year": 7,
+      "year": 8,
       "texts": [
         {
           "character": "chef_matelots",
@@ -784,7 +784,7 @@
     },
 
     {
-      "year": 8,
+      "year": 9,
       "texts": [
         {
           "text@en": "VOID",
@@ -859,7 +859,7 @@
       ]
     },
     {
-      "year": 9,
+      "year": 10,
       "texts": [
         {
           "text@en": "VOID",
@@ -927,7 +927,7 @@
       ]
     },
     {
-      "year": 10,
+      "year": 11,
       "texts": [
         {
           "character": "helper",
