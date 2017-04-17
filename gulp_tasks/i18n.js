@@ -50,7 +50,7 @@ function meta() {
 }
 
 function index() {
-  return gulp.src(path.join(conf.paths.dist, 'en.html'))
+  return gulp.src(path.join(conf.paths.dist, 'fr.html'))
     .pipe(rename('index.html'))
     .pipe(gulp.dest(conf.paths.dist));
 }
