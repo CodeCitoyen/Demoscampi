@@ -270,7 +270,7 @@ function gameService($log, $rootScope, Step, Var, Ending, Character, I18n, memoi
       return this.step && this.step.year;
     }
     get years() {
-      return _(this.steps).map('year').compact().uniq().sort().value();
+      return _(this.steps).map('year').compact().uniq().sortBy().value();
     }
     get pictures() {
       return _.map(this.meta.years, 'picture');
