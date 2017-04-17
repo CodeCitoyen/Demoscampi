@@ -24,11 +24,11 @@ function SliceService(I18n) {
         // No reading time for the user's slices
         return 0;
       }
-      // DEBUG *10
+      // NOTE - here lower the times, if you need to debug the game quickly
       // We read approximativly 200 words per minute
-      const duration = (this.text || '').split(' ').length * 60 / 200 * 100;
+      const duration = (this.text || '').split(' ').length * 60 / 200 * 1000;
       // Reading time can't be under 700 milliseconds
-      return Math.max(duration, 70);
+      return Math.max(duration, 700);
     }
     get type() {
       if (!this.meta.character) {
