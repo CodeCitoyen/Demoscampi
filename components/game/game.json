@@ -109,7 +109,7 @@
     "4": {
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
-      "title@fr": "Election du Chef"
+      "title@fr": "Élection du Chef"
     },
     "5": {
       "picture": "images/years/ile.jpg",
@@ -124,7 +124,7 @@
     "7": {
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
-      "title@fr": "Eléphant Albinos"
+      "title@fr": "Éléphant Albinos"
     },
     "8": {
       "picture": "images/years/ile.jpg",
@@ -134,7 +134,7 @@
     "9": {
       "picture": "images/years/ile.jpg",
       "title@en": "VOID",
-      "title@fr": "Dernier Banquet"
+      "title@fr": "Le Banquet"
     },
     "10": {
       "picture": "images/years/ile.jpg",
@@ -278,7 +278,7 @@
             },
             {
               "text@en": "VOID",
-              "text@fr": "Après de longues parlementations, les touristes se laissent convaincre qu'il est plus sûr d'aller chercher abri et nourriture dans la forêt, car le temps se couvre."
+              "text@fr": "Après de longues négociations, les touristes se laissent convaincre qu'il est plus sûr d'aller chercher abri et nourriture dans la forêt, car le temps se couvre."
             }
           ]
         },
@@ -842,7 +842,7 @@
         },
         {
           "text@en": "VOID",
-          "text@fr": "Donnons une note à ces propositions",
+          "text@fr": "Donner une note à ces propositions",
           "var_changes": {
             "risk_matelots": -10,
             "risk_touristes": -10,
@@ -884,7 +884,7 @@
         {
           "character": "helper",
           "text@en": "VOID",
-          "text@fr": "Voici un mémo sur ce nouveau système, que je nomme [vote par jugement majoritaire|vote_jugement_majoritaire]."
+          "text@fr": "Voici un mémo sur ce nouveau système, que j'ai nommé [vote par jugement majoritaire|vote_jugement_majoritaire]."
         }
       ],
       "choices" : [
@@ -1060,3 +1060,4 @@
     }
   }
 }
+
