@@ -147,6 +147,10 @@
       "year": 1,
       "texts": [
         {
+          "text@fr": "[ Astuce : à tout moment, vous pouvez accélérer le défilement des dialogues, en cliquant dessus. ]",
+          "text@en": "VOID"
+        },
+        {
           "character": "chef_touristes",
           "text@fr": "Bonjour capitaine, cette croisière en voilier est un véritable enchantement. J'aimerais tant qu'elle se prolonge indéfiniment\u00A0!",
           "text@en": "VOID"
