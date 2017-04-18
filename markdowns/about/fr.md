@@ -14,7 +14,7 @@ Le **mécontentement** augmente en cas de décision impopulaire auprès d'une de
 
 ### Equipe
 
-* Pascal Chambon
+* Pascal Chambon (lead developer)
 * Pierre Brogard
 * Anys Mechkar
 * Samuel Eyre
