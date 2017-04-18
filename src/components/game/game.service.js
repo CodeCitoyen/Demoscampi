@@ -169,7 +169,7 @@ function gameService($log, $rootScope, Step, Var, Ending, Character, I18n, memoi
       return this[_journeyCacheKey];
     }
     get delay() {
-      return this.lastStack.next.readingTime;
+      return this.readingTime;
     }
     get readingTime() {
       return this.lastStack.readingTime;
