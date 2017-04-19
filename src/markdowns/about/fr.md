@@ -35,7 +35,9 @@ Ce code est principalement tiré du jeu [Le bon, la brute et la comptable](https
 
 <table>
 <tr>
-	<td><img src="./images/logos/eu-flag.jpg" name="European Union flag" width="100px" border="0"></td>
-	<td>Ce projet n'a reçu aucun financement, à part quelques crêpes</td>
+	<td><img src="./images/logos/ncc.jpg" name="Logo Nuit du Code Citoyen" width="100px" border="0"></td>
+	<td>Nous remercions Epitech Lyon, la métropole de Lyon, Anciela pour leur soutien à l'événement lyonnais. Et surtout les équipes de toutes les autres villes pour avoir contribué à rendre cet événement exceptionnnel! <br>
+ Et bien sur, Les petits plats d'Antoine pour les crêpes
+</td>
 </tr>
 </table>
