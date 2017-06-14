@@ -15,12 +15,13 @@
     &--chat {
       margin-bottom:2px;
       position: relative;
-      padding-left:calc(36px + #{$spacer});
+      padding-left:calc(200px + #{$spacer});
+      min-height: 200px;
     }
 
     &--chat &__wrapper {
       padding:0.5em 0.7em;
-      background: darken($card-bg, 5);
+      background: #fff;
       display: inline-block;
       border-radius: 0.5rem;
     }
@@ -42,7 +43,7 @@
       position: absolute;
       bottom:0;
       left:0;
-      width:36px;
+      width:200px;
       border-radius: 3px;
     }
 

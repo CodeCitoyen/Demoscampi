@@ -137,13 +137,13 @@
   }
 
   &__steps {
-    background: white;
+    background: rgba(255,255,255,0.7);
     overflow: auto;
-    border:0.5rem solid $brand-inverse;
+    //border:0.5rem solid $brand-inverse;
     border-left-width:0;
     z-index:500;
     width:calc(100% - #{$toolbar-width-md});
-    max-width: $panel-width;
+    //max-width: $panel-width;
     position: fixed;
     left:$toolbar-width-md;
     top:0;
@@ -205,6 +205,7 @@
     &__item {
       margin:0.5rem;
       overflow: hidden;
+      background: transparent;
 
       &:last-child {
         margin-bottom:0;
@@ -289,7 +290,7 @@
     right:0;
     bottom:0;
     top:0;
-    width: calc(100% - #{$panel-width} - #{$toolbar-width-md});
+    width: calc(100% - #{$toolbar-width-md});
     overflow: hidden;
     z-index:-1;
     @include transition(1600ms);
@@ -330,13 +331,12 @@
     bottom:0;
     left: $toolbar-width-md;
     width:calc(100% - #{$toolbar-width-md});
-    max-width: $panel-width;
+    //max-width: $panel-width;
     overflow: hidden;
-    border:0.5rem $brand-inverse solid;
-    border-left:0;
-    border-top:0;
-    background: white;
-
+    //border:0.5rem $brand-inverse solid;
+    //border-left:0;
+    //border-top:0;
+    background: rgba(255,255,255,0.7);
     justify-content: space-around;
     display: flex;
     flex-flow: row wrap;
