@@ -4,22 +4,28 @@
       "value": 0,
       "private": false,
       "category": "risk",
+      "img": "./images/logos/matelot.png",
+      "icon": "male",
       "label@en": "VOID",
-      "label@fr": "Mécontentement des matelots"
+      "label@fr": "Matelots"
     },
     "risk_touristes": {
       "value": 0,
       "private": false,
       "category": "risk",
+      "img":"./images/logos/touriste.png",
+      "icon": "female",
       "label@en": "VOID",
-      "label@fr": "Mécontentement des touristes"
+      "label@fr": "Touristes"
     },
     "risk_robinsons": {
       "value": 0,
       "private": false,
       "category": "risk",
+      "img":"./images/logos/robinson.png",
+      "icon": "leaf",
       "label@en": "VOID",
-      "label@fr": "Mécontentement des robinsons"
+      "label@fr": "Robinsons"
     },
     "nourriture": {
       "value": 9,

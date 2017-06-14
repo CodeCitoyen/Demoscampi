@@ -9,15 +9,17 @@
   </div>
   <div class="main__toolbar__var" ng-repeat="risk in $ctrl.game.publicRisks">
     <i class="fa fa-{{ risk.icon }}"></i>
+    
+ <!-- <img src="./images/logos/touriste.png"> -->
     <span class="hidden-sm-down ml-1">{{ risk.label }}</span>
-    <div class="main__toolbar__var__risk container-fluid">
+<!--     <div class="main__toolbar__var__risk container-fluid">
       <div class="row">
         <div ng-repeat="value in risk.cases"
              class="main__toolbar__var__risk__case col"
              ng-class="{'main__toolbar__var__risk__case--active': value <= risk.value}">
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="main__toolbar__link mt-4" ui-sref-active-eq="active">
     <a ui-sref="main">
